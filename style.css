@@ -1,0 +1,405 @@
+:root {
+    --bg-0: #050505;
+    --bg-1: #0c0c0c;
+    --panel: #0a0a0a;
+    --border: rgba(255, 255, 255);
+    --border-soft: rgba(255, 255, 255, 0.938);
+    --text: #fff;
+    --muted: #a0a0a0;
+    --accent: #d9d9d9;
+    --btn-grad: linear-gradient(180deg, #6f6f6f 0%, #3e3e3e 100%);
+    --btn-glow: 0 8px 20px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Rajdhani", "Segoe UI", sans-serif;
+    color: var(--text);
+    background: #000;
+    letter-spacing: 0.04em;
+}
+
+.portal-wrap {
+    padding-top: 25px;
+}
+
+
+
+.logo-mark {
+    width: 225px;
+    /* height: 42px; */
+
+}
+
+.logo-mark img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+    padding-left: 8px;
+}
+
+.step-line {
+    width: 1px;
+    height: 54px;
+    background: linear-gradient(#AEACAC, #696969);
+}
+
+.step-btn {
+    width: 328px;
+    height: 51px;
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: 1.9px;
+    color: var(--text);
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.25s ease;
+}
+
+.step-btn.active,
+.step-btn:hover {
+    color: var(--text);
+    background: var(--btn-grad);
+    border: 1px solid var(--border);
+    box-shadow: var(--btn-glow);
+}
+
+
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.card-box {
+    width: 850px;
+    max-width: 100%;
+}
+
+.card-header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--text);
+    font-weight: 300;
+}
+
+.card-header h1 span {
+    font-weight: 500 !important;
+}
+
+.back-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    border: 0;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.back-btn img {
+    width: 34px;
+}
+
+.back-btn.is-disabled {
+    opacity: 0.4;
+    cursor: default;
+    pointer-events: none;
+}
+
+.partner-card {
+    background: var(--panel);
+    border-radius: 11px;
+    border: 1px solid var(--border);
+    padding: 33px 25px;
+    height: 650px;
+    position: relative;
+}
+
+.partner-card .head-text{
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: var(--text);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.iam-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    flex: 1;
+}
+
+.iam-btn {
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 11px;
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+}
+
+.iam-btn.active,
+.iam-btn:hover {
+    color: var(--text);
+    background: var(--btn-grad);
+    border-color: transparent;
+    box-shadow: var(--btn-glow);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.form-label {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.form-control,
+.form-select {
+    background: #070707;
+    border: 1px solid var(--border-soft);
+    color: #6f6f6f;
+    border-radius: 8px;
+    text-align: center;
+    height: 38px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.form-control::placeholder {
+    color: #7d7d7d;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.1);
+    background: #090909;
+    color: var(--text);
+}
+
+.select-box{
+    position: relative;
+}
+
+.select-box i{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.date-field {
+    position: relative;
+}
+
+.date-field .date-display {
+    padding-right: 36px;
+}
+
+.date-input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    pointer-events: none;
+}
+
+.calendar-btn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    padding: 0;
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.calendar-btn i {
+    display: block;
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.date-input::-webkit-clear-button,
+.date-input::-webkit-inner-spin-button {
+    display: none;
+}
+
+
+.file-field {
+    position: relative;
+    background: #070707;
+    border: 1px solid var(--border-soft);
+    border-radius: 8px;
+    height: 38px;
+    padding: .5rem .75rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #7d7d7d;
+    cursor: pointer;
+    text-align: center;
+}
+
+.file-field .file-icon{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.file-field.is-invalid {
+    border-color: #dc3545;
+}
+
+.file-field input[type="file"] {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-field .file-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80%;
+}
+
+.file-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+}
+
+.file-icon img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.invalid-feedback {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.doc-section {
+    display: none;
+}
+
+.doc-section.active {
+    display: block;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.step-two-panel {
+    display: none;
+}
+
+.step-two-panel.active {
+    display: block;
+}
+
+.submit-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.proceed-btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    padding: 10px 28px;
+    border-radius: 10px;
+    border: 0;
+    color: var(--text);
+    background: var(--btn-grad);
+    box-shadow: var(--btn-glow);
+}
+
+@media (max-width: 991px) {
+    .portal-wrap {
+        padding-top: 20px;
+    }
+
+    .steps {
+        align-items: center;
+    }
+
+    .step-line {
+        margin-left: 0;
+    }
+
+    .partner-card {
+        padding: 24px 20px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .iam-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .iam-buttons {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
