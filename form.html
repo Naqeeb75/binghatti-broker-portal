@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partner Information</title>
+    <title>Broker Portal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,28 +14,35 @@
     <link rel="stylesheet" href="style.css">
 
     <!--  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="container portal-wrap">
         <div class="logo-mark">
-            <img src="/images/logo.png" alt="Binghatti Logo">
+            <img src="/assets/images/logo.png" alt="Binghatti Logo">
         </div>
 
         <div class="form-container d-flex justify-content-center align-items-center gap-5">
             <div class="steps my-5">
-                <button type="button" class="step-btn active">Partner Information</button>
+                <button type="button" class="step-btn active" data-main="partner" data-title-accent="Partner"
+                    data-title-main="Information">Partner Information</button>
                 <div class="step-line"></div>
-                <button type="button" class="step-btn">Personal &amp; Admin Details</button>
+                <button type="button" class="step-btn" data-main="admin" data-title-accent="Personal"
+                    data-title-main="&amp; Admin Details">Personal &amp; Admin Details</button>
                 <div class="step-line"></div>
-                <button type="button" class="step-btn">Bank Details</button>
+                <button type="button" class="step-btn" data-main="bank" data-title-accent="Bank"
+                    data-title-main="Details">Bank Details</button>
                 <div class="step-line"></div>
-                <button type="button" class="step-btn">Submit</button>
+                <button type="button" class="step-btn" data-main="submit" data-title-accent="Bank"
+                    data-title-main="Details">Submit</button>
                 <div class="step-line"></div>
-                <button type="button" class="step-btn">Binghatti Approval</button>
+                <button type="button" class="step-btn is-disabled" disabled aria-disabled="true">Binghatti
+                    Approval</button>
                 <div class="step-line"></div>
-                <button type="button" class="step-btn">Agreement</button>
+                <button type="button" class="step-btn is-disabled" disabled aria-disabled="true">Agreement</button>
             </div>
 
 
@@ -43,321 +50,652 @@
             <div class="card-box">
                 <div class="card-header">
                     <button class="back-btn" type="button" aria-label="Back">
-                        <img src="/images/arrow.png" alt="Back Arrow">
+                        <img src="/assets/images/arrow.png" alt="Back Arrow">
                     </button>
-                    <h1><span>Partner</span> Information</h1>
+                    <h1><span class="title-accent">Partner</span> <span class="title-main">Information</span></h1>
                 </div>
                 <div class="partner-card">
-                    <form id="partnerForm" class="needs-validation" novalidate>
-                        <div class="form-step active" data-step="1">
-                            <p class="text-center head-text">I Am</p>
-                            <div class="mb-4">
-                                <div class="iam-buttons">
-                                    <button type="button" class="iam-btn active" data-type="rera">Dubai Rera Certified
-                                        Agency</button>
-                                    <button type="button" class="iam-btn" data-type="other">Other Agencies</button>
-                                    <button type="button" class="iam-btn" data-type="individual">Individual</button>
+                    <div class="main-panel active" data-main="partner">
+                        <form id="partnerForm" class="needs-validation panel-form" novalidate>
+                            <div class="form-step active" data-step="1">
+                                <p class="text-center head-text">I Am</p>
+                                <div class="mb-4">
+                                    <div class="iam-buttons">
+                                        <button type="button" class="iam-btn active" data-type="rera">Dubai Rera
+                                            Certified
+                                            Agency</button>
+                                        <button type="button" class="iam-btn" data-type="other">Other Agencies</button>
+                                        <button type="button" class="iam-btn" data-type="individual">Individual</button>
+                                    </div>
+                                </div>
+
+                                <div class="form-grid">
+                                    <div>
+                                        <label class="form-label" for="email">Email*</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Put your email"
+                                            required>
+                                        <div class="invalid-feedback">Please enter a valid email.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="phone">Phone Number*</label>
+                                        <input type="tel" class="form-control" id="phone" placeholder="Put your number"
+                                            required>
+                                        <div class="invalid-feedback">Please enter your phone number.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="country">Country</label>
+                                        <div class="select-box">
+                                            <select class="form-select" id="country" required>
+                                                <option value="">Choose the country</option>
+                                                <option>United Arab Emirates</option>
+                                                <option>Saudi Arabia</option>
+                                                <option>Qatar</option>
+                                                <option>Kuwait</option>
+                                            </select>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </div>
+                                        <div class="invalid-feedback">Please choose a country.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="emirate">Emirate / City</label>
+                                        <div class="select-box">
+                                            <select class="form-select" id="emirate" required>
+                                                <option value="">Choose the emirate</option>
+                                                <option>Dubai</option>
+                                                <option>Abu Dhabi</option>
+                                                <option>Sharjah</option>
+                                                <option>Ajman</option>
+                                            </select>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </div>
+                                        <div class="invalid-feedback">Please choose an emirate or city.</div>
+                                    </div>
+                                </div>
+
+                                <div class="form-grid agency-grid">
+                                    <div class="doc-section active" data-section="rera">
+                                        <div class="form-grid">
+                                            <div>
+                                                <label class="form-label" for="businessLicense">Business License</label>
+                                                <div class="file-field">
+                                                    <span class="file-name"
+                                                        data-placeholder="Upload business license">Upload
+                                                        business
+                                                        license</span>
+                                                    <span class="file-icon" aria-hidden="true">
+                                                        <img src="/assets/images/file.png" alt="file icon">
+                                                    </span>
+                                                    <input type="file" id="businessLicense" required>
+                                                </div>
+                                                <div class="invalid-feedback">Upload the business license.</div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="orn">Orn Certificate</label>
+                                                <div class="file-field">
+                                                    <span class="file-name"
+                                                        data-placeholder="Upload orn certificate">Upload
+                                                        orn
+                                                        certificate</span>
+                                                    <span class="file-icon" aria-hidden="true">
+                                                        <img src="/assets/images/file.png" alt="file icon">
+                                                    </span>
+                                                    <input type="file" id="orn" required>
+                                                </div>
+                                                <div class="invalid-feedback">Upload the ORN certificate.</div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="vat">Vat Certificate</label>
+                                                <div class="file-field">
+                                                    <span class="file-name"
+                                                        data-placeholder="Upload vat certificate">Upload
+                                                        vat
+                                                        certificate</span>
+                                                    <span class="file-icon" aria-hidden="true">
+                                                        <img src="/assets/images/file.png" alt="file icon">
+                                                    </span>
+                                                    <input type="file" id="vat" required>
+                                                </div>
+                                                <div class="invalid-feedback">Upload the VAT certificate.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="doc-section" data-section="other">
+                                        <div class="form-grid">
+                                            <div>
+                                                <label class="form-label" for="businessLicenseOther">Business
+                                                    License</label>
+                                                <div class="file-field">
+                                                    <span class="file-name"
+                                                        data-placeholder="Upload business license">Upload
+                                                        business
+                                                        license</span>
+                                                    <span class="file-icon" aria-hidden="true">
+                                                        <img src="/assets/images/file.png" alt="file icon">
+                                                    </span>
+                                                    <input type="file" id="businessLicenseOther">
+                                                </div>
+                                                <div class="invalid-feedback">Upload the business license.</div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="ornOther">Orn Certificate</label>
+                                                <div class="file-field">
+                                                    <span class="file-name"
+                                                        data-placeholder="Upload orn certificate">Upload
+                                                        orn
+                                                        certificate</span>
+                                                    <span class="file-icon" aria-hidden="true">
+                                                        <img src="/assets/images/file.png" alt="file icon">
+                                                    </span>
+                                                    <input type="file" id="ornOther">
+                                                </div>
+                                                <div class="invalid-feedback">Upload the ORN certificate.</div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="vatOther">Vat Certificate</label>
+                                                <div class="file-field">
+                                                    <span class="file-name"
+                                                        data-placeholder="Upload vat certificate">Upload
+                                                        vat
+                                                        certificate</span>
+                                                    <span class="file-icon" aria-hidden="true">
+                                                        <img src="/assets/images/file.png" alt="file icon">
+                                                    </span>
+                                                    <input type="file" id="vatOther">
+                                                </div>
+                                                <div class="invalid-feedback">Upload the VAT certificate.</div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="moa">Moa</label>
+                                                <div class="file-field">
+                                                    <span class="file-name"
+                                                        data-placeholder="Upload moa certificate">Upload
+                                                        moa
+                                                        certificate</span>
+                                                    <span class="file-icon" aria-hidden="true">
+                                                        <img src="/assets/images/file.png" alt="file icon">
+                                                    </span>
+                                                    <input type="file" id="moa">
+                                                </div>
+                                                <div class="invalid-feedback">Upload the MOA certificate.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="step-two-panel" data-panel="agency">
+                                        <div class="form-grid">
+                                            <div>
+                                                <label class="form-label" for="agencyNumber">Agency Number</label>
+                                                <input type="text" class="form-control" id="agencyNumber"
+                                                    placeholder="Put the number" data-step-two="agency">
+                                                <div class="invalid-feedback">Please enter the agency number.</div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="licenseNumber">License Number</label>
+                                                <input type="text" class="form-control" id="licenseNumber"
+                                                    placeholder="Put the number" data-step-two="agency">
+                                                <div class="invalid-feedback">Please enter the license number.</div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="licenseIssueDate">License Issue
+                                                    Date</label>
+                                                <div class="date-field">
+                                                    <input type="text" class="form-control date-display"
+                                                        id="licenseIssueDate" placeholder="MM.DD.YY" readonly
+                                                        pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="agency">
+                                                    <input type="date" class="date-input" aria-hidden="true"
+                                                        tabindex="-1">
+                                                    <button type="button" class="calendar-btn"
+                                                        aria-label="Open calendar">
+                                                        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="licenseExpiryDate">License Expiry
+                                                    Date</label>
+                                                <div class="date-field">
+                                                    <input type="text" class="form-control date-display"
+                                                        id="licenseExpiryDate" placeholder="MM.DD.YY" readonly
+                                                        pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="agency">
+                                                    <input type="date" class="date-input" aria-hidden="true"
+                                                        tabindex="-1">
+                                                    <button type="button" class="calendar-btn"
+                                                        aria-label="Open calendar">
+                                                        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <label class="form-label" for="ornCertificateNumber">Orn Certificate
+                                                    Number</label>
+                                                <input type="text" class="form-control" id="ornCertificateNumber"
+                                                    placeholder="Put the number" data-step-two="agency">
+                                                <div class="invalid-feedback">Please enter the ORN certificate number.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="doc-section" data-section="individual">
+                                    <div class="form-grid">
+                                        <div>
+                                            <label class="form-label" for="passport">Passport</label>
+                                            <div class="file-field">
+                                                <span class="file-name" data-placeholder="Upload passport">Upload
+                                                    passport</span>
+                                                <span class="file-icon" aria-hidden="true">
+                                                    <img src="/assets/images/file.png" alt="file icon">
+                                                </span>
+                                                <input type="file" id="passport">
+                                            </div>
+                                            <div class="invalid-feedback">Upload the passport.</div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label" for="eid">Eid</label>
+                                            <div class="file-field">
+                                                <span class="file-name" data-placeholder="Upload eid">Upload eid</span>
+                                                <span class="file-icon" aria-hidden="true">
+                                                    <img src="/assets/images/file.png" alt="file icon">
+                                                </span>
+                                                <input type="file" id="eid">
+                                            </div>
+                                            <div class="invalid-feedback">Upload the EID.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="step-two-panel" data-panel="individual">
+                                    <div class="form-grid">
+                                        <div>
+                                            <label class="form-label" for="individualName">Name</label>
+                                            <input type="text" class="form-control" id="individualName"
+                                                placeholder="Put the name" data-step-two="individual">
+                                            <div class="invalid-feedback">Please enter the name.</div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label" for="individualNationality">Nationality</label>
+                                            <input type="text" class="form-control" id="individualNationality"
+                                                placeholder="Nationality" data-step-two="individual">
+                                            <div class="invalid-feedback">Please enter the nationality.</div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label" for="passportNumber">Passport Number</label>
+                                            <input type="text" class="form-control" id="passportNumber"
+                                                placeholder="0000000" data-step-two="individual">
+                                            <div class="invalid-feedback">Please enter the passport number.</div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label" for="passportIssueDate">Passport Issue
+                                                Date</label>
+                                            <div class="date-field">
+                                                <input type="text" class="form-control date-display"
+                                                    id="passportIssueDate" placeholder="MM.DD.YY" readonly
+                                                    pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="individual">
+                                                <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
+                                                <button type="button" class="calendar-btn" aria-label="Open calendar">
+                                                    <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label" for="passportExpiryDate">Passport Expiry
+                                                Date</label>
+                                            <div class="date-field">
+                                                <input type="text" class="form-control date-display"
+                                                    id="passportExpiryDate" placeholder="MM.DD.YY" readonly
+                                                    pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="individual">
+                                                <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
+                                                <button type="button" class="calendar-btn" aria-label="Open calendar">
+                                                    <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label" for="eidNumber">Eid Number</label>
+                                            <input type="text" class="form-control" id="eidNumber"
+                                                placeholder="785-548995874-1" data-step-two="individual">
+                                            <div class="invalid-feedback">Please enter the EID number.</div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label" for="eidExpiryDate">Eid Expiry Date</label>
+                                            <div class="date-field">
+                                                <input type="text" class="form-control date-display" id="eidExpiryDate"
+                                                    placeholder="MM.DD.YY" readonly pattern="\d{2}\.\d{2}\.\d{2}"
+                                                    data-step-two="individual">
+                                                <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
+                                                <button type="button" class="calendar-btn" aria-label="Open calendar">
+                                                    <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
+                                        </div>
+                                        <div aria-hidden="true"></div>
+                                    </div>
+                                </div>
+
+                                <div class="submit-wrap">
+                                    <button type="submit" class="proceed-btn">Confirm and Proceed</button>
                                 </div>
                             </div>
-
-                    <div class="form-grid">
-                        <div>
-                            <label class="form-label" for="email">Email*</label>
-                            <input type="email" class="form-control" id="email" placeholder="Put your email" required>
-                            <div class="invalid-feedback">Please enter a valid email.</div>
-                        </div>
-                        <div>
-                            <label class="form-label" for="phone">Phone Number*</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="Put your number" required>
-                            <div class="invalid-feedback">Please enter your phone number.</div>
-                        </div>
-                        <div>
-                            <label class="form-label" for="country">Country</label>
-                            <div class="select-box">
-                                <select class="form-select" id="country" required>
-                                <option value="">Choose the country</option>
-                                <option>United Arab Emirates</option>
-                                <option>Saudi Arabia</option>
-                                <option>Qatar</option>
-                                <option>Kuwait</option>
-                            </select>
-                            <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                            <div class="invalid-feedback">Please choose a country.</div>
-                        </div>
-                        <div>
-                            <label class="form-label" for="emirate">Emirate / City</label>
-                            <div class="select-box">
-                                <select class="form-select" id="emirate" required>
-                                <option value="">Choose the emirate</option>
-                                <option>Dubai</option>
-                                <option>Abu Dhabi</option>
-                                <option>Sharjah</option>
-                                <option>Ajman</option>
-                            </select>
-                            <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                            <div class="invalid-feedback">Please choose an emirate or city.</div>
-                        </div>
+                        </form>
                     </div>
 
-                    <div class="doc-section active" data-section="rera">
-                        <div class="form-grid">
-                            <div>
-                                <label class="form-label" for="businessLicense">Business License</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload business license">Upload
-                                        business
-                                        license</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="businessLicense" required>
+                    <div class="main-panel" data-main="admin">
+                        <form id="adminForm" class="needs-validation panel-form" novalidate>
+                            <div class="admin-panel">
+                                <div class="form-grid admin-top">
+                                    <div class="d-flex gap-4">
+                                        <div class="title">
+                                            <label class="form-label" for="adminTitle">Title</label>
+                                            <div class="select-box">
+                                                <select class="form-select" id="adminTitle" required>
+                                                    <option value="Mr." selected>Mr.</option>
+                                                    <option>Ms.</option>
+                                                    <option>Mrs.</option>
+                                                </select>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>
+                                            <div class="invalid-feedback">Please select a title.</div>
+                                        </div>
+
+                                        <div class="name-input">
+                                            <label class="form-label" for="adminName">Name</label>
+                                            <input type="text" class="form-control" id="adminName"
+                                                placeholder="Put the name" required>
+                                            <div class="invalid-feedback">Please enter the name.</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="adminEmail">Email</label>
+                                        <input type="email" class="form-control" id="adminEmail"
+                                            placeholder="KUMAR@GMAIL.COM" required>
+                                        <div class="invalid-feedback">Please enter a valid email.</div>
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">Upload the business license.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="orn">Orn Certificate</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload orn certificate">Upload orn
-                                        certificate</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="orn" required>
+
+                                <div class="form-grid admin-middle">
+                                    <div>
+                                        <label class="form-label" for="adminPhone">Phone No</label>
+                                        <div class="phone-group">
+                                            <div class="select-box phone-code">
+                                                <select class="form-select" id="adminPhoneCode" required>
+                                                    <option value="+971" selected>+971</option>
+                                                    <option>+966</option>
+                                                    <option>+974</option>
+                                                    <option>+965</option>
+                                                </select>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>
+                                            <input type="tel" class="form-control phone-input" id="adminPhone"
+                                                placeholder="56 00 00 00" required>
+                                        </div>
+                                        <div class="invalid-feedback">Please enter the phone number.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="adminCountry">Country</label>
+                                        <div class="select-box">
+                                            <select class="form-select" id="adminCountry" required>
+                                                <option value="">Country</option>
+                                                <option>UAE</option>
+                                                <option>Saudi Arabia</option>
+                                                <option>Qatar</option>
+                                                <option>Kuwait</option>
+                                            </select>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </div>
+                                        <div class="invalid-feedback">Please select a country.</div>
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">Upload the ORN certificate.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="vat">Vat Certificate</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload vat certificate">Upload vat
-                                        certificate</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="vat" required>
+
+                                <div class="form-grid admin-bottom">
+                                    <div class="d-flex gap-4">
+                                        <div class="type-select">
+                                            <label class="form-label" for="adminType">Type</label>
+                                            <div class="select-box ">
+                                                <select class="form-select" id="adminType" required>
+                                                    <option value="Shareholder" selected>Shareholder</option>
+                                                    <option>Admin</option>
+                                                </select>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>
+                                            <div class="invalid-feedback">Please select a type.</div>
+                                        </div>
+                                        <div class="share-percent">
+                                            <label class="form-label" for="adminShare">Share%</label>
+                                            <input type="number" class="form-control" id="adminShare" placeholder="XX%"
+                                                min="0" max="100" required>
+                                            <div class="invalid-feedback">Please enter a valid share.</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label">Primary Owner</label>
+                                        <div class="toggle-field">
+                                            <div class="toggle-group" role="radiogroup" aria-label="Primary owner">
+                                                <input type="radio" id="primaryYes" name="primaryOwner" value="yes"
+                                                    required>
+                                                <label for="primaryYes">Yes</label>
+                                                <input type="radio" id="primaryNo" name="primaryOwner" value="no">
+                                                <label for="primaryNo">No</label>
+                                            </div>
+                                            <div class="invalid-feedback">Please choose an option.</div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">Upload the VAT certificate.</div>
+
+                                <div class="admin-actions">
+                                    <button type="button" class="small-btn" data-action="add-admin">Add</button>
+                                </div>
                             </div>
-                        </div>
+
+                            <div class="admin-table-wrap">
+                                <div class="admin-table-scroll">
+                                    <div class="admin-table">
+                                        <div class="admin-table-row admin-table-head">
+                                            <span>Title</span>
+                                            <span>Name</span>
+                                            <span>Email</span>
+                                            <span>Phone No.</span>
+                                            <span>Country</span>
+                                            <span>Share%</span>
+                                            <span>Type</span>
+                                            <span>Primary <br> Owner</span>
+                                            <span>Remove</span>
+                                        </div>
+                                    <div class="admin-table-body">
+                                        <div class="admin-table-row" data-sample="true">
+                                            <span>Mr</span>
+                                            <span>XXXXXXX</span>
+                                            <span>123@GMAIL.COM</span>
+                                            <span>+9710000000</span>
+                                            <span>UAE</span>
+                                            <span>0</span>
+                                            <span>Admin</span>
+                                            <span>No</span>
+                                            <span class="admin-remove">
+                                                <button type="button" class="table-remove-btn"
+                                                    aria-label="Remove row">
+                                                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                        <div class="admin-table-row" data-sample="true">
+                                            <span>Mr</span>
+                                            <span>Subodh Kumar</span>
+                                            <span>KUMAR@GMAIL.COM</span>
+                                            <span>+971560000000</span>
+                                            <span>UAE</span>
+                                                <span>100</span>
+                                                <span>Shareholder</span>
+                                                <span>Yes</span>
+                                                <span class="admin-remove">
+                                                    <button type="button" class="table-remove-btn"
+                                                        aria-label="Remove row">
+                                                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="submit-wrap">
+                                <button type="button" class="panel-back-btn outline-btn">Back</button>
+                                <div class="proceed-with-info admin-proceed">
+                                    <button type="submit" class="proceed-btn admin-proceed-btn" disabled>
+                                        Confirm to Proceed
+                                    </button>
+                                    <button type="button" class="info-badge" aria-describedby="admin-proceed-tip"
+                                        aria-label="Why is this disabled?">
+                                       <img src="/assets/images/info.png" alt="info">
+                                    </button>
+                                    <div class="info-tooltip" id="admin-proceed-tip" role="tooltip">
+                                       Please add a primary owner and an admin to proceed
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
 
-                    <div class="doc-section" data-section="other">
-                        <div class="form-grid">
-                            <div>
-                                <label class="form-label" for="businessLicenseOther">Business License</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload business license">Upload
-                                        business
-                                        license</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="businessLicenseOther">
+                    <div class="main-panel" data-main="bank">
+                        <form id="bankForm" class="panel-form" novalidate>
+                            <div class="bank-panel">
+                                <div class="bank-details-grid">
+                                    <div class="bank-file">
+                                        <label class="form-label bank-label" for="ibanLetter">IBAN Letter</label>
+                                        <div class="file-field bank-field">
+                                            <span class="file-name" data-placeholder="Upload IBAN letter">Upload IBAN
+                                                letter</span>
+                                            <span class="file-icon" aria-hidden="true">
+                                                <img src="/assets/images/file.png" alt="file icon">
+                                            </span>
+                                            <input type="file" id="ibanLetter" required>
+                                        </div>
+                                        <div class="invalid-feedback">Please upload IBAN letter.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="bankName">Bank Name</label>
+                                        <input type="text" class="form-control bank-input" id="bankName"
+                                            placeholder="Bank name" required>
+                                        <div class="invalid-feedback">Please enter the bank name.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="beneficiaryName">Beneficiary
+                                            Name</label>
+                                        <input type="text" class="form-control bank-input" id="beneficiaryName"
+                                            placeholder="Beneficiary name" required>
+                                        <div class="invalid-feedback">Please enter the beneficiary name.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="ibanNumber">IBAN Number</label>
+                                        <input type="text" class="form-control bank-input" id="ibanNumber"
+                                            placeholder="IBAN number" required>
+                                        <div class="invalid-feedback">Please enter the IBAN number.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="accountNumber">Account Number</label>
+                                        <input type="text" class="form-control bank-input" id="accountNumber"
+                                            placeholder="Account number" required>
+                                        <div class="invalid-feedback">Please enter the account number.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="swiftCode">Swift Code</label>
+                                        <input type="text" class="form-control bank-input" id="swiftCode"
+                                            placeholder="Swift code" required>
+                                        <div class="invalid-feedback">Please enter the swift code.</div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="bankCountry">Country</label>
+                                        <div class="select-box">
+                                            <select class="form-select bank-select" id="bankCountry" required>
+                                                <option value="">Country</option>
+                                                <option>United Arab Emirates</option>
+                                                <option>Saudi Arabia</option>
+                                                <option>Qatar</option>
+                                                <option>Kuwait</option>
+                                            </select>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div class="invalid-feedback">Please choose a country.</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="bankCity">Emirates / City</label>
+                                        <div class="select-box">
+                                            <select class="form-select bank-select" id="bankCity" required>
+                                                <option value="">Emirates / City</option>
+                                                <option>Dubai</option>
+                                                <option>Abu Dhabi</option>
+                                                <option>Sharjah</option>
+                                                <option>Ajman</option>
+                                            </select>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div class="invalid-feedback">Please choose an emirate or city.</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label class="form-label bank-label" for="bankAddress1">Address Line 1</label>
+                                        <input type="text" class="form-control bank-input" id="bankAddress1"
+                                            placeholder="Address line" required>
+                                        <div class="invalid-feedback">Please enter address line 1.</div>
+                                    </div>
+                                    <div class="bank-span-left">
+                                        <label class="form-label bank-label" for="bankAddress2">Address Line 2</label>
+                                        <input type="text" class="form-control bank-input" id="bankAddress2"
+                                            placeholder="Address line">
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">Upload the business license.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="ornOther">Orn Certificate</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload orn certificate">Upload orn
-                                        certificate</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="ornOther">
+
+                                <div class="bank-consent">
+                                    <div class="bank-consent-control">
+                                        <label class="bank-switch" for="bankTerms">
+                                            <input type="checkbox" id="bankTerms" required>
+                                            <span class="bank-slider" aria-hidden="true"></span>
+                                        </label>
+                                        <span class="bank-consent-text">I agree to <a href="#"
+                                                aria-label="Terms and conditions">The Terms &amp;
+                                                Conditions</a></span>
+                                    </div>
+                                    <div class="invalid-feedback bank-consent-feedback">Please accept the terms and
+                                        conditions.</div>
                                 </div>
-                                <div class="invalid-feedback">Upload the ORN certificate.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="vatOther">Vat Certificate</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload vat certificate">Upload vat
-                                        certificate</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="vatOther">
+
+                                <div class="submit-wrap">
+                                    <button type="button" class="panel-back-btn outline-btn">Back</button>
+                                    <button type="submit" class="proceed-btn bank-submit-btn" disabled>
+                                        Submit
+                                    </button>
                                 </div>
-                                <div class="invalid-feedback">Upload the VAT certificate.</div>
                             </div>
-                            <div>
-                                <label class="form-label" for="moa">Moa</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload moa certificate">Upload moa
-                                        certificate</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="moa">
-                                </div>
-                                <div class="invalid-feedback">Upload the MOA certificate.</div>
-                            </div>
-                        </div>
+                        </form>
                     </div>
 
-                    <div class="doc-section" data-section="individual">
-                        <div class="form-grid">
-                            <div>
-                                <label class="form-label" for="passport">Passport</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload passport">Upload
-                                        passport</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="passport">
-                                </div>
-                                <div class="invalid-feedback">Upload the passport.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="eid">Eid</label>
-                                <div class="file-field">
-                                    <span class="file-name" data-placeholder="Upload eid">Upload eid</span>
-                                    <span class="file-icon" aria-hidden="true">
-                                        <img src="/images/file.png" alt="file icon">
-                                    </span>
-                                    <input type="file" id="eid">
-                                </div>
-                                <div class="invalid-feedback">Upload the EID.</div>
+                    <div class="main-panel" data-main="submit">
+                        <div class="submit-panel">
+                            <div class="submit-message">
+                                <h2 class="submit-title">Thank You</h2>
+                                <p class="submit-subtitle">For Registering With Binghatti</p>
+                                <p class="submit-body">
+                                    Your application has been submitted for review. Your application number is XXXXX.
+                                    Please retain this number for any future correspondence or reference. Once the
+                                    request is approved, you will receive the agreement for your signature to your
+                                    registered email id.
+                                </p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="submit-wrap">
-                        <button type="button" class="proceed-btn" data-action="next">Click to Proceed</button>
                     </div>
                 </div>
-
-                <div class="form-step" data-step="2">
-                    <div class="step-two-panel" data-panel="agency">
-                        <div class="form-grid">
-                            <div>
-                                <label class="form-label" for="agencyName">Agency Name</label>
-                                <input type="text" class="form-control" id="agencyName" placeholder="Put the name"
-                                    data-step-two="agency">
-                                <div class="invalid-feedback">Please enter the agency name.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="licenseNumber">License Number</label>
-                                <input type="text" class="form-control" id="licenseNumber" placeholder="Put the number"
-                                    data-step-two="agency">
-                                <div class="invalid-feedback">Please enter the license number.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="licenseIssueDate">License Issue Date</label>
-                                <div class="date-field">
-                                    <input type="text" class="form-control date-display" id="licenseIssueDate"
-                                        placeholder="MM.DD.YY" readonly pattern="\d{2}\.\d{2}\.\d{2}"
-                                        data-step-two="agency">
-                                    <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
-                                    <button type="button" class="calendar-btn" aria-label="Open calendar">
-                                        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-                                    </button>
-                                </div>
-                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="licenseExpiryDate">License Expiry Date</label>
-                                <div class="date-field">
-                                    <input type="text" class="form-control date-display" id="licenseExpiryDate"
-                                        placeholder="MM.DD.YY" readonly pattern="\d{2}\.\d{2}\.\d{2}"
-                                        data-step-two="agency">
-                                    <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
-                                    <button type="button" class="calendar-btn" aria-label="Open calendar">
-                                        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-                                    </button>
-                                </div>
-                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="ornCertificateNumber">Orn Certificate Number</label>
-                                <input type="text" class="form-control" id="ornCertificateNumber"
-                                    placeholder="Put the number" data-step-two="agency">
-                                <div class="invalid-feedback">Please enter the ORN certificate number.</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="step-two-panel" data-panel="individual">
-                        <div class="form-grid">
-                            <div>
-                                <label class="form-label" for="individualName">Name</label>
-                                <input type="text" class="form-control" id="individualName" placeholder="Put the name"
-                                    data-step-two="individual">
-                                <div class="invalid-feedback">Please enter the name.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="individualNationality">Nationality</label>
-                                <input type="text" class="form-control" id="individualNationality"
-                                    placeholder="Nationality" data-step-two="individual">
-                                <div class="invalid-feedback">Please enter the nationality.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="passportNumber">Passport Number</label>
-                                <input type="text" class="form-control" id="passportNumber" placeholder="0000000"
-                                    data-step-two="individual">
-                                <div class="invalid-feedback">Please enter the passport number.</div>
-                            </div>
-                            <div aria-hidden="true"></div>
-                            <div>
-                                <label class="form-label" for="passportIssueDate">Passport Issue Date</label>
-                                <div class="date-field">
-                                    <input type="text" class="form-control date-display" id="passportIssueDate"
-                                        placeholder="MM.DD.YY" readonly pattern="\d{2}\.\d{2}\.\d{2}"
-                                        data-step-two="individual">
-                                    <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
-                                    <button type="button" class="calendar-btn" aria-label="Open calendar">
-                                        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-                                    </button>
-                                </div>
-                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="passportExpiryDate">Passport Expiry Date</label>
-                                <div class="date-field">
-                                    <input type="text" class="form-control date-display" id="passportExpiryDate"
-                                        placeholder="MM.DD.YY" readonly pattern="\d{2}\.\d{2}\.\d{2}"
-                                        data-step-two="individual">
-                                    <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
-                                    <button type="button" class="calendar-btn" aria-label="Open calendar">
-                                        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-                                    </button>
-                                </div>
-                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="eidNumber">Eid Number</label>
-                                <input type="text" class="form-control" id="eidNumber" placeholder="785-548995874-1"
-                                    data-step-two="individual">
-                                <div class="invalid-feedback">Please enter the EID number.</div>
-                            </div>
-                            <div>
-                                <label class="form-label" for="eidExpiryDate">Eid Expiry Date</label>
-                                <div class="date-field">
-                                    <input type="text" class="form-control date-display" id="eidExpiryDate"
-                                        placeholder="MM.DD.YY" readonly pattern="\d{2}\.\d{2}\.\d{2}"
-                                        data-step-two="individual">
-                                    <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
-                                    <button type="button" class="calendar-btn" aria-label="Open calendar">
-                                        <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-                                    </button>
-                                </div>
-                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="submit-wrap">
-                        <button type="submit" class="proceed-btn">Confirm and Proceed</button>
-                    </div>
-                </div>
-            </form>
             </div>
-            </div>
-
         </div>
+
+    </div>
 
     </div>
 
@@ -365,14 +703,32 @@
         const typeButtons = document.querySelectorAll(".iam-btn");
         const sections = document.querySelectorAll(".doc-section");
         const form = document.getElementById("partnerForm");
-        const stepWrappers = document.querySelectorAll(".form-step");
+        const adminForm = document.getElementById("adminForm");
         const stepTwoPanels = document.querySelectorAll(".step-two-panel");
         const stepTwoAgencyFields = document.querySelectorAll("[data-step-two='agency']");
         const stepTwoIndividualFields = document.querySelectorAll("[data-step-two='individual']");
-        const nextButton = document.querySelector("[data-action='next']");
+        const addAdminButton = document.querySelector("[data-action='add-admin']");
+        const adminTableBody = document.querySelector(".admin-table-body");
         const backButton = document.querySelector(".back-btn");
-        let currentStep = 1;
+        const panelBackButtons = document.querySelectorAll(".panel-back-btn");
+        const mainPanels = document.querySelectorAll(".main-panel");
+        const mainButtons = document.querySelectorAll(".step-btn[data-main]");
+        const titleAccent = document.querySelector(".title-accent");
+        const titleMain = document.querySelector(".title-main");
+        const primaryOwnerInputs = document.querySelectorAll("input[name='primaryOwner']");
+        const toggleGroup = document.querySelector(".toggle-group");
+        const adminProceedWrap = document.querySelector(".admin-proceed");
+        const adminProceedButton = document.querySelector(".admin-proceed-btn");
+        const agencyGrid = document.querySelector(".agency-grid");
+        const bankForm = document.getElementById("bankForm");
+        const bankTerms = document.getElementById("bankTerms");
+        const bankConsent = document.querySelector(".bank-consent");
+        const bankConsentFeedback = document.querySelector(".bank-consent-feedback");
+        const ibanLetterInput = document.getElementById("ibanLetter");
+        const bankSubmitButton = document.querySelector(".bank-submit-btn");
+        const partnerCard = document.querySelector(".partner-card");
         let activeType = "rera";
+        let activeMainPanel = "partner";
         const dateFields = document.querySelectorAll(".date-field");
 
         const formatDateShort = (value) => {
@@ -413,7 +769,10 @@
         };
 
         const updateFileValidation = () => {
-            document.querySelectorAll(".file-field").forEach((field) => {
+            if (!form) {
+                return;
+            }
+            form.querySelectorAll(".file-field").forEach((field) => {
                 const input = field.querySelector("input[type='file']");
                 const feedback = field.parentElement.querySelector(".invalid-feedback");
                 const showInvalid = form.classList.contains("was-validated") && input.required && !input.files.length;
@@ -424,36 +783,194 @@
             });
         };
 
+        const updateBankFileValidation = () => {
+            if (!bankForm || !ibanLetterInput) {
+                return;
+            }
+            const bankField = ibanLetterInput.closest(".file-field");
+            const feedback = bankField ? bankField.parentElement.querySelector(".invalid-feedback") : null;
+            const showInvalid = bankForm.classList.contains("was-validated") && !ibanLetterInput.files.length;
+            if (bankField) {
+                bankField.classList.toggle("is-invalid", showInvalid);
+            }
+            if (feedback) {
+                feedback.classList.toggle("d-block", showInvalid);
+            }
+        };
+
+        const updateBankTermsValidation = () => {
+            if (!bankForm || !bankTerms || !bankConsent) {
+                return;
+            }
+            const showInvalid = bankForm.classList.contains("was-validated") && !bankTerms.checked;
+            bankConsent.classList.toggle("is-invalid", showInvalid);
+            if (bankConsentFeedback) {
+                bankConsentFeedback.classList.toggle("d-block", showInvalid);
+            }
+        };
+
+        const updateBankSubmitState = () => {
+            if (!bankForm || !bankSubmitButton) {
+                return;
+            }
+            const canSubmit = bankForm.checkValidity();
+            bankSubmitButton.disabled = !canSubmit;
+            bankSubmitButton.setAttribute("aria-disabled", String(!canSubmit));
+        };
+
+        const updateToggleValidation = () => {
+            if (!toggleGroup || !adminForm) {
+                return;
+            }
+            const isValid = Array.from(primaryOwnerInputs).some((input) => input.checked);
+            const shouldShow = adminForm.classList.contains("was-validated") && !isValid;
+            toggleGroup.classList.toggle("is-invalid", shouldShow);
+            const feedback = toggleGroup.parentElement.querySelector(".invalid-feedback");
+            if (feedback) {
+                feedback.classList.toggle("d-block", shouldShow);
+            }
+        };
+
+        const getSelectedText = (selectEl) => {
+            if (!selectEl) {
+                return "";
+            }
+            const option = selectEl.options[selectEl.selectedIndex];
+            return option ? option.text.trim() : "";
+        };
+
+        const getAdminTableStatus = () => {
+            if (!adminTableBody) {
+                return { hasRows: false };
+            }
+            const rows = adminTableBody.querySelectorAll(".admin-table-row");
+            let hasRows = false;
+            rows.forEach((row) => {
+                if (row.dataset.sample === "true") {
+                    return;
+                }
+                hasRows = true;
+            });
+            return { hasRows };
+        };
+
+        const updateAdminProceedState = () => {
+            if (!adminProceedButton) {
+                return;
+            }
+            const { hasRows } = getAdminTableStatus();
+            const canProceed = hasRows;
+            adminProceedButton.disabled = !canProceed;
+            adminProceedButton.setAttribute("aria-disabled", String(!canProceed));
+            if (adminProceedWrap) {
+                adminProceedWrap.classList.toggle("is-disabled", !canProceed);
+            }
+        };
+
+        const ensurePartnerReady = () => {
+            if (!form) {
+                return true;
+            }
+            if (form.checkValidity()) {
+                return true;
+            }
+            setMainPanel("partner");
+            form.classList.add("was-validated");
+            updateFileValidation();
+            return false;
+        };
+
+        const ensureAdminReady = () => {
+            const { hasRows } = getAdminTableStatus();
+            if (hasRows) {
+                return true;
+            }
+            setMainPanel("admin");
+            updateAdminProceedState();
+            return false;
+        };
+
+        const handleBackNavigation = () => {
+            if (activeMainPanel === "submit") {
+                setMainPanel("bank");
+                return;
+            }
+            if (activeMainPanel === "bank") {
+                setMainPanel("admin");
+                return;
+            }
+            if (activeMainPanel === "admin") {
+                setMainPanel("partner");
+                return;
+            }
+            if (activeMainPanel === "partner") {
+                if (window.history.length > 1) {
+                    window.history.back();
+                    return;
+                }
+                if (document.referrer) {
+                    window.location.href = document.referrer;
+                    return;
+                }
+                window.location.href = "index.html";
+            }
+        };
+
+        const setMainPanel = (panel, accentText, mainText) => {
+            activeMainPanel = panel;
+            mainPanels.forEach((item) => {
+                item.classList.toggle("active", item.dataset.main === panel);
+            });
+            mainButtons.forEach((btn) => {
+                btn.classList.toggle("active", btn.dataset.main === panel);
+            });
+            if (titleAccent && titleMain) {
+                if (!accentText || !mainText) {
+                    const activeButton = document.querySelector(`.step-btn[data-main='${panel}']`);
+                    accentText = activeButton ? activeButton.dataset.titleAccent : "Partner";
+                    mainText = activeButton ? activeButton.dataset.titleMain : "Information";
+                }
+                titleAccent.textContent = accentText;
+                titleMain.textContent = mainText;
+            }
+            if (backButton) {
+                const hasHistory = window.history.length > 1 || Boolean(document.referrer);
+                const disableBack = panel === "partner" && !hasHistory;
+                backButton.classList.toggle("is-disabled", disableBack);
+                backButton.disabled = disableBack;
+            }
+            if (form) {
+                form.classList.remove("was-validated");
+                updateFileValidation();
+            }
+            if (adminForm) {
+                adminForm.classList.remove("was-validated");
+                updateToggleValidation();
+            }
+            if (partnerCard) {
+                partnerCard.classList.toggle("submit-active", panel === "submit");
+            }
+            updateAdminProceedState();
+        };
+
         const updateStepTwoState = () => {
-            const isStepTwo = currentStep === 2;
             const isIndividual = activeType === "individual";
+            if (agencyGrid) {
+                agencyGrid.classList.toggle("is-active", !isIndividual);
+            }
             stepTwoPanels.forEach((panel) => {
                 panel.classList.toggle("active", panel.dataset.panel === (isIndividual ? "individual" : "agency"));
             });
             stepTwoAgencyFields.forEach((field) => {
-                const shouldEnable = isStepTwo && !isIndividual;
+                const shouldEnable = !isIndividual;
                 field.disabled = !shouldEnable;
                 field.required = shouldEnable;
             });
             stepTwoIndividualFields.forEach((field) => {
-                const shouldEnable = isStepTwo && isIndividual;
+                const shouldEnable = isIndividual;
                 field.disabled = !shouldEnable;
                 field.required = shouldEnable;
             });
-        };
-
-        const setStep = (step) => {
-            currentStep = step;
-            stepWrappers.forEach((wrapper) => {
-                wrapper.classList.toggle("active", Number(wrapper.dataset.step) === step);
-            });
-            updateStepTwoState();
-            if (backButton) {
-                backButton.classList.toggle("is-disabled", step === 1);
-                backButton.disabled = step === 1;
-            }
-            form.classList.remove("was-validated");
-            updateFileValidation();
         };
 
         const setActiveType = (type) => {
@@ -475,12 +992,52 @@
             });
         });
 
+        mainButtons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const targetPanel = btn.dataset.main;
+                if (targetPanel === "admin") {
+                    if (!ensurePartnerReady()) {
+                        return;
+                    }
+                }
+                if (targetPanel === "bank") {
+                    if (!ensurePartnerReady() || !ensureAdminReady()) {
+                        return;
+                    }
+                }
+                if (targetPanel === "submit") {
+                    if (!ensurePartnerReady() || !ensureAdminReady()) {
+                        return;
+                    }
+                }
+                if (targetPanel === "submit" && bankForm) {
+                    if (!bankForm.checkValidity()) {
+                        setMainPanel("bank");
+                        bankForm.classList.add("was-validated");
+                        updateBankFileValidation();
+                        updateBankTermsValidation();
+                        updateBankSubmitState();
+                        return;
+                    }
+                }
+                setMainPanel(targetPanel, btn.dataset.titleAccent, btn.dataset.titleMain);
+            });
+        });
+
         document.querySelectorAll(".file-field input[type='file']").forEach((input) => {
             input.addEventListener("change", (event) => {
-                const nameEl = event.target.closest(".file-field").querySelector(".file-name");
+                const field = event.target.closest(".file-field");
+                const nameEl = field ? field.querySelector(".file-name") : null;
                 const file = event.target.files[0];
-                nameEl.textContent = file ? file.name : nameEl.dataset.placeholder;
-                updateFileValidation();
+                if (nameEl) {
+                    nameEl.textContent = file ? file.name : nameEl.dataset.placeholder;
+                }
+                if (bankForm && bankForm.contains(event.target)) {
+                    updateBankFileValidation();
+                    updateBankSubmitState();
+                } else {
+                    updateFileValidation();
+                }
             });
         });
 
@@ -506,47 +1063,162 @@
             syncDisplay();
         });
 
-        if (nextButton) {
-            nextButton.addEventListener("click", () => {
-                if (!form.checkValidity()) {
-                    form.classList.add("was-validated");
-                    updateFileValidation();
-                    return;
-                }
-                setStep(2);
+        primaryOwnerInputs.forEach((input) => {
+            input.addEventListener("change", () => {
+                updateToggleValidation();
+                updateAdminProceedState();
+            });
+        });
+
+        if (backButton) {
+            backButton.addEventListener("click", handleBackNavigation);
+        }
+
+        panelBackButtons.forEach((btn) => {
+            btn.addEventListener("click", handleBackNavigation);
+        });
+
+        if (bankTerms) {
+            bankTerms.addEventListener("change", () => {
+                updateBankTermsValidation();
+                updateBankSubmitState();
             });
         }
 
-        if (backButton) {
-            backButton.addEventListener("click", () => {
-                if (currentStep === 2) {
-                    setStep(1);
+        if (bankForm) {
+            bankForm.addEventListener("submit", (event) => {
+                if (!bankForm.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    bankForm.classList.add("was-validated");
+                    updateBankFileValidation();
+                    updateBankTermsValidation();
+                    updateBankSubmitState();
+                    return;
                 }
+                event.preventDefault();
+                setMainPanel("submit");
+            });
+
+            bankForm.addEventListener("input", () => {
+                updateBankSubmitState();
+                if (bankForm.classList.contains("was-validated")) {
+                    updateBankTermsValidation();
+                }
+            });
+            bankForm.addEventListener("change", updateBankSubmitState);
+        }
+
+        if (adminForm) {
+            adminForm.addEventListener("submit", (event) => {
+                if (!adminProceedButton || adminProceedButton.disabled) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    adminForm.classList.add("was-validated");
+                    updateToggleValidation();
+                    return;
+                }
+                event.preventDefault();
+                setMainPanel("bank");
+            });
+
+            adminForm.addEventListener("input", updateAdminProceedState);
+            adminForm.addEventListener("change", updateAdminProceedState);
+        }
+
+        if (addAdminButton && adminForm && adminTableBody) {
+            addAdminButton.addEventListener("click", () => {
+                if (!adminForm.checkValidity()) {
+                    adminForm.classList.add("was-validated");
+                    updateToggleValidation();
+                    return;
+                }
+
+                const title = getSelectedText(document.getElementById("adminTitle"));
+                const name = document.getElementById("adminName").value.trim();
+                const email = document.getElementById("adminEmail").value.trim();
+                const phoneCode = getSelectedText(document.getElementById("adminPhoneCode"));
+                const phone = document.getElementById("adminPhone").value.trim();
+                const country = getSelectedText(document.getElementById("adminCountry"));
+                const shareValue = document.getElementById("adminShare").value.trim();
+                const type = getSelectedText(document.getElementById("adminType"));
+                const primaryOwner = Array.from(primaryOwnerInputs).find((input) => input.checked);
+
+                const row = document.createElement("div");
+                row.className = "admin-table-row";
+                const values = [
+                    title || "—",
+                    name || "—",
+                    email || "—",
+                    `${phoneCode}${phone ? " " + phone : ""}`.trim() || "—",
+                    country || "—",
+                    shareValue !== "" ? `${shareValue}%` : "—",
+                    type || "—",
+                    primaryOwner ? primaryOwner.value.toUpperCase() : "—"
+                ];
+                values.forEach((value) => {
+                    const cell = document.createElement("span");
+                    cell.textContent = value;
+                    row.appendChild(cell);
+                });
+                const removeCell = document.createElement("span");
+                removeCell.className = "admin-remove";
+                removeCell.innerHTML = `
+                    <button type="button" class="table-remove-btn" aria-label="Remove row">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </button>
+                `;
+                row.appendChild(removeCell);
+                adminTableBody.appendChild(row);
+
+                adminForm.reset();
+                adminForm.classList.remove("was-validated");
+                updateToggleValidation();
+                updateAdminProceedState();
+            });
+        }
+
+        if (adminTableBody) {
+            adminTableBody.addEventListener("click", (event) => {
+                const removeButton = event.target.closest(".table-remove-btn");
+                if (!removeButton) {
+                    return;
+                }
+                const row = removeButton.closest(".admin-table-row");
+                if (!row) {
+                    return;
+                }
+                row.remove();
+                updateAdminProceedState();
             });
         }
 
         form.addEventListener("submit", (event) => {
-            if (currentStep === 1) {
-                event.preventDefault();
-                if (form.checkValidity()) {
-                    setStep(2);
-                } else {
-                    form.classList.add("was-validated");
-                    updateFileValidation();
-                }
-                return;
-            }
-
             if (!form.checkValidity()) {
                 event.preventDefault();
                 event.stopPropagation();
+                form.classList.add("was-validated");
+                updateFileValidation();
+                return;
             }
+            event.preventDefault();
             form.classList.add("was-validated");
             updateFileValidation();
+            setMainPanel("admin");
         });
 
+        if (form) {
+            form.addEventListener("input", () => {
+                if (form.classList.contains("was-validated")) {
+                    updateFileValidation();
+                }
+            });
+        }
+
         setActiveType("rera");
-        setStep(1);
+        setMainPanel("partner");
+        updateAdminProceedState();
+        updateBankSubmitState();
     </script>
 </body>
 
