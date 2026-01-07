@@ -1204,6 +1204,53 @@ body {
     color: #fff;
 }
 
+input.form-control:-webkit-autofill,
+input.form-control:-webkit-autofill:hover,
+input.form-control:-webkit-autofill:focus,
+textarea.form-control:-webkit-autofill,
+textarea.form-control:-webkit-autofill:hover,
+textarea.form-control:-webkit-autofill:focus,
+select.form-select:-webkit-autofill,
+select.form-select:-webkit-autofill:hover,
+select.form-select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #fff;
+    caret-color: #fff;
+    box-shadow: 0 0 0 1000px #070707 inset;
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+input.form-control:-moz-autofill,
+textarea.form-control:-moz-autofill,
+select.form-select:-moz-autofill {
+    color: #fff;
+    caret-color: #fff;
+    box-shadow: 0 0 0 1000px #070707 inset;
+}
+
+.login-input.form-control:-webkit-autofill,
+.login-input.form-control:-webkit-autofill:hover,
+.login-input.form-control:-webkit-autofill:focus {
+    box-shadow: 0 0 0 1000px #000 inset;
+}
+
+.login-input.form-control:-moz-autofill {
+    box-shadow: 0 0 0 1000px #000 inset;
+}
+
+.bank-input:-webkit-autofill,
+.bank-input:-webkit-autofill:hover,
+.bank-input:-webkit-autofill:focus,
+.bank-select:-webkit-autofill,
+.bank-select:-webkit-autofill:hover,
+.bank-select:-webkit-autofill:focus {
+    box-shadow: 0 0 0 1000px #050505 inset;
+}
+
+.bank-input:-moz-autofill,
+.bank-select:-moz-autofill {
+    box-shadow: 0 0 0 1000px #050505 inset;
+}
+
 .select-box{
     position: relative;
 }
