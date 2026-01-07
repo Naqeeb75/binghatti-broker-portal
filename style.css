@@ -1729,8 +1729,22 @@ input[type="number"] {
         font-size: 11px;
     }
 
+    .steps{
+        flex-direction: column;
+    }
+
+    .step-line {
+        display: block;
+        height: 25px;
+        min-height: 25px;
+    }
+
     .partner-card {
         padding: 18px 14px;
+    }
+
+    .partner-card.partner-active{
+        height: 100%;
     }
 
     .form-grid {
