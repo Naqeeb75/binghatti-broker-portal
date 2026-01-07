@@ -414,6 +414,7 @@ body {
 
 .form-container {
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 
@@ -473,8 +474,7 @@ body {
     pointer-events: none;
 }
 
-.step-btn.active,
-.step-btn:hover {
+.step-btn.active{
     color: var(--text);
     background: var(--btn-grad);
     border: 1px solid var(--border);
@@ -558,6 +558,10 @@ body {
     padding: 33px 25px;
     min-height: 650px;
     display: flex;
+}
+
+.partner-card.partner-active {
+    height: 900px;
 }
 
 .partner-card.submit-active {
@@ -745,7 +749,7 @@ body {
 }
 
 .admin-table-scroll {
-    max-height: 180px;
+    max-height: 200px;
     overflow-x: auto;
     overflow-y: auto;
     padding: 12px 22px 14px;
@@ -1759,5 +1763,35 @@ input[type="number"] {
     .file-field {
         height: 34px;
         font-size: 10px;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    @media (hover: none) and (pointer: coarse) {
+        .portal-wrap .form-control,
+        .portal-wrap .form-select,
+        .portal-wrap .bank-input,
+        .portal-wrap .bank-select {
+            font-size: 16px;
+        }
+
+        .date-field .date-input {
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: auto;
+            z-index: 2;
+        }
+
+        .date-field .date-display {
+            position: relative;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .date-field .calendar-btn {
+            z-index: 1;
+            pointer-events: none;
+        }
     }
 }
