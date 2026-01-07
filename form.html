@@ -241,8 +241,8 @@
                                                     Date</label>
                                                 <div class="date-field">
                                                     <input type="text" class="form-control date-display"
-                                                        id="licenseIssueDate" placeholder="MM.DD.YY" readonly
-                                                        pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="agency">
+                                                        id="licenseIssueDate" placeholder="DD.MM.YYYY" readonly
+                                                        pattern="\d{2}\.\d{2}\.\d{4}" data-step-two="agency">
                                                     <input type="date" class="date-input" aria-hidden="true"
                                                         tabindex="-1">
                                                     <button type="button" class="calendar-btn"
@@ -250,7 +250,7 @@
                                                         <i class="fa-regular fa-calendar" aria-hidden="true"></i>
                                                     </button>
                                                 </div>
-                                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).
+                                                <div class="invalid-feedback">Please select a valid date (DD.MM.YYYY).
                                                 </div>
                                             </div>
                                             <div>
@@ -258,8 +258,8 @@
                                                     Date</label>
                                                 <div class="date-field">
                                                     <input type="text" class="form-control date-display"
-                                                        id="licenseExpiryDate" placeholder="MM.DD.YY" readonly
-                                                        pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="agency">
+                                                        id="licenseExpiryDate" placeholder="DD.MM.YYYY" readonly
+                                                        pattern="\d{2}\.\d{2}\.\d{4}" data-step-two="agency">
                                                     <input type="date" class="date-input" aria-hidden="true"
                                                         tabindex="-1">
                                                     <button type="button" class="calendar-btn"
@@ -267,7 +267,7 @@
                                                         <i class="fa-regular fa-calendar" aria-hidden="true"></i>
                                                     </button>
                                                 </div>
-                                                <div class="invalid-feedback">Please select a valid date (MM.DD.YY).
+                                                <div class="invalid-feedback">Please select a valid date (DD.MM.YYYY).
                                                 </div>
                                             </div>
                                             <div>
@@ -335,28 +335,28 @@
                                                 Date</label>
                                             <div class="date-field">
                                                 <input type="text" class="form-control date-display"
-                                                    id="passportIssueDate" placeholder="MM.DD.YY" readonly
-                                                    pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="individual">
+                                                    id="passportIssueDate" placeholder="DD.MM.YYYY" readonly
+                                                    pattern="\d{2}\.\d{2}\.\d{4}" data-step-two="individual">
                                                 <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
                                                 <button type="button" class="calendar-btn" aria-label="Open calendar">
                                                     <i class="fa-regular fa-calendar" aria-hidden="true"></i>
                                                 </button>
                                             </div>
-                                            <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
+                                            <div class="invalid-feedback">Please select a valid date (DD.MM.YYYY).</div>
                                         </div>
                                         <div>
                                             <label class="form-label" for="passportExpiryDate">Passport Expiry
                                                 Date</label>
                                             <div class="date-field">
                                                 <input type="text" class="form-control date-display"
-                                                    id="passportExpiryDate" placeholder="MM.DD.YY" readonly
-                                                    pattern="\d{2}\.\d{2}\.\d{2}" data-step-two="individual">
+                                                    id="passportExpiryDate" placeholder="DD.MM.YYYY" readonly
+                                                    pattern="\d{2}\.\d{2}\.\d{4}" data-step-two="individual">
                                                 <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
                                                 <button type="button" class="calendar-btn" aria-label="Open calendar">
                                                     <i class="fa-regular fa-calendar" aria-hidden="true"></i>
                                                 </button>
                                             </div>
-                                            <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
+                                            <div class="invalid-feedback">Please select a valid date (DD.MM.YYYY).</div>
                                         </div>
                                         <div>
                                             <label class="form-label" for="eidNumber">Eid Number</label>
@@ -368,14 +368,14 @@
                                             <label class="form-label" for="eidExpiryDate">Eid Expiry Date</label>
                                             <div class="date-field">
                                                 <input type="text" class="form-control date-display" id="eidExpiryDate"
-                                                    placeholder="MM.DD.YY" readonly pattern="\d{2}\.\d{2}\.\d{2}"
+                                                    placeholder="DD.MM.YYYY" readonly pattern="\d{2}\.\d{2}\.\d{4}"
                                                     data-step-two="individual">
                                                 <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
                                                 <button type="button" class="calendar-btn" aria-label="Open calendar">
                                                     <i class="fa-regular fa-calendar" aria-hidden="true"></i>
                                                 </button>
                                             </div>
-                                            <div class="invalid-feedback">Please select a valid date (MM.DD.YY).</div>
+                                            <div class="invalid-feedback">Please select a valid date (DD.MM.YYYY).</div>
                                         </div>
                                         <div aria-hidden="true"></div>
                                     </div>
@@ -743,7 +743,7 @@
             if (!year || !month || !day) {
                 return "";
             }
-            return `${month}.${day}.${year.slice(-2)}`;
+            return `${day}.${month}.${year}`;
         };
 
         const requiredMap = {
