@@ -19,19 +19,19 @@
 
 @font-face {
     font-family: "Dubai";
-    src: url(/assets/fonts/Dubai-Regular.ttf) format("truetype");
+    src: url(assets/fonts/Dubai-Regular.ttf) format("truetype");
 }
 @font-face {
     font-family: "Dubai Bold";
-    src: url(/assets/fonts/Dubai-Bold.ttf) format("truetype");
+    src: url(assets/fonts/Dubai-Bold.ttf) format("truetype");
 }
 @font-face {
     font-family: "Dubai Medium";
-    src: url(/assets/fonts/Dubai-Medium.ttf) format("truetype");
+    src: url(assets/fonts/Dubai-Medium.ttf) format("truetype");
 }
 @font-face {
     font-family: "Dubai Light";
-    src: url(/assets/fonts/Dubai-Light.ttf) format("truetype");
+    src: url(assets/fonts/Dubai-Light.ttf) format("truetype");
 }
 
 body {
@@ -153,6 +153,8 @@ body {
 .gradient-btn a{
     text-decoration: none;
     color: #ffffff;
+    display: block;
+    width: 100%;
 }
 
 .login-btn {
@@ -234,7 +236,7 @@ body {
   top: auto;
   height: 480px;
   min-height: 60vh;
-  background: url("/assets/images/footer-cover.png") no-repeat center bottom;
+  background: url("assets/images/footer-cover.png") no-repeat center bottom;
   background-size: cover;
   opacity: 0.28;
   pointer-events: none;
@@ -927,9 +929,9 @@ body {
 }
 
 .bank-details-grid .form-label {
-    font-size: 12px;
-    letter-spacing: 0.2em;
-    color: #d7d7d7;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
 }
 
 .bank-details-grid .file-field {
@@ -1064,7 +1066,7 @@ body {
     right: 0;
     bottom: -104px;
     height: 500px;
-    background-image: url("/assets/images/submit-background.png");
+    background-image: url("assets/images/submit-background.png");
     background-size: 100% 100%, 22px 100%;
     opacity: 0.25;
 }
@@ -1194,6 +1196,14 @@ body {
     color: var(--text);
 }
 
+.form-control:not(:placeholder-shown) {
+    color: #fff;
+}
+
+.form-select:valid {
+    color: #fff;
+}
+
 .select-box{
     position: relative;
 }
@@ -1256,7 +1266,7 @@ body {
     border-radius: 8px;
     height: 38px;
     padding: .5rem .75rem;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.14em;
     color: #7d7d7d;
