@@ -974,6 +974,15 @@
             });
         };
 
+        const scrollToPartnerCard = () => {
+            if (!partnerCard) {
+                return;
+            }
+            if (window.matchMedia("(max-width: 767px)").matches) {
+                partnerCard.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        };
+
         const setActiveType = (type) => {
             activeType = type;
             typeButtons.forEach((btn) => {
@@ -998,16 +1007,19 @@
                 const targetPanel = btn.dataset.main;
                 if (targetPanel === "admin") {
                     if (!ensurePartnerReady()) {
+                        scrollToPartnerCard();
                         return;
                     }
                 }
                 if (targetPanel === "bank") {
                     if (!ensurePartnerReady() || !ensureAdminReady()) {
+                        scrollToPartnerCard();
                         return;
                     }
                 }
                 if (targetPanel === "submit") {
                     if (!ensurePartnerReady() || !ensureAdminReady()) {
+                        scrollToPartnerCard();
                         return;
                     }
                 }
@@ -1018,10 +1030,12 @@
                         updateBankFileValidation();
                         updateBankTermsValidation();
                         updateBankSubmitState();
+                        scrollToPartnerCard();
                         return;
                     }
                 }
                 setMainPanel(targetPanel, btn.dataset.titleAccent, btn.dataset.titleMain);
+                scrollToPartnerCard();
             });
         });
 

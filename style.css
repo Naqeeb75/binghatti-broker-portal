@@ -815,7 +815,7 @@ body {
     min-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #fff;
+    color: #fff !important;
 }
 
 .admin-table-head {
@@ -1710,6 +1710,11 @@ input[type="number"] {
 
     .admin-table {
         min-width: 1080px;
+    }
+
+    .admin-table-row span:nth-child(8) {
+        padding-left: 65px;
+        padding-right: 65px;
     }
 }
 
