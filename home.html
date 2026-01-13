@@ -1,132 +1,295 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home | Broker Portal</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/home.css" />
-  </head>
-  <body>
-    <div class="page-label">HOME</div>
 
-    <main class="home-shell container-fluid">
-      <div class="home-panel">
-        <div class="row align-items-center g-0 top-row">
-          <div class="col-4 d-none d-md-block"></div>
-          <div class="col-12 col-md-4 text-center">
-            <img class="brand-logo" src="assets/images/logo.png" alt="Binghatti" />
-          </div>
-          <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
-            <div class="user-pill">
-              <span class="user-mark" aria-hidden="true">B</span>
-              <span class="user-name">Mohamed Ali</span>
-            </div>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Broker Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/home.css" />
+</head>
+
+<body class="home-page">
+  <header class="portal-nav">
+    <nav class="navbar navbar-expand-xxl navbar-dark">
+      <div class="container-fluid home-shell">
+        <a class="navbar-brand nav-logo" href="home.html">
+          <img src="assets/images/logo.png" alt="Binghatti" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portalNavbar"
+          aria-controls="portalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-links-wrap" id="portalNavbar">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">Explore Availability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="university.html">Binghatti University</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sales.html">My Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="commissions.html">My Commissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reports.html">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="requests.html">Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+
+          <a class="user-badge user-badge--menu d-xxl-none text-decoration-none" href="profile.html"
+            aria-label="Open profile">
+            <span class="user-initial">
+                <img src="assets/images/lake-logo.png" alt="name logo">
+            </span>
+            <span class="user-name">Mohammed Ali</span>
+          </a>
         </div>
 
-        <nav class="menu-nav" aria-label="Primary">
-          <a class="menu-link is-active" href="#">Home</a>
-          <a class="menu-link" href="#">Dashboard</a>
-          <a class="menu-link" href="#">Explore Availability</a>
-          <a class="menu-link" href="#">Binghatti University</a>
-          <a class="menu-link" href="#">My Sales</a>
-          <a class="menu-link" href="#">My Commissions</a>
-          <a class="menu-link" href="#">Reports</a>
-          <a class="menu-link" href="#">Requests</a>
-          <a class="menu-link" href="#">Help</a>
-        </nav>
-
-        <section class="tools-section">
-          <h2 class="tools-title">
-            <span>Discover</span>
-            <strong>Tools</strong>
-          </h2>
-
-          <div class="row g-3 g-lg-4 tools-grid">
-            <div class="col-12 col-md-6 col-lg-4">
-              <button class="tool-card w-100" type="button">
-                <span class="tool-text">Explore<br />Inventory</span>
-                <span class="tool-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48">
-                    <circle cx="20" cy="20" r="10"></circle>
-                    <line x1="28" y1="28" x2="38" y2="38"></line>
-                  </svg>
-                </span>
-              </button>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <button class="tool-card w-100" type="button">
-                <span class="tool-text">Register<br />Your Customer</span>
-                <span class="tool-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48">
-                    <rect x="10" y="8" width="22" height="28" rx="2"></rect>
-                    <line x1="14" y1="16" x2="28" y2="16"></line>
-                    <line x1="14" y1="22" x2="28" y2="22"></line>
-                    <line x1="30" y1="28" x2="40" y2="18"></line>
-                    <line x1="28" y1="30" x2="36" y2="38"></line>
-                  </svg>
-                </span>
-              </button>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <button class="tool-card w-100" type="button">
-                <span class="tool-text">Request<br />Training</span>
-                <span class="tool-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48">
-                    <polygon points="6 18 24 10 42 18 24 26 6 18"></polygon>
-                    <line x1="14" y1="22" x2="14" y2="32"></line>
-                    <line x1="34" y1="22" x2="34" y2="32"></line>
-                    <line x1="24" y1="26" x2="24" y2="38"></line>
-                  </svg>
-                </span>
-              </button>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <button class="tool-card w-100" type="button">
-                <span class="tool-text">Upcoming<br />Events</span>
-                <span class="tool-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48">
-                    <rect x="8" y="12" width="32" height="26" rx="2"></rect>
-                    <line x1="8" y1="18" x2="40" y2="18"></line>
-                    <line x1="16" y1="8" x2="16" y2="16"></line>
-                    <line x1="32" y1="8" x2="32" y2="16"></line>
-                  </svg>
-                </span>
-              </button>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <button class="tool-card w-100" type="button">
-                <span class="tool-text">Exclusive<br />Offers</span>
-                <span class="tool-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48">
-                    <path d="M10 20 L24 8 L38 22 L24 36 L10 20 Z"></path>
-                    <circle cx="24" cy="20" r="3"></circle>
-                    <line x1="18" y1="28" x2="30" y2="12"></line>
-                  </svg>
-                </span>
-              </button>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <button class="tool-card w-100" type="button">
-                <span class="tool-text">Launches</span>
-                <span class="tool-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48">
-                    <rect x="12" y="14" width="10" height="24"></rect>
-                    <rect x="24" y="10" width="12" height="28"></rect>
-                    <line x1="10" y1="38" x2="38" y2="38"></line>
-                  </svg>
-                </span>
-              </button>
-            </div>
-          </div>
-        </section>
+        <a class="user-badge d-none d-xxl-flex text-decoration-none" href="profile.html" aria-label="Open profile">
+          <span class="user-initial">
+            <img src="assets/images/lake-logo.png" alt="name logo">
+          </span>
+          <span class="user-name">Mohammed Ali</span>
+        </a>
       </div>
-    </main>
-  </body>
+    </nav>
+  </header>
+
+  <main class="home-content ">
+    <div class="home-shell">
+      <div class="tools container">
+        <p class="tools-title" style="font-weight: 300;">Discover <span>Tools</span></p>
+
+      <div class="row g-4 tools-grid">
+        <div class="col-12 col-md-6 col-xl-4">
+          <a class="tool-card" href="#">
+            <span class="tool-text">Explore<br />Inventory</span>
+            <span class="tool-icon" aria-hidden="true">
+              <img src="assets/images/explore.png" alt="explore inventory icon" />
+            </span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+          <a class="tool-card" href="#">
+            <span class="tool-text">Register<br />Your Customer</span>
+            <span class="tool-icon" aria-hidden="true">
+                <img src="assets/images/register.png" alt="register your customer icon" />
+            </span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+          <a class="tool-card" href="#">
+            <span class="tool-text">Request<br />Training</span>
+            <span class="tool-icon" aria-hidden="true">
+                <img src="assets/images/training.png" alt="request training icon" />
+            </span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+          <a class="tool-card" href="#">
+            <span class="tool-text">Upcoming<br />Events</span>
+            <span class="tool-icon" aria-hidden="true">
+                <img src="assets/images/events.png" alt="upcoming events icon" />
+            </span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+          <a class="tool-card" href="#">
+            <span class="tool-text">Exclusive<br />Offers</span>
+            <span class="tool-icon" aria-hidden="true">
+                <img src="assets/images/offers.png" alt="exclusive offers icon" />
+            </span>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+          <a class="tool-card" href="#">
+            <span class="tool-text">Launches</span>
+            <span class="tool-icon" aria-hidden="true">
+                <img src="assets/images/launch.png" alt="launches icon" />
+            </span>
+          </a>
+        </div>
+      </div>
+      </div>
+
+      <section class="home-section">
+        <p class="home-section-title">Recent <span>Announcements</span></p>
+        <div class="home-carousel home-carousel--compact js-flickity"
+          data-flickity='{"cellAlign":"left","contain":true,"pageDots":false,"prevNextButtons":true,"wrapAround":false,"imagesLoaded":true,"groupCells":1}'>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-1/600/900" alt="Announcement highlight 1" />
+              </div>
+              <div class="carousel-card__caption">
+                Newman Jr becomes a proud owner at Bugatti Residences
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-2/600/900" alt="Announcement highlight 2" />
+              </div>
+              <div class="carousel-card__caption">
+                Binghatti Skyrise unveiled under Egypt's pyramids with Terry Crews and Hussain Al Jassmi
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-3/600/900" alt="Announcement highlight 3" />
+              </div>
+              <div class="carousel-card__caption">
+                Binghatti Skyrise unveils architectural excellence and refined living
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-4/600/900" alt="Announcement highlight 4" />
+              </div>
+              <div class="carousel-card__caption">
+                Bugatti Residences by Binghatti achieves record sales in Dubai
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-5/600/900" alt="Announcement highlight 5" />
+              </div>
+              <div class="carousel-card__caption">
+                Burj Binghatti Jacobs &amp; Co. Residences opens for sale
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-5/600/900" alt="Announcement highlight 5" />
+              </div>
+              <div class="carousel-card__caption">
+                Burj Binghatti Jacobs &amp; Co. Residences opens for sale
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-5/600/900" alt="Announcement highlight 5" />
+              </div>
+              <div class="carousel-card__caption">
+                Burj Binghatti Jacobs &amp; Co. Residences opens for sale
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-announcement-5/600/900" alt="Announcement highlight 5" />
+              </div>
+              <div class="carousel-card__caption">
+                Burj Binghatti Jacobs &amp; Co. Residences opens for sale
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-section">
+        <p class="home-section-title">Latest <span>Offers and Promotions</span></p>
+        <div class="home-carousel home-carousel--wide js-flickity"
+          data-flickity='{"cellAlign":"left","contain":true,"pageDots":false,"prevNextButtons":true,"wrapAround":false,"imagesLoaded":true,"groupCells":1}'>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-offer-1/900/540" alt="Offer highlight 1" />
+              </div>
+              <div class="carousel-card__caption">
+                Binghatti announces 2024 financial results invites stakeholders to Instagram live event
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-offer-2/900/540" alt="Offer highlight 2" />
+              </div>
+              <div class="carousel-card__caption">
+                Binghatti Developers hosts Dubai's largest private property show of 2024
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-offer-3/900/540" alt="Offer highlight 3" />
+              </div>
+              <div class="carousel-card__caption">
+                Binghatti awards AED 1 million luxury apartment at 2024 broker awards
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-offer-3/900/540" alt="Offer highlight 3" />
+              </div>
+              <div class="carousel-card__caption">
+                Binghatti awards AED 1 million luxury apartment at 2024 broker awards
+              </div>
+            </article>
+          </div>
+          <div class="carousel-cell">
+            <article class="carousel-card">
+              <div class="carousel-card__media">
+                <img src="https://picsum.photos/seed/binghatti-offer-3/900/540" alt="Offer highlight 3" />
+              </div>
+              <div class="carousel-card__caption">
+                Binghatti awards AED 1 million luxury apartment at 2024 broker awards
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

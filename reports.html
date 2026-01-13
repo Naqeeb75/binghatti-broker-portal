@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reports | Broker Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/reports.css" />
+</head>
+
+<body class="reports-page">
+  <header class="portal-nav">
+    <nav class="navbar navbar-expand-xxl navbar-dark">
+      <div class="container-fluid home-shell">
+        <a class="navbar-brand nav-logo" href="home.html">
+          <img src="assets/images/logo.png" alt="Binghatti" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portalNavbar"
+          aria-controls="portalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-links-wrap" id="portalNavbar">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">Explore Availability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="university.html">Binghatti University</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sales.html">My Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="commissions.html">My Commissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="reports.html">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="requests.html">Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+
+          <a class="user-badge user-badge--menu d-xxl-none text-decoration-none" href="profile.html"
+            aria-label="Open profile">
+            <span class="user-initial">
+              <img src="assets/images/lake-logo.png" alt="name logo">
+            </span>
+            <span class="user-name">Mohammed Ali</span>
+          </a>
+        </div>
+
+        <a class="user-badge d-none d-xxl-flex text-decoration-none" href="profile.html" aria-label="Open profile">
+          <span class="user-initial">
+            <img src="assets/images/lake-logo.png" alt="name logo">
+          </span>
+          <span class="user-name">Mohammed Ali</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="reports-content">
+    <div class="reports-shell">
+      <section class="reports-controls">
+        <div class="controls-left">
+          <button class="pill-btn pill-btn--active report-btn" type="button" data-report="sales"
+            aria-pressed="true">Sales Report</button>
+          <button class="pill-btn report-btn" type="button" data-report="commissions" aria-pressed="false">
+            Commissions Report
+          </button>
+          <button class="pill-btn report-btn" type="button" data-report="availability" aria-pressed="false">
+            Availability Report
+          </button>
+        </div>
+        <div class="controls-right">
+          <button class="action-btn action-btn--icon-right" type="button">
+            <span>Export to Excel</span>
+            <span class="btn-icon">
+              <img src="assets/images/excel-logo.png" alt="excel icon">
+            </span>
+          </button>
+          <button class="filter-btn" type="button" aria-label="Filters">
+            <span class="filter-line">
+              <span class="filter-knob"></span>
+            </span>
+            <span class="filter-line">
+              <span class="filter-knob filter-knob--middle"></span>
+            </span>
+            <span class="filter-line">
+              <span class="filter-knob filter-knob--bottom"></span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="reports-table reports-table--sales">
+        <div class="table-frame">
+          <div class="table-grid table-grid--sales">
+            <div class="table-row table-header">
+              <span>Agent Id</span>
+              <span>Sale Order No.</span>
+              <span>Sale Order Status</span>
+              <span>Sale Value</span>
+              <span>Sale Order Date</span>
+              <span>Customer Name</span>
+              <span>Sales Area</span>
+              <span>Sale Price</span>
+              <span>Net Price</span>
+            </div>
+            <div class="table-scroll">
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reports-table reports-table--commissions is-hidden">
+        <div class="table-frame">
+          <div class="table-grid table-grid--commissions">
+            <div class="table-row table-header">
+              <span>Sale Order No.</span>
+              <span>Sale Order Status</span>
+              <span>Unit Number</span>
+              <span>Sale Value</span>
+              <span>Sale Order Date</span>
+              <span>Commission%</span>
+              <span>Commission</span>
+              <span>Status</span>
+            </div>
+            <div class="table-scroll">
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reports-table reports-table--availability is-hidden">
+        <div class="table-frame">
+          <div class="table-grid table-grid--availability">
+            <div class="table-row table-header">
+              <span>Project Name</span>
+              <span>Unit Type</span>
+              <span>Unit Number</span>
+              <span>Floor</span>
+              <span>Net Area</span>
+              <span>Terrace Area</span>
+              <span>Total Area</span>
+              <span>View</span>
+            </div>
+            <div class="table-scroll">
+              <div class="table-row">
+                <span>Binghatti Vintage</span>
+                <span>2 Bedroom</span>
+                <span>BVNT-422</span>
+                <span>4</span>
+                <span>770.91</span>
+                <span>479.53</span>
+                <span>1250.44</span>
+                <span>Neighbor</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const reportButtons = document.querySelectorAll(".report-btn");
+    const salesTable = document.querySelector(".reports-table--sales");
+    const commissionsTable = document.querySelector(".reports-table--commissions");
+    const availabilityTable = document.querySelector(".reports-table--availability");
+
+    const setReport = (report) => {
+      reportButtons.forEach((button) => {
+        const isActive = button.dataset.report === report;
+        button.classList.toggle("pill-btn--active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
+
+      const showCommissions = report === "commissions";
+      const showAvailability = report === "availability";
+      salesTable.classList.toggle("is-hidden", showCommissions || showAvailability);
+      commissionsTable.classList.toggle("is-hidden", !showCommissions);
+      availabilityTable.classList.toggle("is-hidden", !showAvailability);
+    };
+
+    reportButtons.forEach((button) => {
+      button.addEventListener("click", () => setReport(button.dataset.report));
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

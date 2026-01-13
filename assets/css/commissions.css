@@ -1,0 +1,371 @@
+.commissions-page {
+  min-height: 100vh;
+  background: radial-gradient(1200px 520px at 20% 0%, #0b0b0b 0%, #000 60%);
+  overflow-x: hidden;
+}
+
+.portal-nav .navbar {
+  padding: 18px 0 14px;
+}
+
+.home-shell,
+.commissions-shell {
+  width: 100%;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nav-logo img {
+  width: 185px;
+  height: auto;
+  display: block;
+}
+
+.nav-links-wrap {
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.nav-links {
+  gap: 20px;
+}
+
+.nav-links .nav-link {
+  padding: 0;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link:focus,
+.nav-links .nav-link.active {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.user-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 6px;
+  padding: 6px 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 11px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.user-badge--menu {
+  margin-top: 18px;
+  align-self: flex-start;
+}
+
+.user-initial {
+  width: 40px;
+  height: 40px;
+}
+
+.user-initial img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-family: "Dubai Medium", "Dubai", "Segoe UI", sans-serif;
+}
+
+.commissions-content {
+  padding: 30px 0 70px;
+}
+
+.commissions-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+
+.controls-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  min-height: 34px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+
+.action-btn:hover,
+.action-btn:focus {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #ffffff;
+}
+
+.filter-btn {
+  border: 0;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 4px;
+  cursor: pointer;
+}
+
+.filter-line {
+  width: 2px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  position: relative;
+}
+
+.filter-knob {
+  position: absolute;
+  left: 50%;
+  top: 3px;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: #0b0b0b;
+}
+
+.filter-knob--middle {
+  top: 9px;
+}
+
+.filter-knob--bottom {
+  top: 14px;
+}
+
+.commissions-table {
+  margin-top: 36px;
+}
+
+.table-frame {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(0, 0, 0, 0.65);
+  overflow-x: auto;
+}
+
+.table-grid {
+  min-width: 1080px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr 0.9fr 1fr 1.2fr 1.4fr 0.9fr;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
+
+.table-header {
+  color: rgba(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255);
+}
+
+.table-scroll {
+  max-height: 380px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.table-scroll .table-row {
+  border-bottom: 1px solid rgba(255, 255, 255);
+}
+
+.invoice-btn {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 9px;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.table-scroll::-webkit-scrollbar {
+  width: 14px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+  background: #050505;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #b1b1ba 0%, #5e5e68 100%);
+  border-radius: 14px;
+  border: 2px solid rgba(10, 10, 12, 0.7);
+}
+
+.table-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #c3c3cc 0%, #6c6c76 100%);
+}
+
+.table-scroll {
+  scrollbar-color: #777783 #0c0c0c;
+  scrollbar-width: thin;
+}
+
+@media (min-width: 1400px) {
+  .portal-nav .navbar {
+    flex-wrap: nowrap;
+  }
+
+  .portal-nav .home-shell {
+    flex-wrap: nowrap;
+  }
+
+  .nav-links {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .home-shell,
+  .commissions-shell {
+    padding: 0 18px;
+  }
+
+  .nav-logo img {
+    width: 170px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links .nav-link {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+  }
+
+  .user-badge {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .portal-nav .home-shell {
+    max-width: 1720px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .portal-nav .navbar {
+    padding: 14px 0;
+  }
+
+  .nav-links-wrap {
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links .nav-link {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    padding: 6px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .commissions-controls {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-shell,
+  .commissions-shell {
+    padding: 0 18px;
+  }
+
+  .nav-logo img {
+    width: 160px;
+  }
+
+  .action-btn {
+    font-size: 9px;
+    letter-spacing: 0.18em;
+  }
+
+  .table-row {
+    font-size: 8px;
+    letter-spacing: 0.16em;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-logo img {
+    width: 145px;
+  }
+
+  .controls-right {
+    width: 100%;
+  }
+
+  .action-btn {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+}

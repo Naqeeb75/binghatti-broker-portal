@@ -1,0 +1,344 @@
+.help-page {
+  min-height: 100vh;
+  background: radial-gradient(1200px 520px at 20% 0%, #0b0b0b 0%, #000 60%);
+  overflow-x: hidden;
+}
+
+.portal-nav .navbar {
+  padding: 18px 0 14px;
+}
+
+.home-shell,
+.help-shell {
+  width: 100%;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nav-logo img {
+  width: 185px;
+  height: auto;
+  display: block;
+}
+
+.nav-links-wrap {
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.nav-links {
+  gap: 20px;
+}
+
+.nav-links .nav-link {
+  padding: 0;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link:focus,
+.nav-links .nav-link.active {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.user-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 6px;
+  padding: 6px 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 11px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.user-badge--menu {
+  margin-top: 18px;
+  align-self: flex-start;
+}
+
+.user-initial {
+  width: 40px;
+  height: 40px;
+}
+
+.user-initial img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-family: "Dubai Medium", "Dubai", "Segoe UI", sans-serif;
+}
+
+.help-content {
+  padding: 32px 0 80px;
+}
+
+.help-title {
+  font-size: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.help-title span {
+  font-family: "Dubai Bold", "Dubai", "Segoe UI", sans-serif;
+  color: #ffffff;
+}
+
+.contact-card {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  padding: 14px 8px;
+  background: rgba(8, 8, 8, 0.55);
+  margin-top: 20px;
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 1.2fr repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.contact-col {
+  padding: 10px 16px 30px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.88);
+  word-break: break-word;
+}
+
+.contact-col + .contact-col {
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact-col--name {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+}
+
+.contact-label {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.contact-value {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.bold-text {
+  font-family: "Dubai Bold", "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+
+.help-accordions {
+  margin-top: 34px;
+  display: grid;
+  gap: 16px;
+}
+
+.help-accordion {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 8px;
+  padding: 14px 18px;
+  background: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.help-accordion:hover,
+.help-accordion:focus {
+  border-color: rgba(255, 255, 255, 0.75);
+  color: #ffffff;
+}
+
+.accordion-icon {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+@media (min-width: 1400px) {
+  .portal-nav .navbar {
+    flex-wrap: nowrap;
+  }
+
+  .portal-nav .home-shell {
+    flex-wrap: nowrap;
+  }
+
+  .nav-links {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .home-shell,
+  .help-shell {
+    padding: 0 18px;
+  }
+
+  .nav-logo img {
+    width: 170px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links .nav-link {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+  }
+
+  .user-badge {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .portal-nav .home-shell {
+    max-width: 1720px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .portal-nav .navbar {
+    padding: 14px 0;
+  }
+
+  .nav-links-wrap {
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links .nav-link {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    padding: 6px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-col {
+    border-left: none;
+    min-height: 0;
+  }
+
+  .contact-col--name {
+    grid-column: 1 / -1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+
+  .contact-col:not(.contact-col--name):nth-child(odd) {
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .contact-col + .contact-col{
+    border: none !important;
+  }
+  .contact-col{
+    padding: 10px 16px 20px 16px;
+  }
+  .sales-center{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-shell,
+  .help-shell {
+    padding: 0 18px;
+  }
+
+  .nav-logo img {
+    width: 160px;
+  }
+
+  .help-title {
+    font-size: 12px;
+    letter-spacing: 0.26em;
+  }
+
+  .contact-card {
+    padding: 12px 6px;
+  }
+
+  .contact-col {
+    padding: 8px 12px;
+  }
+
+  .help-accordion {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-logo img {
+    width: 145px;
+  }
+
+  .contact-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-col {
+    border-left: none !important;
+  }
+
+  .contact-col--name {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Profile | Broker Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/profile.css" />
+</head>
+
+<body class="profile-page">
+  <header class="portal-nav">
+    <nav class="navbar navbar-expand-xxl navbar-dark">
+      <div class="container-fluid home-shell">
+        <a class="navbar-brand nav-logo" href="home.html">
+          <img src="assets/images/logo.png" alt="Binghatti" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portalNavbar"
+          aria-controls="portalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-links-wrap" id="portalNavbar">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">Explore Availability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="university.html">Binghatti University</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sales.html">My Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="commissions.html">My Commissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reports.html">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="requests.html">Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+
+          <a class="user-badge user-badge--menu d-xxl-none text-decoration-none" href="profile.html"
+            aria-label="Open profile">
+            <span class="user-initial">
+              <img src="assets/images/lake-logo.png" alt="name logo">
+            </span>
+            <span class="user-name">Mohammed Ali</span>
+          </a>
+        </div>
+
+        <a class="user-badge d-none d-xxl-flex text-decoration-none" href="profile.html" aria-label="Open profile">
+          <span class="user-initial">
+            <img src="assets/images/lake-logo.png" alt="name logo">
+          </span>
+          <span class="user-name">Mohammed Ali</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="profile-content">
+    <div class="profile-shell" data-active-panel="profile">
+      <div class="profile-tabs-row">
+        <section class="profile-tabs" role="tablist">
+          <button class="pill-btn pill-btn--active pill-btn--left" type="button" aria-pressed="true"
+            data-panel-target="profile" aria-controls="profilePanel">My Profile</button>
+          <button class="pill-btn pill-btn--right" type="button" aria-pressed="false" data-panel-target="agents"
+            aria-controls="agentsPanel">Manage Agents</button>
+        </section>
+        <button class="add-agent-btn" type="button">Add Agent</button>
+      </div>
+
+      <div class="profile-panel profile-panel--profile is-active" data-panel="profile" id="profilePanel"
+        aria-hidden="false">
+        <div class="profile-grid">
+        <aside class="profile-sidebar">
+          <div class="logo-card">
+            <span>Update Company<br>Image / Logo</span>
+          </div>
+          <div class="sidebar-actions">
+            <button class="profile-action" type="button">Reset Password</button>
+            <button class="profile-action" type="button">Log Out</button>
+          </div>
+        </aside>
+
+        <div class="profile-main">
+          <section class="profile-section">
+            <div class="section-header">
+              <h2 class="section-title">Agency Information</h2>
+            </div>
+            <div class="info-card">
+              <div class="info-row info-row--agency">
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Agency Name</span>
+                    <span class="info-value">Agency Name</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">Email</span>
+                    <span class="info-value">Mohammed.Ali@gmail.com</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">City</span>
+                    <span class="info-value">Dubai</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label" style="color: #fff;">Agency Category</span>
+                    <div class="select-wrap">
+                      <select class="profile-select" aria-label="Agency category">
+                        <option selected>Select Category</option>
+                        <option>Rera Certified Agency</option>
+                        <option>Other Agency</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Trade License Number</span>
+                    <span class="info-value">12345679</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">Phone No.</span>
+                    <span class="info-value">+9710000000</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">Country</span>
+                    <span class="info-value">UAE</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label" style="color: #fff;">Website</span>
+                    <input class="profile-input" type="text" value="agencyname.com">
+                  </div>
+                </div>
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Trade License Expiry Date</span>
+                    <span class="info-value">DD.MM.YYYY</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">Address</span>
+                    <span class="info-value">Dubai</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">P.O.Box</span>
+                    <span class="info-value">0000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="profile-section">
+            <div class="section-header section-header--action">
+              <h2 class="section-title">Admin Information</h2>
+              <button class="section-action" type="button" aria-label="Edit admin information">
+                <img src="assets/images/edit-logo.png" alt="edit icon">
+              </button>
+            </div>
+            <div class="info-card info-card--admin">
+              <div class="info-row info-row--admin">
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Admin First Name</span>
+                    <span class="info-value">Subodh</span>
+                  </div>
+                </div>
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Admin Last Name</span>
+                    <span class="info-value">Kumar</span>
+                  </div>
+                </div>
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Phone</span>
+                    <span class="info-value">1234567</span>
+                  </div>
+                </div>
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Email</span>
+                    <span class="info-value">Kumar@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="profile-section">
+            <div class="section-header section-header--action">
+              <h2 class="section-title">Bank Information</h2>
+              <button class="section-action" type="button" aria-label="Edit bank information">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 20h9" />
+                  <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4 11.5-11.5z" />
+                </svg>
+              </button>
+            </div>
+            <div class="info-card info-card--bank">
+              <div class="info-row info-row--bank">
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Account Name</span>
+                    <span class="info-value">Agency Name</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">Swift Code</span>
+                    <span class="info-value">Mohammed.Ali@gmail.com</span>
+                  </div>
+                </div>
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">Account Number</span>
+                    <span class="info-value">12345679</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">Bank Name</span>
+                    <span class="info-value">ADCB</span>
+                  </div>
+                </div>
+                <div class="info-cell">
+                  <div class="info-pair">
+                    <span class="info-label">IBAN</span>
+                    <span class="info-value">12345679</span>
+                  </div>
+                  <div class="info-pair">
+                    <span class="info-label">Branch</span>
+                    <span class="info-value">Dubai</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="profile-section profile-docs">
+            <div class="doc-row">
+              <div class="doc-field">
+                <span class="doc-label">Trade License</span>
+                <div class="d-flex align-items-center gap-2">
+                  <div class="doc-icon">
+                    <img src="assets/images/doc-icon.png" alt="document icon">
+                  </div>
+                  <label class="upload-field">
+                    <span class="upload-left">
+                      <span class="upload-text">Upload New Document</span>
+                    </span>
+                    <span class="upload-link-icon" aria-hidden="true">
+                      <span class="upload-icon" aria-hidden="true">
+                        <img src="assets/images/file.png" alt="">
+                      </span>
+                    </span>
+                    <input type="file" aria-label="Upload trade license">
+                  </label>
+                </div>
+              </div>
+              <div class="doc-field">
+                <span class="doc-label">License Expiry Date</span>
+                <div class="date-field">
+                  <input class="profile-input date-display" type="text" value="20.10.25" readonly>
+                  <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
+                  <button class="calendar-btn" type="button" aria-label="Open calendar">
+                    <svg viewBox="0 0 24 24">
+                      <rect x="3" y="5" width="18" height="16" rx="2" />
+                      <path d="M8 3v4M16 3v4M3 9h18" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <button class="approval-btn" type="button">Submit for Approval</button>
+            </div>
+
+            <div class="doc-row">
+              <div class="doc-field">
+                <span class="doc-label">Vat Certificate</span>
+                <div class="d-flex align-items-center gap-2">
+                  <div class="doc-icon">
+                    <img src="assets/images/doc-icon.png" alt="document icon">
+                  </div>
+                  <label class="upload-field">
+                    <span class="upload-left">
+                      <span class="upload-text">Upload New Document</span>
+                    </span>
+                    <span class="upload-link-icon" aria-hidden="true">
+                      <span class="upload-icon" aria-hidden="true">
+                        <img src="assets/images/file.png" alt="">
+                      </span>
+                    </span>
+                    <input type="file" aria-label="Upload vat certificate">
+                  </label>
+                </div>
+              </div>
+              <div class="doc-field">
+                <span class="doc-label">Certificate Expiry Date</span>
+                <div class="date-field">
+                  <input class="profile-input date-display" type="text" value="20.10.25" readonly>
+                  <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
+                  <button class="calendar-btn" type="button" aria-label="Open calendar">
+                    <svg viewBox="0 0 24 24">
+                      <rect x="3" y="5" width="18" height="16" rx="2" />
+                      <path d="M8 3v4M16 3v4M3 9h18" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <button class="approval-btn" type="button">Submit for Approval</button>
+            </div>
+
+            <div class="doc-row">
+              <div class="doc-field">
+                <span class="doc-label">Go AML</span>
+                <label class="upload-field">
+                  <span class="upload-left">
+                    <span class="upload-text">Choose Document</span>
+                  </span>
+                  <span class="upload-link-icon" aria-hidden="true">
+                    <span class="upload-icon" aria-hidden="true">
+                      <img src="assets/images/file.png" alt="">
+                    </span>
+                  </span>
+                  <input type="file" aria-label="Upload go aml document">
+                </label>
+              </div>
+              <div class="doc-field doc-field--empty" aria-hidden="true"></div>
+              <button class="approval-btn" type="button">Submit for Approval</button>
+            </div>
+
+            <div class="doc-row">
+              <div class="doc-field">
+                <span class="doc-label">Rera Certificate</span>
+                <label class="upload-field">
+                  <span class="upload-left">
+                    <span class="upload-text">Choose Document</span>
+                  </span>
+                  <span class="upload-link-icon" aria-hidden="true">
+                    <span class="upload-icon" aria-hidden="true">
+                      <img src="assets/images/file.png" alt="">
+                    </span>
+                  </span>
+                  <input type="file" aria-label="Upload rera certificate">
+                </label>
+              </div>
+              <div class="doc-field">
+                <span class="doc-label">Certificate Expiry Date</span>
+                <div class="date-field">
+                  <input class="profile-input date-display" type="text" value="20.10.25" readonly>
+                  <input type="date" class="date-input" aria-hidden="true" tabindex="-1">
+                  <button class="calendar-btn" type="button" aria-label="Open calendar">
+                    <svg viewBox="0 0 24 24">
+                      <rect x="3" y="5" width="18" height="16" rx="2" />
+                      <path d="M8 3v4M16 3v4M3 9h18" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <button class="approval-btn" type="button">Submit for Approval</button>
+            </div>
+          </section>
+        </div>
+      </div>
+      </div>
+
+      <div class="profile-panel profile-panel--agents" data-panel="agents" id="agentsPanel" aria-hidden="true">
+        <section class="agents-table">
+          <div class="table-frame">
+            <div class="table-grid table-grid--agents">
+              <div class="table-row table-header">
+                <span>First Name</span>
+                <span>Last Name</span>
+                <span>Role</span>
+                <span>Agent Id</span>
+                <span>Email Id</span>
+                <span>Phone No.</span>
+                <span>Status</span>
+                <span>Actions</span>
+              </div>
+              <div class="table-scroll" id="agentsTableBody">
+                <div class="table-row">
+                  <span>Mohammad</span>
+                  <span>Ahmed</span>
+                  <span>Agent</span>
+                  <span>1154</span>
+                  <span>123@gmail.co</span>
+                  <span>+971000000</span>
+                  <span class="agent-status">Active</span>
+                  <span class="agent-actions-cell">
+                    <div class="agent-actions">
+                      <button class="agent-action" type="button" aria-label="Edit agent">
+                        <div class="icons">
+                          <img src="assets/images/edit-logo.png" alt="edit icon">
+                        </div>
+                        <span>Edit</span>
+                      </button>
+                      <button class="agent-action" type="button" aria-label="Generate password">
+                        <div class="icons">
+                          <img src="assets/images/password-icon.png" alt="password icon">
+                        </div>
+                        <span>Generate <br>Password</span>
+                      </button>
+                      <button class="agent-action" type="button" aria-label="Activate or deactivate">
+                        <div class="icons">
+                          <img src="assets/images/avtar-icon.png" alt="activate icon">
+                        </div>
+                        <span>Activate/<br>Deactivate</span>
+                      </button>
+                      <button class="agent-action" type="button" aria-label="Reset password">
+                        <div class="icons">
+                          <img src="assets/images/reset-icon.png" alt="reset password icon">
+                        </div>
+                        <span>Reset<br>Password</span>
+                      </button>
+                    </div>
+                  </span>
+                </div>
+                <div class="table-row table-row--empty" aria-hidden="true">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+                <div class="table-row table-row--empty" aria-hidden="true">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+                <div class="table-row table-row--empty" aria-hidden="true">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+                <div class="table-row table-row--empty" aria-hidden="true">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+                <div class="table-row table-row--empty" aria-hidden="true">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+                <div class="table-row table-row--empty" aria-hidden="true">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+                <div class="table-row table-row--empty" aria-hidden="true">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="profile-panel profile-panel--add-agent" data-panel="add-agent" id="addAgentPanel"
+        aria-hidden="true">
+        <section class="agent-form">
+          <div class="agent-form-card">
+            <form class="agent-form-grid" id="agentForm" novalidate>
+              <div class="agent-name-row">
+                <div class="agent-field">
+                  <label class="agent-label" for="agentTitle">Title</label>
+                  <div class="agent-select-wrap">
+                    <select class="agent-select" id="agentTitle" required>
+                      <option value="" selected disabled>Title</option>
+                      <option>Mr.</option>
+                      <option>Mrs.</option>
+                      <option>Ms.</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="agent-field">
+                  <label class="agent-label" for="agentFirstName">First Name</label>
+                  <input class="agent-input" id="agentFirstName" type="text" placeholder="Subodh" required>
+                </div>
+              </div>
+              <div class="agent-field">
+                <label class="agent-label" for="agentLastName">Last Name</label>
+                <input class="agent-input" id="agentLastName" type="text" placeholder="Kumar" required>
+              </div>
+              <div class="agent-field">
+                <label class="agent-label" for="agentPhone">Phone No</label>
+                <div class="agent-phone">
+                  <div class="agent-select-wrap">
+                    <select class="agent-select" id="agentPhoneCode" required>
+                      <option value="+971">+971</option>
+                      <option value="+966">+966</option>
+                      <option value="+974">+974</option>
+                      <option value="+965">+965</option>
+                    </select>
+                  </div>
+                  <input class="agent-input" id="agentPhone" type="tel" placeholder="056 00 00 00" required>
+                </div>
+              </div>
+              <div class="agent-field">
+                <label class="agent-label" for="agentEmail">Email</label>
+                <input class="agent-input" id="agentEmail" type="email" placeholder="123@gmail.com" required>
+              </div>
+              <div class="agent-field">
+                <label class="agent-label" for="agentRole">Role</label>
+                <div class="agent-select-wrap">
+                  <select class="agent-select" id="agentRole" required>
+                    <option value="" selected disabled>Select Role</option>
+                    <option>Admin</option>
+                    <option>Agent</option>
+                  </select>
+                </div>
+              </div>
+              <div class="agent-field">
+                <label class="agent-label" for="agentId">Agent Id</label>
+                <input class="agent-input" id="agentId" type="text" placeholder="12345" required>
+              </div>
+              <div class="agent-actions-row">
+                <button class="agent-submit" type="submit">Add</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    const dateFields = document.querySelectorAll(".date-field");
+
+    const formatDateShort = (value) => {
+      if (!value) {
+        return "";
+      }
+      const parts = value.split("-");
+      if (parts.length !== 3) {
+        return "";
+      }
+      const [year, month, day] = parts;
+      if (!year || !month || !day) {
+        return "";
+      }
+      return `${day}.${month}.${year.slice(-2)}`;
+    };
+
+    const parseDisplayDate = (value) => {
+      if (!value) {
+        return "";
+      }
+      const parts = value.split(".");
+      if (parts.length !== 3) {
+        return "";
+      }
+      let [day, month, year] = parts.map((part) => part.trim());
+      if (!day || !month || !year) {
+        return "";
+      }
+      if (year.length === 2) {
+        year = `20${year}`;
+      }
+      if (year.length !== 4) {
+        return "";
+      }
+      day = day.padStart(2, "0");
+      month = month.padStart(2, "0");
+      return `${year}-${month}-${day}`;
+    };
+
+    const openPicker = (picker) => {
+      if (typeof picker.showPicker === "function") {
+        picker.showPicker();
+      } else {
+        picker.focus();
+        picker.click();
+      }
+    };
+
+    dateFields.forEach((field) => {
+      const display = field.querySelector(".date-display");
+      const picker = field.querySelector("input[type='date']");
+      const button = field.querySelector(".calendar-btn");
+      if (!display || !picker || !button) {
+        return;
+      }
+
+      const initialValue = parseDisplayDate(display.value);
+      if (initialValue && !picker.value) {
+        picker.value = initialValue;
+      }
+
+      const syncDisplay = () => {
+        display.value = formatDateShort(picker.value);
+      };
+
+      picker.addEventListener("change", syncDisplay);
+      button.addEventListener("click", () => {
+        openPicker(picker);
+      });
+      display.addEventListener("click", () => {
+        openPicker(picker);
+      });
+      syncDisplay();
+    });
+
+    const profileShell = document.querySelector(".profile-shell");
+    const tabButtons = document.querySelectorAll(".profile-tabs .pill-btn");
+    const panels = document.querySelectorAll(".profile-panel");
+    const addAgentButton = document.querySelector(".add-agent-btn");
+    const agentForm = document.getElementById("agentForm");
+    const agentsTableBody = document.getElementById("agentsTableBody");
+    const agentActionsTemplate = document.querySelector(".agents-table .agent-actions");
+
+    const getActiveTab = (panelName) => {
+      if (panelName === "add-agent") {
+        return "agents";
+      }
+      return panelName;
+    };
+
+    const setActivePanel = (panelName) => {
+      if (!panelName) {
+        return;
+      }
+      if (profileShell) {
+        profileShell.dataset.activePanel = panelName;
+      }
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.panel === panelName;
+        panel.classList.toggle("is-active", isActive);
+        panel.setAttribute("aria-hidden", String(!isActive));
+      });
+      tabButtons.forEach((button) => {
+        const isActive = button.dataset.panelTarget === getActiveTab(panelName);
+        button.classList.toggle("pill-btn--active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
+    };
+
+    if (tabButtons.length && panels.length) {
+      const defaultTab = document.querySelector(".profile-tabs .pill-btn--active");
+      const defaultPanel = defaultTab ? defaultTab.dataset.panelTarget : "profile";
+      setActivePanel(defaultPanel || "profile");
+      tabButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          setActivePanel(button.dataset.panelTarget);
+        });
+      });
+    }
+
+    const buildAgentRow = (values) => {
+      const row = document.createElement("div");
+      row.className = "table-row";
+      values.forEach((value) => {
+        const cell = document.createElement("span");
+        cell.textContent = value;
+        row.appendChild(cell);
+      });
+      const statusCell = document.createElement("span");
+      statusCell.className = "agent-status";
+      statusCell.textContent = "Active";
+      row.appendChild(statusCell);
+      const actionCell = document.createElement("span");
+      actionCell.className = "agent-actions-cell";
+      if (agentActionsTemplate) {
+        actionCell.appendChild(agentActionsTemplate.cloneNode(true));
+      }
+      row.appendChild(actionCell);
+      return row;
+    };
+
+    if (addAgentButton) {
+      addAgentButton.addEventListener("click", () => {
+        setActivePanel("add-agent");
+      });
+    }
+
+    if (agentForm && agentsTableBody) {
+      agentForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        if (!agentForm.reportValidity()) {
+          return;
+        }
+        const firstName = document.getElementById("agentFirstName").value.trim();
+        const lastName = document.getElementById("agentLastName").value.trim();
+        const role = document.getElementById("agentRole").value.trim();
+        const agentId = document.getElementById("agentId").value.trim();
+        const email = document.getElementById("agentEmail").value.trim();
+        const phoneCode = document.getElementById("agentPhoneCode").value.trim();
+        const phoneNumber = document.getElementById("agentPhone").value.trim();
+        const phone = `${phoneCode} ${phoneNumber}`.trim();
+
+        const newRow = buildAgentRow([firstName, lastName, role, agentId, email, phone]);
+        const firstEmptyRow = agentsTableBody.querySelector(".table-row--empty");
+        if (firstEmptyRow) {
+          agentsTableBody.insertBefore(newRow, firstEmptyRow);
+          firstEmptyRow.remove();
+        } else {
+          agentsTableBody.appendChild(newRow);
+        }
+        agentForm.reset();
+        setActivePanel("agents");
+      });
+    }
+  </script>
+</body>
+
+</html>

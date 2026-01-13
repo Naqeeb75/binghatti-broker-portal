@@ -1,203 +1,442 @@
-@font-face {
-  font-family: "Dubai";
-  src: url("") format("truetype");
+.home-page {
+  min-height: 100vh;
+  background: radial-gradient(1200px 520px at 20% 0%, #0b0b0b 0%, #000 60%);
+  overflow-x: hidden;
 }
 
-@font-face {
-  font-family: "Dubai Medium";
-  src: url("../fonts/Dubai-Medium.ttf") format("truetype");
-}
 
-:root {
-  --page-bg: #6a6a6a;
-  --panel-bg: #090909;
-  --text: #f5f5f5;
-  --muted: #b8b8b8;
-  --border: rgba(255, 255, 255, 0.28);
-  --border-strong: rgba(255, 255, 255, 0.55);
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background: var(--page-bg);
-  color: var(--text);
-  font-family: "Dubai", "Segoe UI", sans-serif;
-  letter-spacing: 0.08em;
-}
-
-.page-label {
-  margin: 18px 0 6px 24px;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #f2f2f2;
+.portal-nav .navbar {
+  padding: 18px 0 14px;
 }
 
 .home-shell {
-  width: min(1220px, 92vw);
-  margin: 0 auto 40px;
+  width: 100%;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-.home-panel {
-  background: var(--panel-bg);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 32px 44px 46px;
-}
-
-.top-row {
-  margin-bottom: 12px;
-}
-
-.brand-logo {
-  width: 150px;
+.nav-logo img {
+  width: 185px;
   height: auto;
   display: block;
-  margin: 0 auto;
 }
 
-.user-pill {
+.nav-links-wrap {
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.nav-links {
+  gap: 20px;
+}
+
+.nav-links .nav-link {
+  padding: 0;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link:focus,
+.nav-links .nav-link.active {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.user-badge {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid var(--border-strong);
-  border-radius: 8px;
-  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 6px;
+  padding: 6px 12px;
   text-transform: uppercase;
+  letter-spacing: 0.22em;
   font-size: 11px;
-  color: #f1f1f1;
-  background: rgba(255, 255, 255, 0.02);
+  color: #ffffff;
+  white-space: nowrap;
 }
 
-.user-mark {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid var(--border-strong);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  letter-spacing: 0;
+.user-badge--menu {
+  margin-top: 18px;
+  align-self: flex-start;
 }
 
-.menu-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 22px;
-  margin: 18px 0 0;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.28em;
+.user-initial {
+  width: 40px;
+  height: 40px;
 }
 
-.menu-link {
-  color: var(--muted);
-  text-decoration: none;
-  transition: color 0.2s ease;
+.user-initial img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.menu-link.is-active,
-.menu-link:hover {
-  color: var(--text);
+.user-name {
+  font-family: "Dubai Medium", "Dubai", "Segoe UI", sans-serif;
 }
 
-.tools-section {
-  margin-top: 34px;
+.home-content {
+  padding: 36px 0 70px;
 }
 
 .tools-title {
-  margin: 0 0 18px;
-  font-size: 18px;
+  line-height: 60px;
+  font-size: 30px;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  letter-spacing: 0.32em;
-  color: #bdbdbd;
+  color: #ffffff;
 }
 
-.tools-title strong {
-  color: #ffffff;
-  font-family: "Dubai Medium", "Dubai", sans-serif;
+.tools-title span {
+  font-family: "Dubai Bold", "Dubai", "Segoe UI", sans-serif;
 }
+
 
 .tool-card {
-  background: #0b0b0b;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 18px 22px;
-  min-height: 72px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 18px;
+  min-height: 92px;
+  padding:30px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(10, 10, 10, 0.6);
   color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 12px;
-  font-family: "Dubai Medium", "Dubai", sans-serif;
-  cursor: pointer;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
-.tool-card:hover {
-  border-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+.tool-card:hover,
+.tool-card:focus {
+  border-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
+  color: #ffffff;
 }
 
-.tool-card:focus-visible {
-  outline: 2px solid rgba(255, 255, 255, 0.5);
-  outline-offset: 2px;
+.tool-card:visited {
+  color: #ffffff;
 }
 
 .tool-text {
-  line-height: 1.4;
-  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  line-height: 1.25;
 }
 
 .tool-icon {
-  width: 38px;
-  height: 38px;
+  width: 70px;
+  height: 70px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
-.tool-icon svg {
+.tool-icon img {
   width: 100%;
   height: 100%;
-  stroke: #ffffff;
-  stroke-width: 1.5;
+  stroke: currentColor;
   fill: none;
+  stroke-width: 1.6;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
-@media (max-width: 900px) {
-  .home-panel {
-    padding: 26px 30px 34px;
+.home-section {
+  margin-top: 78px;
+  --carousel-pad: 52px;
+}
+
+.home-section-title {
+  margin-bottom: 18px;
+  padding-left: var(--carousel-pad);
+  font-size: 14px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.home-section-title span {
+  font-family: "Dubai Bold", "Dubai", "Segoe UI", sans-serif;
+  color: #ffffff;
+}
+
+.home-carousel {
+  position: relative;
+  padding: 0 var(--carousel-pad);
+}
+
+.home-carousel .carousel-cell {
+  margin-right: 18px;
+}
+
+.home-carousel--compact .carousel-cell {
+  width: 240px;
+}
+
+.home-carousel--wide .carousel-cell {
+  width: 360px;
+}
+
+.carousel-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(8, 8, 8, 0.9);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-card__media {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background: #0b0b0b;
+}
+
+.home-carousel--wide .carousel-card__media {
+  aspect-ratio: 16 / 10;
+}
+
+.carousel-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-card__caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px 14px 14px;
+  text-align: center;
+  font-size: 9px;
+  line-height: 1.4;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.72) 55%, rgba(0, 0, 0, 0.94) 100%);
+}
+
+.home-carousel .flickity-button {
+  background: transparent;
+  border: 0;
+  color: rgba(255, 255, 255, 0.6);
+  width: 34px;
+  height: 34px;
+}
+
+.home-carousel .flickity-button:hover {
+  color: #ffffff;
+}
+
+.home-carousel .flickity-button:focus {
+  box-shadow: none;
+}
+
+.home-carousel .flickity-button-icon {
+  fill: currentColor;
+}
+
+.home-carousel .flickity-prev-next-button.previous {
+  left: 0;
+}
+
+.home-carousel .flickity-prev-next-button.next {
+  right: 0;
+}
+
+.home-carousel .flickity-viewport {
+  overflow: hidden;
+}
+
+@media (min-width: 1400px) {
+  .portal-nav .navbar {
+    flex-wrap: nowrap;
   }
 
-  .menu-nav {
-    gap: 16px;
-    letter-spacing: 0.2em;
+  .portal-nav .home-shell {
+    flex-wrap: nowrap;
+  }
+
+  .nav-links {
+    flex-wrap: nowrap;
   }
 }
 
-@media (max-width: 640px) {
-  .page-label {
-    margin-left: 16px;
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .home-shell {
+    padding: 0 18px;
   }
 
-  .top-row {
+  .nav-logo img {
+    width: 170px;
+  }
+
+  .nav-links {
     gap: 14px;
   }
 
-  .menu-nav {
+  .nav-links .nav-link {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+  }
+
+  .user-badge {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .portal-nav .home-shell {
+    max-width: 1720px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .portal-nav .navbar {
+    padding: 14px 0;
+  }
+
+  .nav-links-wrap {
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
     gap: 12px;
-    text-align: center;
+  }
+
+  .nav-links .nav-link {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    padding: 6px 0;
+  }
+  .tool-card {
+    min-height: 84px;
+    padding: 16px 18px;
+  }
+  .tool-icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .home-carousel {
+    padding: 0 var(--carousel-pad);
+  }
+
+  .home-section {
+    --carousel-pad: 44px;
+  }
+
+  .home-carousel--wide .carousel-cell {
+    width: 320px;
+  }
+
+  .home-carousel .flickity-prev-next-button.previous {
+    left: 0;
+  }
+
+  .home-carousel .flickity-prev-next-button.next {
+    right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-shell {
+    padding: 0 18px;
+  }
+
+  .nav-logo img {
+    width: 160px;
+  }
+
+  .tools-title {
+    font-size: 16px;
+    letter-spacing: 0.24em;
+  }
+
+  .tool-card {
+    min-height: 84px;
+    padding: 16px 18px;
+  }
+
+  .tool-text {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+  }
+
+  .home-section {
+    margin-top: 32px;
+  }
+
+  .home-section-title {
+    font-size: 11px;
+    letter-spacing: 0.28em;
+  }
+
+  .home-carousel {
+    padding: 0 var(--carousel-pad);
+  }
+
+  .home-section {
+    --carousel-pad: 0;
+  }
+
+  .home-carousel--compact .carousel-cell {
+    width: 170px;
+  }
+
+  .home-carousel--wide .carousel-cell {
+    width: 240px;
+  }
+
+  .home-carousel .flickity-button {
+    display: none;
+  }
+
+  .carousel-card__caption {
+    font-size: 8px;
+    letter-spacing: 0.14em;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-logo img {
+    width: 145px;
+  }
+
+  .tool-card {
+    min-height: 78px;
+  }
+
+  .home-carousel--compact .carousel-cell {
+    width: 150px;
+  }
+
+  .home-carousel--wide .carousel-cell {
+    width: 210px;
   }
 }

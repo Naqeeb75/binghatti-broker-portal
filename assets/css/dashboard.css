@@ -1,0 +1,336 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: radial-gradient(1200px 520px at 20% 0%, #0b0b0b 0%, #000 60%);
+  overflow-x: hidden;
+}
+
+.portal-nav .navbar {
+  padding: 18px 0 14px;
+}
+
+.home-shell,
+.dashboard-shell {
+  width: 100%;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nav-logo img {
+  width: 185px;
+  height: auto;
+  display: block;
+}
+
+.nav-links-wrap {
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 0;
+}
+
+.nav-links {
+  gap: 20px;
+}
+
+.nav-links .nav-link {
+  padding: 0;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link:focus,
+.nav-links .nav-link.active {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.user-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 6px;
+  padding: 6px 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 11px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.user-badge--menu {
+  margin-top: 18px;
+  align-self: flex-start;
+}
+
+.user-initial {
+  width: 40px;
+  height: 40px;
+}
+
+.user-initial img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-family: "Dubai Medium", "Dubai", "Segoe UI", sans-serif;
+}
+
+.dashboard-content {
+  padding: 32px 0 70px;
+}
+
+.dashboard-charts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  align-items: center;
+}
+
+.chart-card {
+  min-height: 320px;
+}
+
+.chart-card--pie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.chart-panel--pie {
+  width: min(320px, 82vw);
+  height: min(320px, 82vw);
+}
+
+.chart-panel--bar {
+  width: 100%;
+  height: 320px;
+}
+
+.chart-panel canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Dubai Medium", "Segoe UI", sans-serif;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--legend-color);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.dashboard-metrics {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.metric-card {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  padding: 16px 20px;
+  text-align: center;
+  background: rgba(8, 8, 8, 0.6);
+}
+
+.metric-label {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 8px;
+}
+
+.metric-value {
+  display: block;
+  font-size: 30px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-family: "Dubai Medium", "Dubai", "Segoe UI", sans-serif;
+}
+
+.metric-card--paid {
+  border-color: rgba(0, 182, 82, 0.65);
+}
+
+.metric-card--paid .metric-label,
+.metric-card--paid .metric-value {
+  color: #00b652;
+}
+
+.metric-card--pending,
+.metric-card--payout {
+  border-color: rgba(229, 208, 0, 0.7);
+}
+
+.metric-card--pending .metric-label,
+.metric-card--pending .metric-value,
+.metric-card--payout .metric-label,
+.metric-card--payout .metric-value {
+  color: #e5d000;
+}
+
+@media (min-width: 1400px) {
+  .portal-nav .navbar {
+    flex-wrap: nowrap;
+  }
+
+  .portal-nav .home-shell {
+    flex-wrap: nowrap;
+  }
+
+  .nav-links {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .home-shell,
+  .dashboard-shell {
+    padding: 0 18px;
+  }
+
+  .nav-logo img {
+    width: 170px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links .nav-link {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+  }
+
+  .user-badge {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .portal-nav .home-shell {
+    max-width: 1720px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .portal-nav .navbar {
+    padding: 14px 0;
+  }
+
+  .nav-links-wrap {
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links .nav-link {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    padding: 6px 0;
+  }
+
+  .dashboard-charts {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .chart-panel--bar {
+    height: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dashboard-metrics {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-shell,
+  .dashboard-shell {
+    padding: 0 18px;
+  }
+
+  .nav-logo img {
+    width: 160px;
+  }
+
+  .chart-panel--pie {
+    width: min(260px, 80vw);
+    height: min(260px, 80vw);
+  }
+
+  .chart-panel--bar {
+    height: 260px;
+  }
+
+  .metric-value {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-logo img {
+    width: 145px;
+  }
+
+  .dashboard-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-panel--pie {
+    width: min(230px, 80vw);
+    height: min(230px, 80vw);
+  }
+  .dashboard-metrics {
+    margin-top: 40px;
+  }
+}
