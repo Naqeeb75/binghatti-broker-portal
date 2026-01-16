@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Details | Broker Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/explore.css" />
+</head>
+
+<body>
+  <header class="portal-nav">
+    <nav class="navbar navbar-expand-xxl navbar-dark">
+      <div class="container-fluid home-shell">
+        <a class="navbar-brand nav-logo" href="home.html">
+          <img src="assets/images/logo.png" alt="Binghatti" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portalNavbar"
+          aria-controls="portalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-links-wrap" id="portalNavbar">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">Explore Availability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sales.html">My Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="commissions.html">My Commissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reports.html">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="requests.html">Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+
+          <a class="user-badge user-badge--menu d-xxl-none text-decoration-none" href="profile.html"
+            aria-label="Open profile">
+            <span class="user-initial">
+              <img src="assets/images/lake-logo.png" alt="name logo" />
+            </span>
+            <span class="user-name">Mohammed Ali</span>
+          </a>
+        </div>
+
+        <a class="user-badge d-none d-xxl-flex text-decoration-none" href="profile.html" aria-label="Open profile">
+          <span class="user-initial">
+            <img src="assets/images/lake-logo.png" alt="name logo" />
+          </span>
+          <span class="user-name">Mohammed Ali</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="vh project-details-tab-box project-details-page">
+      <div class="container">
+        <h1 id="projectTitle"></h1>
+        <h3 id="projectCommunity"></h3>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="project-tabs" id="projectTabs"></div>
+          </div>
+          <div class="col-lg-8">
+            <div class="project-tab-container" id="projectTabContainer"></div>
+          </div>
+          <div class="col-lg-4">
+            <div class="project-details-overview">
+              <h2 id="projectOverviewTitle"></h2>
+              <ul>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 18" fill="none">
+                    <path
+                      d="M3.48666 8.82277L0.271973 10.0631L3.33057 17.969L6.54525 16.7245L6.28369 16.0495L6.9376 15.8006L13.6876 17.4375C14.3618 17.6022 15.0704 17.555 15.7168 17.3025L22.5301 14.6657C23.0017 14.4806 23.3804 14.1156 23.583 13.6512C23.7855 13.1868 23.7953 12.6609 23.6101 12.1893C23.4249 11.7177 23.06 11.339 22.5956 11.1364C22.1312 10.9339 21.6053 10.9242 21.1337 11.1093L17.4845 12.5142L17.4549 12.4256C17.3308 12.0605 17.1283 11.7271 16.8615 11.4487C16.5948 11.1703 16.2703 10.9536 15.9109 10.814L9.16088 8.23636C8.49982 7.98111 7.76741 7.98111 7.10635 8.23636L3.75244 9.53574L3.48666 8.82277ZM6.86166 14.8387L5.94619 15.1931L4.08994 10.3964L7.46494 9.09699C7.91325 8.92599 8.40882 8.92599 8.85713 9.09699L15.6071 11.6789C15.8405 11.7677 16.0512 11.9073 16.2241 12.0875C16.3971 12.2677 16.5278 12.484 16.607 12.7209L16.6492 12.8475L16.4635 12.9192C15.9056 13.1377 15.2882 13.1511 14.7212 12.9571L10.3126 11.4595L10.0173 12.3328L14.4174 13.8262C15.1895 14.086 16.0281 14.0681 16.7884 13.7756L16.9318 13.7165L17.3832 13.5435L21.467 11.9531C21.5887 11.8986 21.7202 11.8695 21.8535 11.8674C21.9869 11.8654 22.1192 11.8905 22.2425 11.9412C22.3659 11.992 22.4776 12.0673 22.5709 12.1625C22.6642 12.2578 22.7371 12.3711 22.7852 12.4954C22.8334 12.6198 22.8557 12.7526 22.8509 12.8859C22.8461 13.0192 22.8142 13.15 22.7571 13.2706C22.7001 13.3911 22.6192 13.4988 22.5192 13.5871C22.4193 13.6753 22.3024 13.7423 22.1757 13.784L15.3751 16.4292C14.9027 16.6105 14.3864 16.6444 13.8943 16.5262L6.86166 14.8387Z"
+                      fill="white" />
+                    <path
+                      d="M16.3286 0.0310078C15.4389 0.0301733 14.569 0.293219 13.8289 0.786869C13.0888 1.28052 12.5117 1.98259 12.1707 2.80427C11.8297 3.62595 11.74 4.53032 11.913 5.40296C12.0861 6.27561 12.5141 7.07733 13.1429 7.70669C13.7716 8.33606 14.5729 8.76479 15.4454 8.93866C16.3179 9.11253 17.2224 9.02371 18.0444 8.68346C18.8664 8.3432 19.569 7.76679 20.0633 7.02714C20.5577 6.28749 20.8215 5.41783 20.8215 4.5282C20.8204 3.33654 20.3468 2.19395 19.5046 1.35093C18.6624 0.507902 17.5202 0.033241 16.3286 0.0310078ZM16.3286 8.4432C15.5541 8.44403 14.7967 8.21513 14.1524 7.78545C13.508 7.35577 13.0055 6.74463 12.7086 6.02933C12.4116 5.31403 12.3335 4.52672 12.484 3.76701C12.6346 3.00729 13.0072 2.30931 13.5545 1.76137C14.1019 1.21342 14.7995 0.840136 15.559 0.688733C16.3186 0.537329 17.1059 0.614612 17.8216 0.910805C18.5372 1.207 19.1489 1.70879 19.5792 2.3527C20.0096 2.99661 20.2393 3.7537 20.2393 4.5282C20.2382 5.56545 19.826 6.55996 19.0929 7.2938C18.3599 8.02764 17.3658 8.44096 16.3286 8.4432Z"
+                      fill="white" />
+                    <path
+                      d="M16.5057 3.73925V2.05175C16.6795 2.09434 16.8449 2.16563 16.9951 2.26269C17.1552 2.37425 17.2902 2.51793 17.3917 2.68456C17.5086 2.87495 17.5981 3.08089 17.6575 3.29628H17.8051V2.1994C17.4078 1.96609 16.9644 1.82212 16.5057 1.77753V1.60034H16.1767V1.77753C15.7549 1.80357 15.354 1.96989 15.0376 2.25003C14.9182 2.36207 14.8229 2.49731 14.7576 2.64748C14.6923 2.79765 14.6584 2.95957 14.6579 3.12331C14.6476 3.42266 14.7534 3.71442 14.9532 3.93753C15.3186 4.29499 15.7284 4.60408 16.1725 4.85722V6.73456C15.9569 6.72139 15.7461 6.66546 15.5523 6.57003C15.3787 6.4819 15.2327 6.34761 15.1304 6.1819C15.0079 5.97434 14.9262 5.7452 14.89 5.5069H14.7296V6.73456C14.9608 6.82535 15.1993 6.89593 15.4426 6.9455C15.6791 6.98959 15.9192 7.01219 16.1598 7.013V7.43487H16.4889V6.9919C16.8987 6.97567 17.2887 6.8107 17.5857 6.52784C17.7156 6.39809 17.8177 6.2433 17.8859 6.07287C17.954 5.90245 17.9868 5.71994 17.9823 5.53644C17.9888 5.19538 17.8703 4.86373 17.649 4.60409C17.3039 4.27115 16.92 3.9808 16.5057 3.73925ZM16.1767 3.51565C15.9543 3.38772 15.7559 3.22213 15.5903 3.02628C15.539 2.96365 15.5017 2.89083 15.4808 2.81266C15.46 2.73449 15.456 2.65277 15.4691 2.57293C15.4823 2.4931 15.5123 2.41699 15.5572 2.34967C15.6021 2.28236 15.6608 2.22538 15.7295 2.18253C15.8616 2.0914 16.0164 2.03881 16.1767 2.03065V3.51565ZM16.9867 6.46878C16.8599 6.607 16.6907 6.69903 16.5057 6.73034V5.08503C16.6964 5.2143 16.8645 5.37391 17.0035 5.55753C17.0905 5.69213 17.1373 5.8487 17.1385 6.00894C17.1442 6.1754 17.0904 6.33844 16.9867 6.46878Z"
+                      fill="white" />
+                  </svg>
+                  <span id="projectStartingPrice"></span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 19 18" fill="none">
+                    <path
+                      d="M17.6562 0H1.34375C1.12005 0.000260524 0.905594 0.089239 0.747416 0.247416C0.589239 0.405594 0.500261 0.620054 0.5 0.84375L0.5 17.1562C0.500261 17.3799 0.589239 17.5944 0.747416 17.7526C0.905594 17.9108 1.12005 17.9997 1.34375 18H17.6562C17.8799 17.9997 18.0944 17.9108 18.2526 17.7526C18.4108 17.5944 18.4997 17.3799 18.5 17.1562V0.84375C18.4997 0.620054 18.4108 0.405594 18.2526 0.247416C18.0944 0.089239 17.8799 0.000260524 17.6562 0ZM17.9375 17.1562C17.9374 17.2308 17.9078 17.3023 17.855 17.355C17.8023 17.4078 17.7308 17.4374 17.6562 17.4375H1.34375C1.26918 17.4374 1.19769 17.4078 1.14496 17.355C1.09223 17.3023 1.06257 17.2308 1.0625 17.1562V0.84375C1.06257 0.769181 1.09223 0.697687 1.14496 0.644958C1.19769 0.59223 1.26918 0.562574 1.34375 0.5625H17.6562C17.7308 0.562574 17.8023 0.59223 17.855 0.644958C17.9078 0.697687 17.9374 0.769181 17.9375 0.84375V17.1562Z"
+                      fill="white" />
+                    <path
+                      d="M12.0312 5.90625H6.96875C6.81962 5.90644 6.67666 5.96576 6.57121 6.07121C6.46576 6.17666 6.40644 6.31962 6.40625 6.46875V11.5312C6.4064 11.6804 6.46571 11.8234 6.57117 11.9288C6.67662 12.0343 6.81961 12.0936 6.96875 12.0938H12.0312C12.1804 12.0936 12.3234 12.0343 12.4288 11.9288C12.5343 11.8234 12.5936 11.6804 12.5938 11.5312V6.46875C12.5936 6.31962 12.5342 6.17666 12.4288 6.07121C12.3233 5.96576 12.1804 5.90644 12.0312 5.90625ZM6.96875 11.5312V6.46875H12.0312L12.0315 11.5312H6.96875Z"
+                      fill="white" />
+                    <path
+                      d="M11.1877 7.03117H7.81266C7.73807 7.03117 7.66654 7.0608 7.61379 7.11355C7.56105 7.16629 7.53141 7.23783 7.53141 7.31242V10.6874C7.53141 10.762 7.56105 10.8336 7.61379 10.8863C7.66654 10.939 7.73807 10.9687 7.81266 10.9687H11.1877C11.2623 10.9687 11.3338 10.939 11.3865 10.8863C11.4393 10.8336 11.4689 10.762 11.4689 10.6874V7.31242C11.4689 7.23783 11.4393 7.16629 11.3865 7.11355C11.3338 7.0608 11.2623 7.03117 11.1877 7.03117ZM10.9064 10.4062H8.09391V7.59367H10.9064V10.4062Z"
+                      fill="white" />
+                  </svg>
+                  <span id="projectStartingArea"></span>
+                </li>
+              </ul>
+              <p id="projectDescription"></p>
+              <button class="custom-btn" type="button" id="projectRegisterButton">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script>
+    (async () => {
+      const projectTitle = document.querySelector("#projectTitle");
+      const projectCommunity = document.querySelector("#projectCommunity");
+      const projectOverviewTitle = document.querySelector("#projectOverviewTitle");
+      const projectStartingPrice = document.querySelector("#projectStartingPrice");
+      const projectStartingArea = document.querySelector("#projectStartingArea");
+      const projectDescription = document.querySelector("#projectDescription");
+      const projectTabs = document.querySelector("#projectTabs");
+      const projectTabContainer = document.querySelector("#projectTabContainer");
+
+      const params = new URLSearchParams(window.location.search);
+      const projectId = Number(params.get("projectId"));
+      const unitTypeId = Number(params.get("unitTypeId"));
+
+      const numberFormatter = new Intl.NumberFormat("en-US", {
+        maximumFractionDigits: 0,
+      });
+
+      const formatPrice = (value) => {
+        const numeric = Number(value);
+        if (!Number.isFinite(numeric)) {
+          return "";
+        }
+        return `Starting AED ${numberFormatter.format(numeric)}`;
+      };
+
+      const formatArea = (value) => {
+        const numeric = Number(value);
+        if (!Number.isFinite(numeric)) {
+          return "";
+        }
+        return `Starting ${Math.round(numeric)} SQ FT *`;
+      };
+
+      const escapeHtml = (value) => {
+        return String(value || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      };
+
+      const renderDescription = (text) => {
+        let safe = escapeHtml(text);
+        safe = safe.replace(/&lt;br\s*\/?&gt;/gi, "<br>");
+        safe = safe.replace(
+          /&lt;(\/?)(b|strong|em|i|u)\s*&gt;/gi,
+          "<$1$2>"
+        );
+        return safe;
+      };
+
+      const loadProjectData = async () => {
+        const sources = [
+          "project-detail-data.json",
+          "files/project-detail-data.json",
+        ];
+        for (const source of sources) {
+          try {
+            const response = await fetch(source, { cache: "no-store" });
+            if (!response.ok) {
+              continue;
+            }
+            const payload = await response.json();
+            if (payload && Array.isArray(payload.data)) {
+              return payload.data;
+            }
+          } catch (error) {
+            continue;
+          }
+        }
+        return [];
+      };
+
+      const buildDetailRecords = (projects) => {
+        const records = [];
+        (projects || []).forEach((project) => {
+          if (!project || !project.ProjectID) {
+            return;
+          }
+          const baseRecord = { ...project };
+          delete baseRecord.Units;
+          const units = Array.isArray(project.Units) ? project.Units : [];
+          if (!units.length) {
+            records.push(baseRecord);
+            return;
+          }
+          units.forEach((unit) => {
+            records.push({ ...baseRecord, ...unit });
+          });
+        });
+        return records;
+      };
+
+      const updateTabHeight = () => {
+        if (!projectTabContainer) {
+          return;
+        }
+        const activeTab = projectTabContainer.querySelector(
+          ".project-tab-content.active"
+        );
+        if (activeTab) {
+          projectTabContainer.style.height = `${activeTab.offsetHeight}px`;
+        }
+      };
+
+      const initProjectDetailsSliders = () => {
+        if (typeof Flickity === "undefined") {
+          return;
+        }
+
+        document.querySelectorAll(".project-details-slider-tabs").forEach((section) => {
+          const slider = section.querySelector(".project-details-tab-slider");
+          if (!slider || slider.dataset.flickityInit === "true") {
+            return;
+          }
+
+          slider.dataset.flickityInit = "true";
+
+          const flickityInstance = new Flickity(slider, {
+            cellAlign: "left",
+            contain: true,
+            pageDots: false,
+            prevNextButtons: false,
+            draggable: true,
+            freeScroll: false,
+            wrapAround: false,
+            groupCells: true,
+            adaptiveHeight: false,
+            lazyLoad: 2,
+            imagesLoaded: true,
+            percentPosition: true,
+          });
+
+          const updateActiveSlide = () => {
+            slider
+              .querySelectorAll(".project-details-tab-slider-content")
+              .forEach((cell) => {
+                cell.classList.remove("project-details-tab-slide-active");
+              });
+
+            const cells = slider.querySelectorAll(
+              ".project-details-tab-slider-content"
+            );
+            const activeCell = cells[flickityInstance.selectedIndex];
+            if (activeCell) {
+              activeCell.classList.add("project-details-tab-slide-active");
+            }
+            updateTabHeight();
+          };
+
+          flickityInstance.on("ready", updateActiveSlide);
+          flickityInstance.on("select", updateActiveSlide);
+          updateActiveSlide();
+
+          const prevArrow = section.querySelector(
+            ".project-details-tab-slider-arrow-left"
+          );
+          const nextArrow = section.querySelector(
+            ".project-details-tab-slider-arrow-right"
+          );
+
+          if (prevArrow) {
+            prevArrow.addEventListener("click", () =>
+              flickityInstance.previous()
+            );
+          }
+
+          if (nextArrow) {
+            nextArrow.addEventListener("click", () => flickityInstance.next());
+          }
+        });
+      };
+
+      const createSlider = (slides, options) => {
+        const wrapper = document.createElement("div");
+        wrapper.className = "project-details-slider-tabs";
+        const track = document.createElement("div");
+        track.className = "project-details-tab-slider";
+        wrapper.appendChild(track);
+
+        slides.forEach((slide, index) => {
+          const cell = document.createElement("div");
+          cell.className = "project-details-tab-slider-content";
+          if (index === 0) {
+            cell.classList.add("project-details-tab-slide-active");
+          }
+          const imageUrl = slide.image || "";
+          const zoom = document.createElement("div");
+          zoom.className = "project-details-tab-zoom-image";
+          zoom.style.backgroundImage = imageUrl ? `url('${imageUrl}')` : "";
+          cell.appendChild(zoom);
+
+          if (imageUrl) {
+            const img = document.createElement("img");
+            img.className = "visually-hidden";
+            img.src = imageUrl;
+            img.alt = options.altText || "Project image";
+            img.loading = "lazy";
+            cell.appendChild(img);
+          }
+
+          if (slide.headingHtml) {
+            const heading = document.createElement("h2");
+            heading.innerHTML = slide.headingHtml;
+            cell.appendChild(heading);
+          }
+
+          if (options.showButton && slide.link) {
+            const button = document.createElement("a");
+            button.className = "custom-btn";
+            button.href = slide.link;
+            button.target = "_blank";
+            button.rel = "noopener";
+            button.textContent = slide.buttonText || "Download";
+            cell.appendChild(button);
+          }
+
+          track.appendChild(cell);
+        });
+
+        if (slides.length > 1) {
+          const prevButton = document.createElement("button");
+          prevButton.type = "button";
+          prevButton.className = "project-details-tab-slider-arrow-left";
+          prevButton.innerHTML =
+            '<svg width="35" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M50.3 261.7c-3.1-3.1-3.1-8.2 0-11.3l176-176c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L67.3 256 237.7 426.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-176-176z"></path></svg>';
+
+          const nextButton = document.createElement("button");
+          nextButton.type = "button";
+          nextButton.className = "project-details-tab-slider-arrow-right";
+          nextButton.innerHTML =
+            '<svg width="35" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M269.7 250.3c3.1 3.1 3.1 8.2 0 11.3l-176 176c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L252.7 256 82.3 85.7c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0l176 176z"></path></svg>';
+
+          wrapper.appendChild(prevButton);
+          wrapper.appendChild(nextButton);
+        }
+
+        return wrapper;
+      };
+
+      const data = await loadProjectData();
+      const records = buildDetailRecords(data);
+      let record = records.find(
+        (item) =>
+          item.ProjectID === projectId &&
+          (Number.isFinite(unitTypeId)
+            ? item.UnitTypeID === unitTypeId
+            : true)
+      );
+
+      if (!record && Number.isFinite(projectId)) {
+        record = records.find((item) => item.ProjectID === projectId);
+      }
+
+      if (!record) {
+        projectTitle.textContent = "Project not found";
+        projectTabContainer.innerHTML =
+          "<p>We could not find the project details.</p>";
+        return;
+      }
+
+      const projectName = record.ProjectName || "";
+      const unitName = record.UnitTypeName || "";
+      const descriptionFallback =
+        "Binghatti projects embody a bold vision of modern architecture and lifestyle. Characterized by distinctive geometric designs and refined interiors, each development offers a unique blend of innovation, elegance, and functionality. With a focus on delivering premium urban living experiences, Binghatti properties cater to residents and investors who seek design-led spaces in prime Dubai locations.";
+
+      projectTitle.textContent = projectName;
+      projectCommunity.textContent = record.Community || "";
+      projectOverviewTitle.textContent = unitName
+        ? `${unitName} | ${projectName}`
+        : projectName;
+      projectStartingPrice.textContent = formatPrice(record.StartingPrice);
+      projectStartingArea.textContent = formatArea(record.StartingArea);
+      projectDescription.innerHTML = renderDescription(
+        record.ProjectDescription || descriptionFallback
+      );
+      document.title = projectName
+        ? `${projectName} | Project Details`
+        : "Project Details";
+
+      const tabs = [];
+      if (record.GoogleMapEmbedURL) {
+        const iframe = document.createElement("iframe");
+        iframe.className = "project-details-tab-google-map project-details-tab-media";
+        iframe.src = record.GoogleMapEmbedURL;
+        iframe.title =
+          record.GoogleMapTitle || `Location map of ${projectName}`;
+        iframe.loading = "lazy";
+        iframe.allowFullscreen = true;
+        tabs.push({ label: "LOCATION", content: iframe });
+      }
+
+      if (record.PaymentPlanImage) {
+        const image = document.createElement("img");
+        image.className = "image-auto";
+        image.src = record.PaymentPlanImage;
+        image.alt = "Payment plan";
+        tabs.push({ label: "PAYMENT", content: image });
+      }
+
+      if (Array.isArray(record.GallerySlides) && record.GallerySlides.length) {
+        const slider = createSlider(record.GallerySlides, {
+          showButton: false,
+          altText: projectName ? `${projectName} gallery image` : "Gallery image",
+        });
+        tabs.push({ label: "GALLERY", content: slider });
+      }
+
+      if (Array.isArray(record.BrochureSlides) && record.BrochureSlides.length) {
+        const slider = createSlider(record.BrochureSlides, {
+          showButton: true,
+          altText: projectName ? `${projectName} brochure image` : "Brochure",
+        });
+        tabs.push({ label: "BROCHURE", content: slider });
+      }
+
+      if (record.StatusVideoUrl) {
+        const iframe = document.createElement("iframe");
+        iframe.className = "project-details-tab-media";
+        iframe.src = record.StatusVideoUrl;
+        iframe.title = "Project status video";
+        iframe.frameBorder = "0";
+        iframe.allow =
+          "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+        iframe.allowFullscreen = true;
+        tabs.push({ label: "STATUS", content: iframe });
+      }
+
+      if (!tabs.length) {
+        projectTabs.innerHTML = "";
+        projectTabContainer.innerHTML = "<p>No details available.</p>";
+        return;
+      }
+
+      tabs.forEach((tab, index) => {
+        const tabId = `project-tab-${index + 1}`;
+        const tabLink = document.createElement("div");
+        tabLink.className = "project-tab-link";
+        if (index === 0) {
+          tabLink.classList.add("active");
+        }
+        tabLink.textContent = tab.label;
+        tabLink.dataset.projectTab = tabId;
+        projectTabs.appendChild(tabLink);
+
+        const content = document.createElement("div");
+        content.id = tabId;
+        content.className = "project-tab-content";
+        if (index === 0) {
+          content.classList.add("active");
+        }
+        content.appendChild(tab.content);
+        projectTabContainer.appendChild(content);
+      });
+
+      initProjectDetailsSliders();
+
+      const tabLinks = Array.from(
+        projectTabs.querySelectorAll(".project-tab-link")
+      );
+
+      tabLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const targetId = link.dataset.projectTab;
+          tabLinks.forEach((item) => item.classList.remove("active"));
+          link.classList.add("active");
+
+          projectTabContainer
+            .querySelectorAll(".project-tab-content")
+            .forEach((content) => {
+              content.classList.toggle("active", content.id === targetId);
+            });
+
+          updateTabHeight();
+        });
+      });
+
+      window.addEventListener("resize", updateTabHeight);
+      window.addEventListener("load", updateTabHeight);
+      updateTabHeight();
+    })();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

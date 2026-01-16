@@ -108,7 +108,7 @@
 
 .action-btn {
   min-height: 34px;
-  padding: 12px 20px;
+  padding: 9px 20px;
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.35);
   background: transparent;
@@ -129,8 +129,8 @@
 }
 
 .btn-icon {
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -220,7 +220,7 @@
 }
 
 .table-scroll .table-row {
-  border-bottom: 1px solid rgba(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .invoice-btn {

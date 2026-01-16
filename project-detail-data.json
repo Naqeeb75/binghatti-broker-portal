@@ -1,0 +1,3833 @@
+{
+    "data": [
+        {
+            "ProjectID": 35,
+            "ProjectName": "BUGATTI RESIDENCES BY BINGHATTI",
+            "ProjectDescription": "Born from the fluidity of nature, BUGATTI Residences by Binghatti is designed with inventive vivacity, resounding sheer opulence. The facade is characterized by fluid lines, and subtle curves reminiscent of the French Riviera – a resort inspired living in the heart of the metropolis.",
+            "Units": [
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 2028.03,
+                    "StartingPrice": 19400000,
+                    "UnitCount": 50,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 3789.43,
+                    "StartingPrice": 36600000,
+                    "UnitCount": 21,
+                    "NumberOfBedrooms": 3
+                },
+                {
+                    "UnitTypeID": 5,
+                    "UnitTypeName": "Four Bedrooms",
+                    "StartingArea": 14304.91,
+                    "StartingPrice": 155000000,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 4
+                },
+                {
+                    "UnitTypeID": 10,
+                    "UnitTypeName": "Penthouse",
+                    "StartingArea": 13086.01,
+                    "StartingPrice": 155000000,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 5
+                }
+            ],
+            "Community": "Business Bay",
+            "ProjectCategory": "Branded Luxury",
+            "HandoverDate": "/Date(1782763200000)/",
+            "GoogleLocationURL": "https://goo.gl/maps/fM15rHDhYYfLQjPM8",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/bugatti-1.webp",
+                    "headingHtml": "<b>BUGATTI RESIDENCES BY BINGHATTI</b>"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/bugatti-2.webp",
+                    "headingHtml": "<b>BUGATTI RESIDENCES BY BINGHATTI</b>"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/bugatti-3.webp",
+                    "headingHtml": "<b>BUGATTI RESIDENCES BY BINGHATTI</b>"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/bugatti-4.webp",
+                    "headingHtml": "<b>BUGATTI RESIDENCES BY BINGHATTI</b>"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/bugatti-5.webp",
+                    "headingHtml": "<b>BUGATTI RESIDENCES BY BINGHATTI</b>"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/bugatti-6.webp",
+                    "headingHtml": "<b>BUGATTI RESIDENCES BY BINGHATTI</b>"
+                }
+            ],
+            "StatusVideoUrl": "https://www.youtube.com/embed/v6CEDzcgfY8?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57766.65628175564!2d55.23711702750256!3d25.189189263297777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f691bc02066a3%3A0x4ba574adff088d05!2sBugatti%20Residences%20By%20Binghatti!5e0!3m2!1sen!2sae!4v1746287326147!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 36,
+            "ProjectName": "BURJ BINGHATTI JACOB & CO RESIDENCES",
+            "ProjectDescription": "Imagine living amidst the clouds at the peak of one of the tallest hypertowers in the world. Break boundaries, and challenge the unthinkable, Burj Binghatti Jacob & Co Residences utterly redefines the notion of a luxuriant contemporary lifestyle in the metropolis, offering impeccable, high-end bespoke living exclusively fashioned for the elite.",
+            "Units": [
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 3286.87,
+                    "StartingPrice": 8670000,
+                    "UnitCount": 7,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 3263.83,
+                    "StartingPrice": 14419999,
+                    "UnitCount": 58,
+                    "NumberOfBedrooms": 3
+                },
+                {
+                    "UnitTypeID": 6,
+                    "UnitTypeName": "Five Bedrooms",
+                    "StartingArea": 11794.34,
+                    "StartingPrice": 175000000,
+                    "UnitCount": 2,
+                    "NumberOfBedrooms": 5
+                }
+            ],
+            "Community": "Business Bay",
+            "ProjectCategory": "Branded Luxury",
+            "HandoverDate": "/Date(1798660800000)/",
+            "GoogleLocationURL": "https://goo.gl/maps/ZfG4sbcUeDVRcNUd9",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_1.webp",
+                    "headingHtml": "<b>THE RUBY VILLA</b> <br class=\"mobile\">3-BEDROOM VILLA"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_15.webp",
+                    "headingHtml": "<b>BURJ BINGHATTI JACOB&CO RESIDENCES</b> <br class=\"mobile\">EXTERNAL PERSPECTIVE"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_14.webp",
+                    "headingHtml": "<b>BURJ BINGHATTI JACOB&CO RESIDENCES</b> <br class=\"mobile\">EXTERIOR VIEW - AMIDST THE CLOUDS"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_13.webp",
+                    "headingHtml": "<b>BURJ BINGHATTI JACOB&CO RESIDENCES</b> <br class=\"mobile\">EXTERIOR VIEW - DUSK SHOT"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_12.webp",
+                    "headingHtml": "<b>BURJ BINGHATTI JACOB&CO RESIDENCES</b><br class=\"mobile\">EXTERIOR VIEW - NIGHT SHOT"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_11.webp",
+                    "headingHtml": "<b>BURJ BINGHATTI JACOB&CO RESIDENCES</b><br class=\"mobile\">EXTERIOR VIEW - DAY SHOT"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_10.webp",
+                    "headingHtml": "<b>THE ASTRONOMIA SKY MANSION PENTHOUSE</b><br class=\"mobile\">LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_9.webp",
+                    "headingHtml": "<b>THE RUBY VILLA</b><br class=\"mobile\">LIVING AREA"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_8.webp",
+                    "headingHtml": "<b>THE SAPPHIRE VILLA</b><br class=\"mobile\">PRIVATE POOL"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_7.webp",
+                    "headingHtml": "<b>THE FLEUR DE JARDIN SKY MANSION</b><br class=\"mobile\">PRIVATE BATHROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_6.webp",
+                    "headingHtml": "<b>THE ASTRONOMIA SKY MANSION PENTHOUSE</b><br class=\"mobile\">LIVING AREA"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_5.webp",
+                    "headingHtml": "<b>THE EMERALD VILLA</b><br class=\"mobile\">2-BEDROOM VILLA"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_4.webp",
+                    "headingHtml": "<b>THE FLEUR DE JARDIN SKY MANSION</b><br class=\"mobile\">6-BEDROOM SKY MANSION"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_3.webp",
+                    "headingHtml": "<b>THE ASTRONOMIA SKY MANSION PENTHOUSE</b><br class=\"mobile\">5-BEDROOM PENTHOUSE"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/jacob_2.webp",
+                    "headingHtml": "<b>THE DIAMOND SKY MANSION </b> <br class=\"mobile\">LIVING AREA"
+                }
+            ],
+            "StatusVideoUrl": "https://www.youtube.com/embed/wdXp3jI8O-E?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115597.43341366651!2d55.2156110728547!3d25.12149460842616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69df02b866af%3A0x14b5a3b340fc651c!2sBURJ%20BINGHATTI%20JACOB%20%26%20CO%20RESIDENCES!5e0!3m2!1sen!2sae!4v1746274576886!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 37,
+            "ProjectName": "MERCEDES-BENZ PLACES | BINGHATTI",
+            "ProjectDescription": "Sensual Purity is the design philosophy of Mercedes-Benz, a philosophy that explores the dipolarity between intelligence and emotion. This design philosophy celebrates the creation of design and spaces with unmatched aesthetics that can be felt and lived before being visualized or perceived. The concept of Sensual Purity unifies rational intelligent design withemotional hues, delivering a pure and simplistic form of beauty that is simultaneously stunning and spectacular.",
+            "Units": [
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1835.8799999999999,
+                    "StartingPrice": 11299999,
+                    "UnitCount": 14,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 2619.31,
+                    "StartingPrice": 19999999,
+                    "UnitCount": 33,
+                    "NumberOfBedrooms": 3
+                },
+                {
+                    "UnitTypeID": 5,
+                    "UnitTypeName": "Four Bedrooms",
+                    "StartingArea": 3603.43,
+                    "StartingPrice": 30000000,
+                    "UnitCount": 4,
+                    "NumberOfBedrooms": 4
+                }
+            ],
+            "Community": "Burj Khalifa",
+            "ProjectCategory": "Branded Luxury",
+            "HandoverDate": "/Date(1798660800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/56VCFdk7wqoADvej9",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_1.webp",
+                    "headingHtml": "<b>THE MERCEDES-BENZ UHLENHAUT COUPÉ PENTHOUSE</b> <br class=\"mobile\">TRIPLEX PENTHOUSE"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_2.webp",
+                    "headingHtml": "<b>THE MERCEDES-BENZ UHLENHAUT COUPÉ PENTHOUSE</b> <br class=\"mobile\">LIVING & DINING AREA - DISPLAY 1"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_3.webp",
+                    "headingHtml": "<b>THE MERCEDES-BENZ UHLENHAUT COUPÉ PENTHOUSE</b> <br class=\"mobile\">LIVING & DINING AREA - DISPLAY 2"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_4.webp",
+                    "headingHtml": "<b>THE MERCEDES-BENZ UHLENHAUT COUPÉ PENTHOUSE</b><br class=\"mobile\">5-BEDROOM PENTHOUSE"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_5.webp",
+                    "headingHtml": "<b>THE MERCEDES-BENZ PAGODA SUITE</b><br class=\"mobile\">2-BEDROOM SUITE"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_6.webp",
+                    "headingHtml": "<b>THE MERCEDES-BENZ VISION ONE-ELEVEN PENTHOUSE</b><br class=\"mobile\">4-BEDROOM PENTHOUSE"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_7.webp",
+                    "headingHtml": "<b>MERCEDES-BENZ PLACES | BINGHATTI</b><br class=\"mobile\">SPA"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_8.webp",
+                    "headingHtml": "<b>MERCEDES-BENZ PLACES | BINGHATTI</b><br class=\"mobile\">PRIVATE BATHROOM - DISPLAY 1"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_9.webp",
+                    "headingHtml": "<b>MERCEDES-BENZ PLACES | BINGHATTI</b><br class=\"mobile\">PRIVATE BATHROOM - DISPLAY 2"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_10.webp",
+                    "headingHtml": "<b>TMERCEDES-BENZ PLACES | BINGHATTI</b><br class=\"mobile\">LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_11.webp",
+                    "headingHtml": "<b>BMERCEDES-BENZ PLACES | BINGHATTI</b><br class=\"mobile\">EXTERIOR VIEW - BLUE HOUR SHOT"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_12.webp",
+                    "headingHtml": "<b>MERCEDES-BENZ PLACES | BINGHATTI</b><br class=\"mobile\">EXTERIOR VIEW - NIGHT SHOT"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_13.webp",
+                    "headingHtml": "<b>MERCEDES-BENZ PLACES | BINGHATTI</b> <br class=\"mobile\">EXTERIOR VIEW - DUSK SHOT"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_14.webp",
+                    "headingHtml": "<b>MERCEDES-BENZ PLACES | BINGHATTI</b> <br class=\"mobile\">EXTERIOR VIEW - DUSK SHOT"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mercedes_15.webp",
+                    "headingHtml": "<b>MERCEDES-BENZ PLACES | BINGHATTI</b> <br class=\"mobile\">EXTERNAL PERSPECTIVE"
+                }
+            ],           
+            "StatusVideoUrl": "https://www.youtube.com/embed/Xj8oJSgnjc0?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115562.91595633878!2d55.19555796506165!3d25.157957073739734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6918ae62e4e1%3A0x3cb292fbea11cdd2!2sMercedes%20Benz%20Places%20by%20Binghatti!5e0!3m2!1sen!2sae!4v1746276158055!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10007,
+            "ProjectName": "BINGHATTI APEX",
+            "ProjectDescription": "Grounded in the latin term ‘apex’ denoting the summit or highest point. Deriving from its etymological essence that symbolizes the zenith of refinement, it embodies the unwavering commitment to surpassing conventional standards with an emphasis on ascending to unparalleled heights of opulence and distinction.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 400,
+                    "StartingPrice": 869999,
+                    "UnitCount": 20,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 832,
+                    "StartingPrice": 1389999,
+                    "UnitCount": 11,
+                    "NumberOfBedrooms": 1
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1777492800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/vLMSBS2XMV8UCJR88",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-bedroom1.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-bedroom2.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-bedroom3.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-bedroom4.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-bathroom.jpg",
+                    "headingHtml": "BATHROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-kitchen.jpg",
+                    "headingHtml": "KITCHEN"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-livingroom.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-exterior1.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-exterior3.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-exterior4.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-lobby1.jpg",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-lobby2.jpg",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/apex-studio1.jpg",
+                    "headingHtml": "STUDIO "
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-apex-digital-brochure-1.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-apex-assets/binghatti-apex-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231323.3490189103!2d55.11842428055032!3d25.05350151797119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d9b021bbae1%3A0x2b1e34064d8a2cf1!2sBinghatti%20Apex!5e0!3m2!1sen!2sae!4v1747829069463!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10017,
+            "ProjectName": "BINGHATTI HILLS",
+            "ProjectDescription": "Each contour within its architectural fabric eloquently mirrors the rolling terrain of nature. Drawing inspiration from the graceful inclines of expansive landscapes, the undulating waves intricately depict a metaphorical entwining of hands symbolizing the harmonious amalgamation of contemporary style and serene tranquility.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 446,
+                    "StartingPrice": 1016904.6,
+                    "UnitCount": 63,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 750.51,
+                    "StartingPrice": 1553880.64,
+                    "UnitCount": 24,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1345.86,
+                    "StartingPrice": 2858822,
+                    "UnitCount": 36,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Dubai Science Park",
+            "ProjectCategory": "Luxury",
+            "HandoverDate": "/Date(1782763200000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/fsLagbk9ebT98qtA7",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-bedroom-a.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-bedroom.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-exterior-a.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-exterior-b.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-exterior-c.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-exterior-d.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-kitchen.webp",
+                    "headingHtml": "KITCHEN"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-livingroom.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-living-a.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-living-b.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-studio.webp",
+                    "headingHtml": "STUDIO"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-studio-a.webp",
+                    "headingHtml": "STUDIO"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-layout-a.webp",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-layout-b.webp",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-brochure-a.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hills-assets/binghatti-hills-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hills-brochure-b.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hills-assets/binghatti-hills-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "StatusVideoUrl": "https://www.youtube.com/embed/DwBk6wGQx88?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175554.92657423322!2d55.276806446720016!3d25.084120412574222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6ffda5c9b53d%3A0xa20f6de57fba29f0!2sBinghatti%20Hills!5e0!3m2!1sen!2sae!4v1744899314157!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10022,
+            "ProjectName": "BINGHATTI ROYALE",
+            "ProjectDescription": "Dubai's vibrant real estate scene blends opulence, innovation, and lucrative investment opportunities, positioning it as the prime hub for investors. Boasting an iconic skyline, world-class infrastructure, and robust economy, Dubai remains a haven for global investors, offering exceptional returns and unmatched status in the realm of upper crust real estate.",
+            "Units": [
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 806.51,
+                    "StartingPrice": 1932499,
+                    "UnitCount": 4,
+                    "NumberOfBedrooms": 1
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1761854400000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/roUnPmwvLhJnP4z16",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_bathroom-1.jpg",
+                    "headingHtml": "BATHROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_exterior-1.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_exterior-2.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_exterior-3.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_Interior-1.jpg",
+                    "headingHtml": "INTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_kitchen-1.jpg",
+                    "headingHtml": "KITCHEN"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_living-room-1.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_living-room-2.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_living-room-3.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_private-pool-1.jpg",
+                    "headingHtml": "PRIVATE ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_layout-1-bedroom.jpg",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_layout-2-bedroom.jpg",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_layout-3-bedroom.jpg",
+                    "headingHtml": "LAYOUT 3 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_brochure-cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-royale-assets/binghatti-royale-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/royale_brochure-project-facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-royale-assets/binghatti-royale-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115661.33359406819!2d55.117594498543625!3d25.05386279998059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dc2a4009e03%3A0x15d3b234d3cebd13!2sBinghatti%20Royale!5e0!3m2!1sen!2sae!4v1745566970136!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10023,
+            "ProjectName": "ONE BY BINGHATTI",
+            "ProjectDescription": "The conceptual design is characterized by the interplay of architectural systems, each contributing to a grander narrative of unity and balance. The façade manifests a visual symphony of materials and forms, amalgamating non-conventional and contemporary elements.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 461.88,
+                    "StartingPrice": 1769999.0000000002,
+                    "UnitCount": 6,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 781.35,
+                    "StartingPrice": 2549999,
+                    "UnitCount": 158,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1577.24,
+                    "StartingPrice": 4499999,
+                    "UnitCount": 34,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Business Bay",
+            "ProjectCategory": "Luxury",
+            "HandoverDate": "/Date(1798660800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/rRZijEsVpWQvdhqN9",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_exterior-7.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_lobby-1.webp",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_lobby-2.webp",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_living-room-1.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_living-room-2.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_living-room-3.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_living-room-4.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_living-room-5.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_2D-layout-studio.webp",
+                    "headingHtml": "2D LAYOUT STUDIO"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_layout-1-bedroom.webp",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_layout-2-bedroom.webp",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_layout-3-bedroom.webp",
+                    "headingHtml": "LAYOUT 3 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_layout-4-bedroom.webp",
+                    "headingHtml": "LAYOUT 4 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/one-by-binghatti-assets/one-by-binghatti-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/obb_brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/one-by-binghatti-assets/one-by-binghatti-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "StatusVideoUrl": "https://www.youtube.com/embed/4NpuhtuVsc8?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57763.31630424009!2d55.21812402464475!3d25.196231749047186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69bbeeeea7c1%3A0xc17c2ecf17d8bd20!2sOne%20By%20Binghatti!5e0!3m2!1sen!2sae!4v1745578930087!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10026,
+            "ProjectName": "BINGHATTI AURORA",
+            "ProjectDescription": "Aurora by Binghatti emerges from a fertile ground of ingenuity inspired by the brand's vanguard spirit. Through its presence, this creation cultivates a deeper appreciation for groundbreaking architecture and boundless potential that a dynamic cosmopolitan setting offers.",
+            "Units": [
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 756.81,
+                    "StartingPrice": 1424998.75,
+                    "UnitCount": 6,
+                    "NumberOfBedrooms": 1
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1748548800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/myBkWmL29PFKZ9y6A",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57822.30998711845!2d55.16406391691182!3d25.071568936099666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d00719636f1%3A0x5234377b0452c601!2sBinghatti%20Aurora!5e0!3m2!1sen!2sae!4v1745592612461!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_bedroom-3.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_bathroom-1.webp",
+                    "headingHtml": "BATHROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_lobby-1.webp",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_living-room-1.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_living-room-2.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_2D-layout-studio.webp",
+                    "headingHtml": "2D LAYOUT STUDIO"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_layout-1-bedroom.webp",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_layout-2-bedroom.webp",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-aurora-all-assets/binghatti-aurora-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aurora_brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-aurora-all-assets/binghatti-aurora-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10030,
+            "ProjectName": "BINGHATTI GROVE",
+            "ProjectDescription": "A harmonious blend of natural elements and contemporary architecture, Binghatti Grove creates a serene oasis within the city. Residents enjoy lush landscaping, eco-friendly designs, and modern homes crafted to connect with nature.",
+            "Units": [
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 908.26,
+                    "StartingPrice": 1687499,
+                    "UnitCount": 4,
+                    "NumberOfBedrooms": 1
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1774900800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/K1Vth49jcSFCF4VE9",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_bedroom-1.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_bedroom-2.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_bedroom-3.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_bedroom-4.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_exterior-1.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_exterior-2.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_exterior-3.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_exterior-4.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_exterior-5.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_living-room-1.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_living-room-2.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_lobby-1.jpg",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_lobby-2.jpg",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_lobby-3.jpg",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_layout-1-bedroom.jpg",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_layout-2-bedroom.jpg",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_layout-3-bedroom.jpg",
+                    "headingHtml": "LAYOUT 3 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_brochure-cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-grove-assets/binghatti-grove-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/grove_brochure-project-facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-grove-assets/binghatti-grove-projects-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115672.50646640113!2d55.1393206959172!3d25.04201991064241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6ddf120f9cf9%3A0x1d759d947303a04a!2sBinghatti%20Grove!5e0!3m2!1sen!2sae!4v1745586861760!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10052,
+            "ProjectName": "BINGHATTI GHOST",
+            "ProjectDescription": "Binghatti Ghost is a striking development that stands out for its futuristic architectural design. Featuring exclusive residences with high-end finishes, it offers a lifestyle of elegance and sophistication for those seeking something truly unique.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 435.61,
+                    "StartingPrice": 1162500,
+                    "UnitCount": 11,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1286.93,
+                    "StartingPrice": 2499998.75,
+                    "UnitCount": 14,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 1602.6399999999999,
+                    "StartingPrice": 3749998.75,
+                    "UnitCount": 47,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "Al Jaddaf",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1774900800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/7hqQnYNyUnkWqzNg8",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70594.09983494903!2d55.25104570768039!3d25.19253202583371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d5685640eb5%3A0xfd995f80e2dc7a5d!2sBinghatti%20Ghost!5e0!3m2!1sen!2sae!4v1745592463573!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_bedroom_one.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_exterior_one.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_exterior_two.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_exterior_three.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_exterior_four.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_exterior_five.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_lobby_one.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_lobby_two.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_lobby_three.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_living_room _one.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_living_room _two.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_twod_layout_studio.jpg",
+                    "headingHtml": "2d layout studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_layout_one_bedroom.jpg",
+                    "headingHtml": "layout 1 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_layout_two_bedroom.jpg",
+                    "headingHtml": "layout 2 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_layout_three_bedroom.jpg",
+                    "headingHtml": "layout 3 bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_brochure_cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-ghost-assets/binghatti-ghost-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ghost_brochure_project_facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-ghost-assets/binghatti-ghost-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "StatusVideoUrl": "https://www.youtube.com/embed/T2mpyY_BeQk?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10056,
+            "ProjectName": "BINGHATTI STARLIGHT",
+            "ProjectDescription": "Starlight is a true testament to crafting iconic landmarks. Nestled in the vibrant community of Al Jaddaf, Starlight offers a curated collection of residences studios to spacious two-bedroom apartments—designed to redefine modern living.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 415.16,
+                    "StartingPrice": 857000,
+                    "UnitCount": 66,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1190.49,
+                    "StartingPrice": 1886000,
+                    "UnitCount": 43,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Al Jaddaf",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1774900800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/QS7vs35GE5zod8jG8",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80145.83225769894!2d55.25565008072508!3d25.154547395696422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d006fd317e3%3A0x3309795d25b57164!2sBinghatti%20Starlight!5e0!3m2!1sen!2sae!4v1745579953440!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_bedroom_a.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_bedroom_b.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_exterior_a.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_exterior_b.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_exterior_c.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_exterior_d.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_exterior_e.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_living_room_one.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_living_room_two.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_lobby_one.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_lobby_two.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_lobby_three.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_layout_studio.jpg",
+                    "headingHtml": "layout studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_layout_one_bedroom.jpg",
+                    "headingHtml": "layout 1 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_layout_two_bedroom.jpg",
+                    "headingHtml": "layout 2 bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_brochurecover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-starlight-assets/binghatti-starlight-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/starlight_brochureproject_facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-starlight-assets/binghatti-starlight-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10057,
+            "ProjectName": "BINGHATTI IVORY",
+            "ProjectDescription": "A symbol of timeless elegance, Binghatti Ivory provides refined living spaces with a focus on luxury and style. Each residence features meticulously crafted interiors, premium materials, and a serene ambiance to complement modern lifestyles.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 473.07,
+                    "StartingPrice": 1312499,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 752.94,
+                    "StartingPrice": 1762499,
+                    "UnitCount": 10,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1259.59,
+                    "StartingPrice": 2624999,
+                    "UnitCount": 15,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Al Jaddaf",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1767124800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/eKMqxw3ja3dcAFNT9",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89947.87143948139!2d55.27679169701631!3d25.19803013206264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5dda98a0617d%3A0x5a2bef7f70a6731f!2sBinghatti%20Ivory!5e0!3m2!1sen!2sae!4v1745588894752!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_bedroom_one.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_bedroom_two.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_bathroom_one.jpg",
+                    "headingHtml": "bathroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_exterior_one.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_exterior_two.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_exterior_three.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_lobby_one.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_lobby_two.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_lobby_three.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_living_room_one.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_living_room_two.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_kitchen_one.jpg",
+                    "headingHtml": "kitchen"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_twod_layoutstudio.jpg",
+                    "headingHtml": "2D layout studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_layout_one_bedroom.jpg",
+                    "headingHtml": "layout 1 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/Ivory_Layout_two_bedroom.jpg",
+                    "headingHtml": "layout 2 bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_brochurecover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-ivory-assets/binghatti-ivory-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ivory_brochureprojectfacts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-ivory-assets/binghatti-ivory-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10059,
+            "ProjectName": "BINGHATTI SKYRISE",
+            "ProjectDescription": "Where a vision of composure takes form. High above the hum of Business Bay, these towers are designed for those who seek more. <br>Comprising 3,302 meticulously crafted studios, one and two bedroom apartments, and a limited collection of expansive three bedroom residences, Skyrise embodies Binghatti’s dedication to crafting spaces that inspire and elevate.",
+            "Units": [
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 829.3599999999999,
+                    "StartingPrice": 2544999,
+                    "UnitCount": 29,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 422.27,
+                    "StartingPrice": 1459999,
+                    "UnitCount": 8,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 1838.69,
+                    "StartingPrice": 4937499,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "Business Bay",
+            "ProjectCategory": "Luxury",
+            "HandoverDate": "/Date(1798660800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/7p2hgqKA9tf99CXT9",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68938.54156632972!2d55.210575159267094!3d25.127398658663875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69005edfb86d%3A0xac716db8130d8d12!2sBinghatti%20Skyrise!5e0!3m2!1sen!2sae!4v1745582832612!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_bedroom_one.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_bedroom_two.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_exterior_one.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_exterior_two.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_exterior_three.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_exterior_four.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_exterior_five.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_kitchen_one.jpg",
+                    "headingHtml": "kitchen"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_lobby_one.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_lobby_two.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_lobby_three.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_lobby_four.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_lobby_five.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_living_room_one.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_two_d_layout_studio.jpg",
+                    "headingHtml": "2d layout studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_layout_one_bedroom.jpg",
+                    "headingHtml": "layout 1 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_layout_two_bedroom.jpg",
+                    "headingHtml": "layout 2 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_layout_three_bedroom.jpg",
+                    "headingHtml": "layout 3 bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_brochure_cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-skyrise-assets/binghatti-skyrise-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyrise_brochure_project_facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-skyrise-assets/binghatti-skyrise-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10062,
+            "ProjectName": "BINGHATTI PINNACLE",
+            "ProjectDescription": "Binghatti Pinnacle, delve deeper into the design philosophy behind Circle, where every element is carefully considered to create a poised way of life, truly embracing its name. Discover residences crafted with exquisite materials, each a testament to Binghatti's unwavering pursuit of perfection.",
+            "Units": [
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 878.55,
+                    "StartingPrice": 1569999,
+                    "UnitCount": 4,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1066.7,
+                    "StartingPrice": 2324999,
+                    "UnitCount": 53,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 1523.31,
+                    "StartingPrice": 3299999,
+                    "UnitCount": 17,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "Al Jaddaf",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1772222400000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/MCdzTtDRmkcJhPBn9",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-living-room-3.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-brochure-cover-new.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-pinnacle-assets/binghatti-pinnacle-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-pinnacle-brochure-project-facts-new.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-pinnacle-assets/binghatti-pinnacle-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42020.09121488759!2d55.292494480281896!3d25.21258928118754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d7d3a393bb5%3A0xc85b556eff1e6be4!2sBinghatti%20Pinnacle!5e0!3m2!1sen!2sae!4v1751271797460!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10063,
+            "ProjectName": "BINGHATTI HILLSIDE",
+            "ProjectDescription": "Explore the design philosophy behind Hillside, where every element is carefully considered. Hillside lives its name, where form and function merge.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 358.56,
+                    "StartingPrice": 774999,
+                    "UnitCount": 189,
+                    "NumberOfBedrooms": 0
+                }
+            ],
+            "Community": "AL Barasha South Second ",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1782763200000)/",
+            "GoogleLocationURL": null,
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115658.45391039414!2d55.15989386916235!3d25.056914324387193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6f719ae4ea69%3A0x3518cf18e7760d0c!2sBinghatti%20Hillside!5e0!3m2!1sen!2sae!4v1752048910116!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hillside-assets/binghatti-hillside-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillside-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hillside-assets/binghatti-hillside-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10064,
+            "ProjectName": "BINGHATTI SKYBLADE",
+            "ProjectDescription": "Skyblade stands at the heart of Downtown Dubai. This is the city within the city. Located directly on the Boulevard, it is minutes from the iconic Burj Khalifa and Dubai Mall. It offers strategic access to Dubai’s main tourist and business areas. This unmistakable location caters to those who appreciate the unparalleled, offering world-class landmarks, entertainment and glamour,all within a place of refinement.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 377.6,
+                    "StartingPrice": 1674999,
+                    "UnitCount": 24,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 765.21,
+                    "StartingPrice": 3264999,
+                    "UnitCount": 10,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1243.99,
+                    "StartingPrice": 4699999,
+                    "UnitCount": 10,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 2174.42,
+                    "StartingPrice": 13174999,
+                    "UnitCount": 13,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "Burj Khalifa ",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1827518400000)/",
+            "GoogleLocationURL": null,
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57763.76179538861!2d55.23249799404354!3d25.19529251820739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6900617be78d%3A0xb6e67c572c08503b!2sBinghatti%20Skyblade!5e0!3m2!1sen!2sae!4v1756448815791!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-studio-bedroom.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-bedroom-3.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-exterior-6.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-skyblade-assets/binghatti-skyblade-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-skyblade-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-skyblade-assets/binghatti-skyblade-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10065,
+            "ProjectName": "BINGHATTI SKYHALL",
+            "ProjectDescription": "Rising above the dynamic pulse of Business Bay, Skyhall emerges as a testament to architectural innovation and Binghatti’s unwavering pursuit of excellence. More than just a residence, it’s an embodiment of curated luxury, seamless technology, and a life lived at the forefront.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 402.25,
+                    "StartingPrice": 1208000,
+                    "UnitCount": 30,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 834.95,
+                    "StartingPrice": 1877000,
+                    "UnitCount": 88,
+                    "NumberOfBedrooms": 1
+                }
+            ],
+            "Community": "Business Bay",
+            "ProjectCategory": "Luxury",
+            "HandoverDate": "/Date(1788120000000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/H3mWuJ3sEfzyosw58",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_bedroom-a.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_bedroom-b.webp",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_studio_a.webp",
+                    "headingHtml": "studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_studio_b.webp",
+                    "headingHtml": "studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_exterior_a.webp",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_exterior_b.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_exterior_c.webp",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_exterior_d.webp",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_lobby_a.webp",
+                    "headingHtml": "lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_brochure_cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-skyhall-assets/binghatti-skyhall-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/skyhall_brochure_project_facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-skyhall-assets/binghatti-skyhall-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51465.22186840251!2d55.281570513864935!3d25.186863412721724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6986ebbcd9ff%3A0x2891654083cdb30e!2sBinghatti%20Skyhall!5e0!3m2!1sen!2sae!4v1746263810137!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10068,
+            "ProjectName": "BINGHATTI AQUARISE",
+            "ProjectDescription": "Inspired by the sinuous curves of water, Aquarise façade is a testament to fluidity. A dance of glass and light, reflecting the ever-changing hues of the Dubai sky. An ode to Binghatti’s visionary design, where architecture becomes art.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 467.90999999999997,
+                    "StartingPrice": 1148999,
+                    "UnitCount": 9,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 713.75,
+                    "StartingPrice": 1954999,
+                    "UnitCount": 210,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1047.6599999999999,
+                    "StartingPrice": 2904999,
+                    "UnitCount": 40,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Business Bay",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1806436800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/h67N3GaAh57R23KX6",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-bedroom-3.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-exterior-6.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-aquarise-assets/binghatti-aquarise-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/aquarise-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-aquarise-assets/binghatti-aquarise-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.804720777657!2d55.2737765!3d25.1760708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69007339d6cd%3A0x30d49df804322c3!2sBinghatti%20Aquarise!5e0!3m2!1sen!2sae!4v1754381848396!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10069,
+            "ProjectName": "BINGHATTI HAVEN",
+            "ProjectDescription": "A sanctuary of peace amidst the urban hustle, Binghatti Haven provides modern residences designed with comfort and tranquility in mind. With lush green spaces and serene environments, it offers a haven for relaxation and rejuvenation.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 383.85,
+                    "StartingPrice": 759999.2,
+                    "UnitCount": 5,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 1048.73,
+                    "StartingPrice": 1259999.2,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1131.94,
+                    "StartingPrice": 1699999.2,
+                    "UnitCount": 120,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 1549.74,
+                    "StartingPrice": 2529999.2,
+                    "UnitCount": 4,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "AL Hebiah Fourth",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1774900800000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/abro4dJLTdw8HAfq6",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_bedroom-1.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_bedroom-2.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_bedroom-3.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_exterior-1.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_exterior-2.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_exterior-3.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_exterior-4.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_exterior-5.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_exterior-6.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_kitchen-1.jpg",
+                    "headingHtml": "KITCHEN"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_living-room-1.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_living-room-2.jpg",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_personal-office-1.jpg",
+                    "headingHtml": "PERSONAL OFFICE"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_studio.jpg",
+                    "headingHtml": "STUDIO"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_layout-1-bedroom.jpg",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_layout-2-bedroom.jpg",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_layout-3-bedroom.jpg",
+                    "headingHtml": "LAYOUT 3 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_brochure-cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-haven-assets/binghatti-haven-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/haven_brochure-project-facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-haven-assets/binghatti-haven-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81786.57137962824!2d55.15722454203021!3d25.05137774554234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d6ecaa1de29%3A0x5b0e7655fc891c79!2sBinghatti%20Haven!5e0!3m2!1sen!2sae!4v1745583402669!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10070,
+            "ProjectName": "BINGHATTI TWILIGHT",
+            "ProjectDescription": "Step inside and feel the refined energy. Twilight is an exclusive collection of 228 residential units, comprising 104 one bedroom, 118 two-bedroom, and 6 three-bedroom residences. Alongside, 47 meticulously designed office spaces and two ground-floor retail shops complete this distinctive offering. This is a structure where every element is carefully considered to create a realm of quiet elegance and inspiration, reflecting Binghatti’s dedication to crafting spaces that transcend the ordinary.",
+            "Units": [
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 876.4,
+                    "StartingPrice": 1799000,
+                    "UnitCount": 46,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 11,
+                    "UnitTypeName": "Office",
+                    "StartingArea": 574,
+                    "StartingPrice": 2009000,
+                    "UnitCount": 18,
+                    "NumberOfBedrooms": null
+                }
+            ],
+            "Community": "Jaddaf Waterfront ",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1777492800000)/",
+            "GoogleLocationURL": null,
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97120.67104669008!2d55.26042354208453!3d25.22787891405451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d302dfcf30b%3A0x6b7433ff87dc72a2!2sBinghatti%20Twilight!5e0!3m2!1sen!2sae!4v1749568000340!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-living-room-3.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/twilight-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-twilight-brochure-1.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-twilight-assets/binghatti-twilight-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-twilight-project-facts-9.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-twilight-assets/binghatti-twilight-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10071,
+            "ProjectName": "BINGHATTI RUBY",
+            "ProjectDescription": "A bold and vibrant project, Binghatti Ruby is characterized by its striking red accents and unique architectural elements. Combining artistic flair with functional design, this development creates a statement of modern luxury.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 361.56,
+                    "StartingPrice": 868749,
+                    "UnitCount": 31,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 623.12,
+                    "StartingPrice": 1368123.9,
+                    "UnitCount": 37,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1160.89,
+                    "StartingPrice": 2199999,
+                    "UnitCount": 32,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 1959.6799999999998,
+                    "StartingPrice": 3437498.9,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1772222400000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/V3CERaRAhKF7ofgZ7",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82407.94485829066!2d55.146303764723946!3d25.044542432934065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6da92c9461cb%3A0x3ff84790d3755bf6!2sBinghatti%20Ruby!5e0!3m2!1sen!2sae!4v1745567849080!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_bathroom_one.jpg",
+                    "headingHtml": "bathroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_bedroom_one.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_bedroom_two.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_bedroom_three.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_bedroom_four.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_exterior_one.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_exterior_two.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_exterior_three.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_exterior_four.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_kitchen_one.jpg",
+                    "headingHtml": "kitchen"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_livingroom_one.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_livingroom_two.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_livingroom_three.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_lobby_one.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_lobby_two.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_twod_layout_studio.jpg",
+                    "headingHtml": "2d layout studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_layout_one_bedroom.jpg",
+                    "headingHtml": "layout 1 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_layout_two_bedroom.jpg",
+                    "headingHtml": "layout 2 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_layout_three_bedroom.jpg",
+                    "headingHtml": "layout 3 bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_brochure_cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-ruby-assets/binghatti-ruby-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/ruby_brochure_project_facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-ruby-assets/binghatti-ruby-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10072,
+            "ProjectName": "BINGHATTI AMBERHALL",
+            "ProjectDescription": "Binghatti Amberhall is where time slows, inviting you to immerse yourself in a world of luxury. It’s a residence for those who seek a life of purpose and passion. With its strategic location, offering easy connectivity to other key destinations in Dubai and world-class amenities, we can say that Amberhall is a place where dreams come true, allowing you to connect with a like-minded community and create lasting memories in a vibrant, dynamic community.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 361.514483456,
+                    "StartingPrice": 744999,
+                    "UnitCount": 98,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 684.58,
+                    "StartingPrice": 1169999,
+                    "UnitCount": 94,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1162.83,
+                    "StartingPrice": 1589999,
+                    "UnitCount": 28,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 11,
+                    "UnitTypeName": "Office",
+                    "StartingArea": 866.279508992,
+                    "StartingPrice": 2165698.77,
+                    "UnitCount": 13,
+                    "NumberOfBedrooms": null
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1782763200000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/VDpbBEmCUPNnD3vn6",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.528738045279!2d55.20697879999999!3d25.050062300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d00017672b9%3A0x5e68779624fb082a!2sBinghatti%20Amberhall!5e0!3m2!1sen!2sae!4v1754978285737!5m2!1sen!2sae",
+            "GoogleMapTitle": "Map showing location of Binghatti Amberhall",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-one-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-one-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-one-bedroom-3.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-lobby-1.webp",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-lobby-2.webp",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-lobby-3.webp",
+                    "headingHtml": "LOBBY"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-living-room-1.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-living-room-2.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-living-room-3.webp",
+                    "headingHtml": "LIVING ROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-studio-layout-1.webp",
+                    "headingHtml": "LAYOUT STUDIO"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-one-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-two-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-amberhall-assets/binghatti-amber-hall-brochure-digital.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-amberhall-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-amberhall-assets/binghatti-amber-hall-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10073,
+            "ProjectName": "BINGHATTI HILL VIEWS",
+            "ProjectDescription": "Explore the design philosophy behind Hillside, where every element is carefully considered. Hillside lives its name, where form and function merge.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 410.11,
+                    "StartingPrice": 814000,
+                    "UnitCount": 47,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1381.65,
+                    "StartingPrice": 1955000,
+                    "UnitCount": 14,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 717.09,
+                    "StartingPrice": 1135000,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 1
+                }
+            ],
+            "Community": "Dubai Science Park",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1793304000000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/pAnDFHpDBEnHX25T8",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103444.77063777477!2d55.15376154468632!3d25.015775592307705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6f4a1f005589%3A0x8c3f659aba57948!2sBinghatti%20Hillviews!5e0!3m2!1sen!2sae!4v1745586158420!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_bedroom_one.jpg",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_bedroom_two.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_studio_one.jpg",
+                    "headingHtml": "studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_studio_two.jpg",
+                    "headingHtml": "studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_exterior_one.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_exterior_two.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_kitchen_one.jpg",
+                    "headingHtml": "kitchen"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_living_room_one.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_living_room_two.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_lobby_one.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_layout_studio.jpg",
+                    "headingHtml": "layout studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_layout_one_bedroom.jpg",
+                    "headingHtml": "layout 1 bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_layout_two_bedroom.jpg",
+                    "headingHtml": "layout 2 bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_brochurecover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hillviews-assets/binghatti-hillviews-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/hillviews_brochureproject_facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hillviews-assets/binghatti-hillviews-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "StatusVideoUrl": "https://www.youtube.com/embed/-WLoajj3ABo?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10074,
+            "ProjectName": "BINGHATTI MOONLIGHT",
+            "ProjectDescription": "Moonlight’s architectural presence offers profound reflection. Its silhouette, rising with elegant precision, is a modern aesthetic composed with meticulously articulated crystalline glass façades.",
+            "Units": [
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 816.01,
+                    "StartingPrice": 1518999,
+                    "UnitCount": 13,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 934.2,
+                    "StartingPrice": 1903999,
+                    "UnitCount": 19,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 11,
+                    "UnitTypeName": "Office",
+                    "StartingArea": 602.13,
+                    "StartingPrice": 2107455,
+                    "UnitCount": 14,
+                    "NumberOfBedrooms": null
+                }
+            ],
+            "Community": "Jaddaf Waterfront ",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1781467200000)/",
+            "GoogleLocationURL": null,
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60797.40332343646!2d55.300446032242164!3d25.21461704154827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d00585c1b31%3A0xb2848627425a45a3!2sBinghatti%20Moonlight!5e0!3m2!1sen!2sae!4v1751962613927!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-mooonlight-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-exterior-6.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-living-room-3.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-moonlight-assets/binghatti-moonlight-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-moonlight-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-moonlight-assets/binghatti-moonlight-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10075,
+            "ProjectName": "BINGHATTI CIRCLE",
+            "ProjectDescription": "Binghatti Circle delve deeper into the design philosophy behind Circle, where every element is carefully considered to create a poised way of life, truly embracing its name. Discover residences crafted with exquisite materials, each a testament to Binghatti's unwavering pursuit of perfection. This towering structure, standing as the definitive tallest, captures the very essence of its namesake – a moment of ultimate completion where form and function converge beautifully.",
+            "Units": [
+                {
+                    "UnitTypeID": 11,
+                    "UnitTypeName": "Office",
+                    "StartingArea": 1074.24,
+                    "StartingPrice": 2685600,
+                    "UnitCount": 7,
+                    "NumberOfBedrooms": null
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1811707200000)/",
+            "GoogleLocationURL": null,
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60873.96031330269!2d55.179076345723516!3d25.060959105456625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c13916f2055bdeb%3A0x8f78dd09d62e07aa!2sBinghatti%20Circle!5e0!3m2!1sen!2sae!4v1750831676217!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-exterior-6.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-living-room-3.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-circle-assets/binghatti-circle-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-circle-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-circle-assets/binghatti-circle-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10078,
+            "ProjectName": "BINGHATTI FLARE 01",
+            "ProjectDescription": "Binghatti Flare is a bold new landmark rising in the heart of Jumeirah Village Triangle, a twin-tower masterpiece offering a refined collection of studios, 1, 2, 3, and 4-bedroom apartments. Set across 30+ floors, the development blends expressive architecture with lifestyle-driven design, delivering open layouts, smart-home technology, and panoramic views of The Springs and Jumeirah Islands.",
+            "Units": [
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1308.9,
+                    "StartingPrice": 2299999,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 2
+                },
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 1977.89,
+                    "StartingPrice": 3099999,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "Jumeirah Village Triangle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1815508800000)/",
+            "GoogleLocationURL": null,
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231388.7310710296!2d55.04598751442834!3d25.018834826093297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d6807b6859f%3A0x3863af3088359355!2sBinghatti%20Flare!5e0!3m2!1sen!2sae!4v1753259205317!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-flare-assets/binghatti-flare-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-flare-assets/binghatti-flare-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 10079,
+            "ProjectName": "BINGHATTI FLARE 02",
+            "ProjectDescription": "Binghatti Flare is a bold new landmark rising in the heart of Jumeirah Village Triangle, a twin-tower masterpiece offering a refined collection of studios, 1, 2, 3, and 4-bedroom apartments. Set across 30+ floors, the development blends expressive architecture with lifestyle-driven design, delivering open layouts, smart-home technology, and panoramic views of The Springs and Jumeirah Islands.",
+            "Units": [
+                {
+                    "UnitTypeID": 4,
+                    "UnitTypeName": "Three Bedrooms",
+                    "StartingArea": 1553.4499999999998,
+                    "StartingPrice": 5437075,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 3
+                }
+            ],
+            "Community": "Jumeirah Village Triangle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1813003200000)/",
+            "GoogleLocationURL": null,
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231388.7310710296!2d55.04598751442834!3d25.018834826093297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d6807b6859f%3A0x3863af3088359355!2sBinghatti%20Flare!5e0!3m2!1sen!2sae!4v1753259205317!5m2!1sen!2sae",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-bedroom-1.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-bedroom-2.webp",
+                    "headingHtml": "BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-1.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-2.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-3.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-4.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-exterior-5.webp",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-living-room-1.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-living-room-2.webp",
+                    "headingHtml": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-lobby-1.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-lobby-2.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-lobby-3.webp",
+                    "headingHtml": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-studio-layout-1.webp",
+                    "headingHtml": "LAYOUT Studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-studio-layout-2.webp",
+                    "headingHtml": "LAYOUT Studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-01-one-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-01-two-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-01-three-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 3 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-01-four-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 4 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-02-one-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 1 BEDROOM"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-02-two-bedroom-layout.webp",
+                    "headingHtml": "LAYOUT 2 BEDROOM"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-flare-assets/binghatti-flare-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-flare-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-flare-assets/binghatti-flare-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp"
+        },
+        {
+            "ProjectID": 28,
+            "ProjectName": "BINGHATTI PHOENIX",
+            "ProjectDescription": "A poetic expression of resurgence, Binghatti Phoenix rises as a beacon of architectural ingenuity. The exterior facade is characterized by fluid lines that symbolize the flow of human existence. The interior spaces are thoughtfully curated to reflect this theme, featuring regal finishes and palette.",
+            "Units": [
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1145,
+                    "StartingPrice": 2162736.0341,
+                    "UnitCount": 2,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1751227200000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/fwAQxKRYHVvYiTj17",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_bedroom-1.jpg",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_bathroom-1.jpg",
+                    "headingHtml": "BATHROOM",
+                    "altText": "Bathroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_exterior-1.jpg",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_exterior-2.jpg",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_exterior-3.jpg",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_living-room-1.jpg",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_living-room-2.jpg",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_lobby-1.jpg",
+                    "headingHtml": "LOBBY",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/Phoenix_layout-1-bedroom.jpg",
+                    "headingHtml": "LAYOUT 1 BEDROOM",
+                    "altText": "Layout 1 Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_layout-2-bedroom.jpg",
+                    "headingHtml": "LAYOUT 2 BEDROOM",
+                    "altText": "Layout 2 Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/phoenix_2D-layout-studio.jpg",
+                    "headingHtml": "2D LAYOUT STUDIO",
+                    "altText": "2D Layout Studio"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/Phoenix_brochure-cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-phoenix-all-assets/binghatti-phoenix-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/Phoenix_brochure-project-facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-phoenix-all-assets/binghatti-phoenix-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "StatusVideoUrl": "https://www.youtube.com/embed/qp46ArIJQnI?controls=0&rel=0&autoplay=0&enablejsapi=1",
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115662.17953253411!2d55.13497165457906!3d25.05296631535667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d409eacf353%3A0x3523678b0525a242!2sBinghatti%20Phoenix!5e0!3m2!1sen!2sae!4v1745572603836!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10082,
+            "ProjectName": "BINGHATTI HILLCREST",
+            "ProjectDescription": "Hillcrest by Binghatti is a six-story development in Arjan, crafted for modern, family-centric living. Its distinct, elegantly curved façade is engineered to embrace natural light and strengthen the connection with the surrounding landscape, creating an architectural expression that fosters intimacy, privacy, and quiet exclusivity. Perfectly connected to Dubai’s major roads yet set within a calm, intimate community, offering a refined balance of privacy, convenience, and thoughtful design.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 2
+                }
+
+            ],
+            "Community": "Arjan",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "",
+            "GoogleLocationURL": "",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-bedroom-1.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-bedroom-2.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-exterior-1.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-exterior-2.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-exterior-3.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-exterior-4.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-living-room-1.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-living-room-2.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-living-room-3.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-lobby-1.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-lobby-2.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-lobby-3.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hillcrest-assets/binghatti-hillcrest-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-hillcrest-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-hillcrest-assets/binghatti-hillcrest-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14456.031886504239!2d55.22949572203573!3d25.06771894709904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6f92d924060b%3A0x7f5d522decb13d48!2sBinghatti%20Hillcrest!5e0!3m2!1sen!2sae!4v1763376332541!5m2!1sen!2sae",
+            "GoogleMapTitle": "Location map of Binghatti hillcrest in Dubai"
+        },
+        {
+            "ProjectID": 10081,
+            "ProjectName": "BINGHATTI TITANIA",
+            "ProjectDescription": "Binghatti Titania is a peaceful sanctuary above the city, offering a harmonious blend of elegance, functionality, and serenity. With meticulously designed interiors, expansive open-plan layouts, and a striking geometric façade, each residence maximises light, views, and privacy. The family-focused amenity deck, combined with immediate access to Majan’s parks and recreational facilities, ensures a lifestyle that balances relaxation, wellness, and vibrant community living.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Majan",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "",
+            "GoogleLocationURL": "",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-bedroom-1.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-bedroom-2.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-exterior-1.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-exterior-2.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-exterior-3.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-living-room-1.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-living-room-2.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-living-room-3.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-lobby-1.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-lobby-2.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-lobby-3.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-titania-assets/binghatti-titania-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-titania-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-titania-assets/binghatti-titania-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81730.08939957684!2d55.27491627228252!3d25.13590122120571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6550c378655b%3A0x4742c78ed3c5fb47!2sBinghatti%20Titania!5e0!3m2!1sen!2sae!4v1763033966432!5m2!1sen!2sae",
+            "GoogleMapTitle": "Location map of Binghatti Titania in Dubai"
+        },
+        {
+            "ProjectID": 10080,
+            "UpcomingProject": true,
+            "ProjectName": "BINGHATTI VINTAGE",
+            "ProjectDescription": "Rising with striking architectural presence, Binghatti Vintage delivers a refined living experience defined by scale, sophistication, and intelligent design. Its iconic façade, crafted with illuminated geometric precision, establishes a distinctive identity on the Dubai skyline while offering uninterrupted views of Al Barari’s green horizons. Strategically located in one of Dubai’s most promising communities, Majan, providing seamless access to major highways and key destinations.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 2
+                }
+            ],
+            "Community": "Majan",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "",
+            "GoogleLocationURL": "",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-bedroom-1.webp?auto=format,compress&q=60",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-bedroom-2.webp?auto=format,compress&q=60",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-exterior-1.webp?auto=format,compress&q=60",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-exterior-2.webp?auto=format,compress&q=60",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-exterior-3.webp?auto=format,compress&q=60",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-exterior-4.webp?auto=format,compress&q=60",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-lobby-1.webp?auto=format,compress&q=60",
+                    "headingHtml": "LOBBY",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-lobby-2.webp?auto=format,compress&q=60",
+                    "headingHtml": "LOBBY",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-lobby-3.webp?auto=format,compress&q=60",
+                    "headingHtml": "LOBBY",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-living-room-1.webp?auto=format,compress&q=60",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-living-room-2.webp?auto=format,compress&q=60",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-living-room-3.webp?auto=format,compress&q=60",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-vintage-assets/binghatti-vintage-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-vintage-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-vintage-assets/binghatti-vintage-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14453.414212975274!2d55.31751620942023!3d25.089890599585356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f650046f82cc9%3A0x7a165aebc726ca3b!2sBinghatti%20Vintage!5e0!3m2!1sen!2sae!4v1763105377262!5m2!1sen!2sae",
+            "GoogleMapTitle": "Map showing location of Binghatti Vintage"
+        },
+        {
+            "ProjectID": 10061,
+            "ProjectName": "BINGHATTI ELITE",
+            "ProjectDescription": "Catering to those who desire exclusivity, Binghatti Elite features residences with bespoke designs and unparalleled luxury. From top-tier amenities to exceptional craftsmanship, this development offers a truly elite living experience.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 376.31,
+                    "StartingPrice": 818749,
+                    "UnitCount": 7,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 654.66,
+                    "StartingPrice": 1124999,
+                    "UnitCount": 22,
+                    "NumberOfBedrooms": 1
+                }
+            ],
+            "Community": "International Media Production Zone",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1782763200000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/9GxTcLWHU73DDvVk7",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_bedroom_one.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_bedroom_two.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_bedroom_three.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_bedroom_four.jpg",
+                    "headingHtml": "bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_exterior_one.jpg",
+                    "headingHtml": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_exterior_two.jpg",
+                    "headingHtml": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_exterior_three.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_exterior_four.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_exterior_five.jpg",
+                    "headingHtml": "exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_livingroom_one.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_livingroom_two.jpg",
+                    "headingHtml": "living room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_lobby_one.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_lobby_two.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_lobby_three.jpg",
+                    "headingHtml": "lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_twod_layout_studio.jpg",
+                    "headingHtml": "2d layout studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_layout_one_bedroom.jpg",
+                    "headingHtml": "layout 1 bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_brochure_cover.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-elite-assets/binghatti-elite-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/elite_brochure_project_facts.jpg",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-elite-assets/binghatti-elite-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77897.11024758981!2d55.16380721750471!3d25.040152199566688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d003f42a47f%3A0x3e5b317d651a9a4!2sBinghatti%20Elite!5e0!3m2!1sen!2sae!4v1745573335507!5m2!1sen!2sae"
+        },
+        {
+            "ProjectID": 10083,
+            "UpcomingProject": true,
+            "ProjectName": "BINGHATTI CULLINAN",
+            "ProjectDescription": "Binghatti Cullinan presents an exclusive lifestyle offering, defined by bold curved architecture and a commanding presence on the Dubai skyline. Its strategic location in Al Jaddaf, combined with premium amenities, creates enduring value and a distinguished lifestyle.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea":  677.05,
+                    "StartingPrice": 1399999,
+                    "UnitCount": 69,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 1018.05,
+                    "StartingPrice": 2213999,
+                    "UnitCount": 5,
+                    "NumberOfBedrooms": 2
+                }
+
+            ],
+            "Community": "Al Jaddaf",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1814299200000)/",
+            "GoogleLocationURL": "",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-bedroom-1.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-bedroom-2.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-exterior-1.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-exterior-2.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-exterior-3.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-exterior-4.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-living-room-1.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-living-room-2.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-living-room-3.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-lobby-1.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-lobby-2.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-lobby-3.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-cullinan-assets/binghatti-cullinan-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-cullinan-assets/binghatti-cullinan-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14437.836103053052!2d55.313908079223104!3d25.221459894665685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5db2173c3ad1%3A0x36a256de2a82043!2sBinghatti%20Cullinan!5e0!3m2!1sen!2sae!4v1764071692023!5m2!1sen!2sae",
+            "GoogleMapTitle": "Location map of Binghatti Cullinan in Dubai"
+        },
+        {
+            "ProjectID": 10089,
+            "UpcomingProject": true,
+            "ProjectName": "PROJECT MAYBACH",
+            "ProjectDescription": "A new urban community emerges, shaped by the principles of elegance and purity. Defined by precision engineering and a rational, functional grid, Mercedes-Benz Places | Binghatti City introduces an architectural language where every form is intentional, every proportion considered.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 0
+                }
+
+            ],
+            "Community": "NAd al sheba",
+            "ProjectCategory": "Branded Luxury",
+            "HandoverDate": "/Date(1814299200000)/",
+            "GoogleLocationURL": "",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-bedroom-1.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-bedroom-2.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-1.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-2.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-3.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-4.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-5.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-living-room-1.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-living-room-2.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-lobby-1.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-lobby-2.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/mbp-bc-assets/mbp-bc-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/mbp-bc-assets/mbp-bc-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d137513.5444096678!2d55.31223936810359!3d25.08212905656814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f67b9e2599107%3A0x4a9e775524bcf3ec!2sMercedes-Benz%20Places%20%7C%20Binghatti%20City!5e0!3m2!1sen!2sae!4v1767957272068!5m2!1sen!2sae",
+            "GoogleMapTitle": "Merecedes Benz Places Binghatti City Location Map"
+        },
+        {
+            "ProjectID": 10090,
+            "UpcomingProject": true,
+            "ProjectName": "MAYBACH ULTIMATE LUXURY",
+            "ProjectDescription": "A new urban community emerges, shaped by the principles of elegance and purity. Defined by precision engineering and a rational, functional grid, Mercedes-Benz Places | Binghatti City introduces an architectural language where every form is intentional, every proportion considered.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 0
+                }
+
+            ],
+            "Community": "NAd al sheba",
+            "ProjectCategory": "Branded Luxury",
+            "HandoverDate": "/Date(1814299200000)/",
+            "GoogleLocationURL": "",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-bedroom-1.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-bedroom-2.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-1.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-2.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-3.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-4.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-5.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-living-room-1.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-living-room-2.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-lobby-1.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-lobby-2.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/mbp-bc-assets/mbp-bc-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/mbp-bc-assets/mbp-bc-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d137513.5444096678!2d55.31223936810359!3d25.08212905656814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f67b9e2599107%3A0x4a9e775524bcf3ec!2sMercedes-Benz%20Places%20%7C%20Binghatti%20City!5e0!3m2!1sen!2sae!4v1767957272068!5m2!1sen!2sae",
+            "GoogleMapTitle": "Merecedes Benz Places Binghatti City Location Map"
+        },
+        {
+            "ProjectID": 10091,
+            "UpcomingProject": true,
+            "ProjectName": "MAYBACH 6",
+            "ProjectDescription": "A new urban community emerges, shaped by the principles of elegance and purity. Defined by precision engineering and a rational, functional grid, Mercedes-Benz Places | Binghatti City introduces an architectural language where every form is intentional, every proportion considered.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 0
+                }
+
+            ],
+            "Community": "NAd al sheba",
+            "ProjectCategory": "Branded Luxury",
+            "HandoverDate": "/Date(1814299200000)/",
+            "GoogleLocationURL": "",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-bedroom-1.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/binghatti-cullinan-bedroom-2.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-1.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-2.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-3.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-4.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-exterior-5.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "EXTERIOR"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-living-room-1.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-living-room-2.webp",
+                    "headingHtml": "Living Room",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-lobby-1.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-lobby-2.webp",
+                    "headingHtml": "Lobby",
+                    "altText": "Lobby"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/mbp-bc-assets/mbp-bc-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/mbp-bc-brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/mbp-bc-assets/mbp-bc-project-facts.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d137513.5444096678!2d55.31223936810359!3d25.08212905656814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f67b9e2599107%3A0x4a9e775524bcf3ec!2sMercedes-Benz%20Places%20%7C%20Binghatti%20City!5e0!3m2!1sen!2sae!4v1767957272068!5m2!1sen!2sae",
+            "GoogleMapTitle": "Merecedes Benz Places Binghatti City Location Map"
+        },
+                {
+            "ProjectID": 10051,
+            "ProjectName": "DAWN BY BINGHATTI",
+            "ProjectDescription": "Within its conceptual framework, dawn beckons as a conduit for transformative experiences inviting to embrace a burgeoning journey enriched with boundless opportunities and advancement. It epitomizes the first illumination of daybreak evoking notions of auspicious resurgence.",
+            "Units": [
+                {
+                    "UnitTypeID": 1,
+                    "UnitTypeName": "Studio",
+                    "StartingArea": 448.1,
+                    "StartingPrice": 1058822,
+                    "UnitCount": 1,
+                    "NumberOfBedrooms": 0
+                },
+                {
+                    "UnitTypeID": 2,
+                    "UnitTypeName": "One Bedroom",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 1
+                },
+                {
+                    "UnitTypeID": 3,
+                    "UnitTypeName": "Two Bedrooms",
+                    "StartingArea": 0,
+                    "StartingPrice": 0,
+                    "UnitCount": 0,
+                    "NumberOfBedrooms": 2
+                }
+
+            ],
+            "Community": "Jumeirah Village Circle",
+            "ProjectCategory": "Premium",
+            "HandoverDate": "/Date(1735502400000)/",
+            "GoogleLocationURL": "https://maps.app.goo.gl/SGENsME1Fnb6sZ6L9",
+            "GallerySlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_bedroom-1.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_bedroom-2.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_bedroom-3.webp",
+                    "headingHtml": "BEDROOM",
+                    "altText": "Bedroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_bathroom-1.webp",
+                    "headingHtml": "BATHROOM",
+                    "altText": "Bathroom"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_exterior-1.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_exterior-2.webp",
+                    "headingHtml": "EXTERIOR",
+                    "altText": "Exterior"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_kitchen-1.webp",
+                    "headingHtml": "KITCHEN",
+                    "altText": "Kitchen"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_living-room-1.webp",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_living-room-2.webp",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_living-room-3.webp",
+                    "headingHtml": "LIVING ROOM",
+                    "altText": "Living Room"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_2D-layout-studio.webp",
+                    "headingHtml": "2D LAYOUT STUDIO",
+                    "altText": "2D Layout Studio"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_layout-1-bedroom.webp",
+                    "headingHtml": "LAYOUT 1 BEDROOM",
+                    "altText": "Layout 1 Bedroom"
+                },
+                 {
+                    "image": "https://binghattiweb.imgix.net/dawn_layout-2-bedroom.webp",
+                    "headingHtml": "LAYOUT 2 BEDROOM",
+                    "altText": "Layout 2 Bedroom"
+                }
+            ],
+            "BrochureSlides": [
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_brochure-cover.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-dawn-all-assets/dawn-by-binghatti-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                },
+                {
+                    "image": "https://binghattiweb.imgix.net/dawn_brochure-project-facts.webp",
+                    "link": "https://binghatti-public.s3.me-central-1.amazonaws.com/project-assets/binghatti-dawn-all-assets/dawn-by-binghatti-digital-brochure.pdf",
+                    "buttonText": "DOWNLOAD"
+                }
+            ],
+            "PaymentPlanImage": "https://binghattiweb.imgix.net/payment-plan.webp",
+            "GoogleMapEmbedURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57817.19633253582!2d55.154505408748804!3d25.082397814561432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d000ed0b4ef%3A0x973f5a77afd242db!2sDawn%20by%20Binghatti!5e0!3m2!1sen!2sae!4v1745590875253!5m2!1sen!2sae",
+            "GoogleMapTitle": "Location map of Dawn by Binghatti in Dubai",
+            "StatusVideoUrl": "https://www.youtube.com/embed/sUifOqGrnD4?controls=0&rel=0&autoplay=0&enablejsapi=1"
+        }
+    ],
+    "code": 200,
+    "message": "Success"
+}

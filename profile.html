@@ -37,9 +37,9 @@
             <li class="nav-item">
               <a class="nav-link" href="explore.html">Explore Availability</a>
             </li>
-            <li class="nav-item">
+             <!-- <li class="nav-item">
               <a class="nav-link" href="university.html">Binghatti University</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="sales.html">My Sales</a>
             </li>
@@ -85,7 +85,10 @@
           <button class="pill-btn pill-btn--right" type="button" aria-pressed="false" data-panel-target="agents"
             aria-controls="agentsPanel">Manage Agents</button>
         </section>
-        <button class="add-agent-btn" type="button">Add Agent</button>
+        <div class="profile-actions">
+          <button class="back-agent-btn" type="button">Back</button>
+          <button class="add-agent-btn" type="button">Add Agent</button>
+        </div>
       </div>
 
       <div class="profile-panel profile-panel--profile is-active" data-panel="profile" id="profilePanel"
@@ -658,6 +661,7 @@
     const tabButtons = document.querySelectorAll(".profile-tabs .pill-btn");
     const panels = document.querySelectorAll(".profile-panel");
     const addAgentButton = document.querySelector(".add-agent-btn");
+    const backAgentButton = document.querySelector(".back-agent-btn");
     const agentForm = document.getElementById("agentForm");
     const agentsTableBody = document.getElementById("agentsTableBody");
     const agentActionsTemplate = document.querySelector(".agents-table .agent-actions");
@@ -723,6 +727,12 @@
     if (addAgentButton) {
       addAgentButton.addEventListener("click", () => {
         setActivePanel("add-agent");
+      });
+    }
+
+    if (backAgentButton) {
+      backAgentButton.addEventListener("click", () => {
+        setActivePanel("agents");
       });
     }
 

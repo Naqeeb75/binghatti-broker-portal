@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Requests | Broker Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/requests.css" />
+</head>
+
+<body class="requests-page">
+  <header class="portal-nav">
+    <nav class="navbar navbar-expand-xxl navbar-dark">
+      <div class="container-fluid home-shell">
+        <a class="navbar-brand nav-logo" href="home.html">
+          <img src="assets/images/logo.png" alt="Binghatti" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portalNavbar"
+          aria-controls="portalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-links-wrap" id="portalNavbar">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">Explore Availability</a>
+            </li>
+             <!-- <li class="nav-item">
+              <a class="nav-link" href="university.html">Binghatti University</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="sales.html">My Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="commissions.html">My Commissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reports.html">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="requests.html">Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+
+          <a class="user-badge user-badge--menu d-xxl-none text-decoration-none" href="profile.html"
+            aria-label="Open profile">
+            <span class="user-initial">
+              <img src="assets/images/lake-logo.png" alt="name logo" />
+            </span>
+            <span class="user-name">Mohammed Ali</span>
+          </a>
+        </div>
+
+        <a class="user-badge d-none d-xxl-flex text-decoration-none" href="profile.html" aria-label="Open profile">
+          <span class="user-initial">
+            <img src="assets/images/lake-logo.png" alt="name logo" />
+          </span>
+          <span class="user-name">Mohammed Ali</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="requests-content">
+    <div class="requests-shell">
+      <section class="requests-controls">
+        <div class="controls-right">
+          <button class="request-btn" type="button" data-request-action="open">New Request</button>
+          <button class="action-btn action-btn--icon-right" type="button">
+            <span>Export to Excel</span>
+            <span class="btn-icon">
+              <img src="assets/images/excel-logo.png" alt="excel icon" />
+            </span>
+          </button>
+          <button class="filter-btn" type="button" aria-label="Filters">
+            <span class="filter-line">
+              <span class="filter-knob"></span>
+            </span>
+            <span class="filter-line">
+              <span class="filter-knob filter-knob--middle"></span>
+            </span>
+            <span class="filter-line">
+              <span class="filter-knob filter-knob--bottom"></span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="requests-table">
+        <div class="table-frame">
+          <div class="table-grid">
+            <div class="table-row table-header">
+              <span>Service Request No.</span>
+              <span>Service Request Type</span>
+              <span>Date of Request</span>
+              <span>Request Status</span>
+              <span>Completion Date</span>
+              <span>Action</span>
+            </div>
+            <div class="table-scroll">
+              <div class="table-row">
+                <span>SR-2195</span>
+                <span>Title Deed</span>
+                <span>10.01.2026</span>
+                <span>In Progress</span>
+                <span>18.01.2026</span>
+                <span><button class="view-btn" type="button">View</button></span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+              <div class="table-row">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="requests-form is-hidden">
+        <div class="request-form-panel">
+          <form class="request-form needs-validation" novalidate>
+            <div class="form-grid">
+              <div class="field-group field-group--wide">
+                <label class="field-label" for="requestType">
+                  Request Type*
+                  <span class="request-info">
+                    <button class="info-trigger" type="button" aria-label="Request type info"
+                      aria-describedby="request-type-tooltip">
+                      <img class="info-icon" src="assets/images/info.png" alt="" />
+                    </button>
+                    <span class="info-tooltip" id="request-type-tooltip" role="tooltip">
+                      <span class="info-title">TRAINING:</span>
+                      <span class="info-text">Raise a request for product training.</span>
+                      <span class="info-title">VIDEO SHOOT:</span>
+                      <span class="info-text">Raise a video shoot request.</span>
+                      <span class="info-title">MARKETING SUPPORT:</span>
+                      <span class="info-text">Raise a request for Road Show, Open House, or Sales Trips.</span>
+                    </span>
+                  </span>
+                </label>
+                <div class="select-wrap">
+                  <select id="requestType" class="field-control field-select" required>
+                    <option value="training" selected>Training</option>
+                    <option value="marketing">Video Shoot</option>
+                    <option value="support">Marketing Support</option>
+                  </select>    
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+                <div class="invalid-feedback">Please select a request type.</div>
+              </div>
+
+              <div class="field-group field-group--wide">
+                <label class="field-label" for="requestSubType">Request Sub Type</label>
+                <div class="select-wrap">
+                  <select id="requestSubType" class="field-control field-select">
+                    <option value="roadshow" selected>Roadshow</option>
+                    <option value="seminar">Open House</option>
+                    <option value="workshop">Sales trip</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="requestDate">Date*</label>
+                <div class="date-field">
+                  <input type="text" class="field-control date-display" id="requestDate" placeholder="Select date"
+                    readonly required pattern="\d{2}\.\d{2}\.\d{4}" />
+                  <input type="date" class="date-input" aria-hidden="true" tabindex="-1" />
+                  <button type="button" class="calendar-btn" aria-label="Open calendar">
+                    <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="invalid-feedback">Please select a date.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="requestTime">Time*</label>
+                <div class="time-field">
+                  <input type="text" class="field-control time-display" id="requestTime" placeholder="Select time"
+                    readonly required pattern="\d{2}:\d{2}" />
+                  <input type="time" class="time-input" aria-hidden="true" tabindex="-1" />
+                  <button type="button" class="time-btn" aria-label="Open time picker">
+                    <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="invalid-feedback">Please select a time.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="venue">Venue*</label>
+                <div class="select-wrap">
+                  <select id="venue" class="field-control field-select" required>
+                    <option value="" selected disabled>Select venue</option>
+                    <option value="dubai-marina">Dubai Marina</option>
+                    <option value="business-bay">Business Bay</option>
+                    <option value="downtown">Downtown</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+                <div class="invalid-feedback">Please select a venue.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="cameraSpecs">Camera Specifications</label>
+                <input type="text" class="field-control" id="cameraSpecs" placeholder="Add camera specifications"
+                  required />
+                <div class="invalid-feedback">Please add camera specifications.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="attendees">Number of Attendees*</label>
+                <input type="number" class="field-control" id="attendees" placeholder="Put the number" min="1"
+                  required />
+                <div class="invalid-feedback">Please enter the number of attendees.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="equipment">Equipment Requirements</label>
+                <input type="text" class="field-control" id="equipment" placeholder="Put requirements" required />
+                <div class="invalid-feedback">Please add equipment requirements.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="justification">Requirement Justification<span
+                    class="required">*</span></label>
+                <input type="text" class="field-control" id="justification" placeholder="Add justification" required />
+                <div class="invalid-feedback">Please add a justification.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="language">Language</label>
+                <div class="select-wrap">
+                  <select id="language" class="field-control field-select" required>
+                    <option value="" selected disabled>Choose language</option>
+                    <option value="english">English</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="urdu">Urdu</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+                <div class="invalid-feedback">Please choose a language.</div>
+              </div>
+
+              <div class="field-group">
+                <label class="field-label" for="remarks">Remarks</label>
+                <input type="text" class="field-control" id="remarks" placeholder="Put your remarks" required />
+                <div class="invalid-feedback">Please add remarks.</div>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="back-form-btn" type="button" data-request-action="back">Back</button>
+              <button class="submit-btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="request-modal" aria-hidden="true">
+    <div class="request-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="request-modal-title"
+      aria-describedby="request-modal-desc">
+      <h2 class="request-modal__title" id="request-modal-title">Thank you</h2>
+      <p class="request-modal__subtitle">Your request has been submitted</p>
+      <p class="request-modal__message" id="request-modal-desc">
+        Your Request Number Is <span class="request-modal__number" data-request-number>SR-0000</span>. Please retain
+        this number for any future correspondence or reference. Once the request is approved, you will be notified.
+      </p>
+      <button class="request-modal__action" type="button" data-request-modal="close">Close</button>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const openBtn = document.querySelector("[data-request-action='open']");
+      const backBtn = document.querySelector("[data-request-action='back']");
+      const tableSection = document.querySelector(".requests-table");
+      const controlsSection = document.querySelector(".requests-controls");
+      const formSection = document.querySelector(".requests-form");
+      const form = document.querySelector(".request-form");
+      if (!openBtn || !backBtn || !tableSection || !formSection || !form) {
+        return;
+      }
+
+      const controls = Array.from(form.querySelectorAll(".field-control"));
+      const dateFields = form.querySelectorAll(".date-field");
+      const timeFields = form.querySelectorAll(".time-field");
+      const modal = document.querySelector(".request-modal");
+      const modalNumber = modal ? modal.querySelector("[data-request-number]") : null;
+      const modalCloseButtons = modal ? modal.querySelectorAll("[data-request-modal='close']") : [];
+      const tableScroll = document.querySelector(".table-scroll");
+      let pendingRequest = null;
+
+      const formatDateShort = (value) => {
+        if (!value) {
+          return "";
+        }
+        const parts = value.split("-");
+        if (parts.length !== 3) {
+          return "";
+        }
+        const [year, month, day] = parts;
+        if (!year || !month || !day) {
+          return "";
+        }
+        return `${day}.${month}.${year}`;
+      };
+
+      const formatToday = () => {
+        const now = new Date();
+        const day = String(now.getDate()).padStart(2, "0");
+        const month = String(now.getMonth() + 1).padStart(2, "0");
+        const year = now.getFullYear();
+        return `${day}.${month}.${year}`;
+      };
+
+      const getSelectedText = (select) => {
+        if (!select) {
+          return "";
+        }
+        const option = select.options[select.selectedIndex];
+        return option ? option.textContent.trim() : "";
+      };
+
+      const buildRequestData = () => {
+        const requestNumber = `SR-${Math.floor(1000 + Math.random() * 9000)}`;
+        const requestType = getSelectedText(form.querySelector("#requestType")) || "Request";
+        const requestDate = (form.querySelector("#requestDate") || {}).value || formatToday();
+        return {
+          requestNumber,
+          requestType,
+          requestDate,
+          requestStatus: "Submitted",
+          completionDate: "-",
+        };
+      };
+
+      const addRequestToTable = (data) => {
+        if (!data || !tableScroll) {
+          return;
+        }
+        const row = document.createElement("div");
+        row.className = "table-row";
+        const createCell = (text) => {
+          const cell = document.createElement("span");
+          cell.textContent = text;
+          return cell;
+        };
+        row.appendChild(createCell(data.requestNumber));
+        row.appendChild(createCell(data.requestType));
+        row.appendChild(createCell(data.requestDate));
+        row.appendChild(createCell(data.requestStatus));
+        row.appendChild(createCell(data.completionDate));
+        const actionCell = document.createElement("span");
+        const viewBtn = document.createElement("button");
+        viewBtn.className = "view-btn";
+        viewBtn.type = "button";
+        viewBtn.textContent = "View";
+        actionCell.appendChild(viewBtn);
+        row.appendChild(actionCell);
+        tableScroll.prepend(row);
+      };
+
+      const showFieldState = (field) => {
+        const group = field.closest(".field-group");
+        const feedback = group ? group.querySelector(".invalid-feedback") : null;
+        const invalid = field.required && !field.checkValidity();
+        field.classList.toggle("is-invalid", invalid);
+        field.setAttribute("aria-invalid", invalid ? "true" : "false");
+        if (feedback) {
+          feedback.classList.toggle("is-visible", invalid);
+        }
+      };
+
+      const updateDateValidity = (display, picker) => {
+        if (!display || !picker) {
+          return;
+        }
+        if (display.required && !picker.value) {
+          display.setCustomValidity("Please select a date.");
+        } else {
+          display.setCustomValidity("");
+        }
+      };
+
+      const updateTimeValidity = (display, picker) => {
+        if (!display || !picker) {
+          return;
+        }
+        if (display.required && !picker.value) {
+          display.setCustomValidity("Please select a time.");
+        } else {
+          display.setCustomValidity("");
+        }
+      };
+
+      const clearValidation = () => {
+        form.classList.remove("was-validated");
+        controls.forEach((field) => {
+          field.classList.remove("is-invalid");
+          field.removeAttribute("aria-invalid");
+          const group = field.closest(".field-group");
+          const feedback = group ? group.querySelector(".invalid-feedback") : null;
+          if (feedback) {
+            feedback.classList.remove("is-visible");
+          }
+        });
+      };
+
+      const resetForm = () => {
+        form.reset();
+        dateFields.forEach((field) => {
+          const display = field.querySelector(".date-display");
+          const picker = field.querySelector("input[type='date']");
+          if (display) {
+            display.value = "";
+            display.setCustomValidity("");
+          }
+          if (picker) {
+            picker.value = "";
+          }
+        });
+        timeFields.forEach((field) => {
+          const display = field.querySelector(".time-display");
+          const picker = field.querySelector("input[type='time']");
+          if (display) {
+            display.value = "";
+            display.setCustomValidity("");
+          }
+          if (picker) {
+            picker.value = "";
+          }
+        });
+        clearValidation();
+      };
+
+      const toggleView = (showForm) => {
+        formSection.classList.toggle("is-hidden", !showForm);
+        tableSection.classList.toggle("is-hidden", showForm);
+        if (controlsSection) {
+          controlsSection.classList.toggle("is-hidden", showForm);
+        }
+        if (!showForm) {
+          clearValidation();
+        }
+      };
+
+      const openModal = () => {
+        if (!modal) {
+          return;
+        }
+        modal.classList.add("is-visible");
+        modal.setAttribute("aria-hidden", "false");
+        document.body.classList.add("modal-open");
+      };
+
+      const closeModal = () => {
+        if (!modal) {
+          return;
+        }
+        modal.classList.remove("is-visible");
+        modal.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("modal-open");
+        if (pendingRequest) {
+          addRequestToTable(pendingRequest);
+          pendingRequest = null;
+        }
+        toggleView(false);
+        resetForm();
+      };
+
+      openBtn.addEventListener("click", () => {
+        toggleView(true);
+      });
+
+      backBtn.addEventListener("click", () => {
+        toggleView(false);
+      });
+
+      if (modal) {
+        modalCloseButtons.forEach((button) => {
+          button.addEventListener("click", closeModal);
+        });
+        modal.addEventListener("click", (event) => {
+          if (event.target === modal) {
+            closeModal();
+          }
+        });
+      }
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && modal && modal.classList.contains("is-visible")) {
+          closeModal();
+        }
+      });
+
+      const handleRealtimeValidation = (event) => {
+        if (!form.classList.contains("was-validated")) {
+          return;
+        }
+        const field = event.target.closest(".field-control");
+        if (field) {
+          showFieldState(field);
+        }
+      };
+
+      form.addEventListener("submit", (event) => {
+        dateFields.forEach((field) => {
+          const display = field.querySelector(".date-display");
+          const picker = field.querySelector("input[type='date']");
+          updateDateValidity(display, picker);
+        });
+        timeFields.forEach((field) => {
+          const display = field.querySelector(".time-display");
+          const picker = field.querySelector("input[type='time']");
+          updateTimeValidity(display, picker);
+        });
+        const isValid = form.checkValidity();
+        if (!isValid) {
+          event.preventDefault();
+          event.stopPropagation();
+        } else {
+          event.preventDefault();
+          pendingRequest = buildRequestData();
+          if (modalNumber && pendingRequest) {
+            modalNumber.textContent = pendingRequest.requestNumber;
+          }
+          if (modal) {
+            openModal();
+          } else if (pendingRequest) {
+            addRequestToTable(pendingRequest);
+            pendingRequest = null;
+            toggleView(false);
+            resetForm();
+          }
+        }
+        form.classList.add("was-validated");
+        controls.forEach((field) => {
+          if (field.required) {
+            showFieldState(field);
+          }
+        });
+      });
+
+      form.addEventListener("input", handleRealtimeValidation);
+      form.addEventListener("change", handleRealtimeValidation);
+
+      dateFields.forEach((field) => {
+        const display = field.querySelector(".date-display");
+        const picker = field.querySelector("input[type='date']");
+        const button = field.querySelector(".calendar-btn");
+        if (!display || !picker || !button) {
+          return;
+        }
+        const syncDisplay = () => {
+          display.value = formatDateShort(picker.value);
+          updateDateValidity(display, picker);
+          if (form.classList.contains("was-validated")) {
+            showFieldState(display);
+          }
+        };
+        picker.addEventListener("change", syncDisplay);
+        button.addEventListener("click", () => {
+          if (typeof picker.showPicker === "function") {
+            picker.showPicker();
+          } else {
+            picker.focus();
+            picker.click();
+          }
+        });
+        syncDisplay();
+      });
+
+      timeFields.forEach((field) => {
+        const display = field.querySelector(".time-display");
+        const picker = field.querySelector("input[type='time']");
+        const button = field.querySelector(".time-btn");
+        if (!display || !picker || !button) {
+          return;
+        }
+        const syncDisplay = () => {
+          display.value = picker.value || "";
+          updateTimeValidity(display, picker);
+          if (form.classList.contains("was-validated")) {
+            showFieldState(display);
+          }
+        };
+        picker.addEventListener("change", syncDisplay);
+        button.addEventListener("click", () => {
+          if (typeof picker.showPicker === "function") {
+            picker.showPicker();
+          } else {
+            picker.focus();
+            picker.click();
+          }
+        });
+        syncDisplay();
+      });
+    })();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

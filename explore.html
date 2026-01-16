@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />                     
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explore Availability | Broker Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/explore.css" />
+</head>
+
+<body class="explore-page">
+  <header class="portal-nav">
+    <nav class="navbar navbar-expand-xxl navbar-dark">
+      <div class="container-fluid home-shell">
+        <a class="navbar-brand nav-logo" href="home.html">
+          <img src="assets/images/logo.png" alt="Binghatti" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portalNavbar"
+          aria-controls="portalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-links-wrap" id="portalNavbar">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="explore.html">Explore Availability</a>
+            </li>
+             <!-- <li class="nav-item">
+              <a class="nav-link" href="university.html">Binghatti University</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="sales.html">My Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="commissions.html">My Commissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reports.html">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="requests.html">Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+
+          <a class="user-badge user-badge--menu d-xxl-none text-decoration-none" href="profile.html"
+            aria-label="Open profile">
+            <span class="user-initial">
+              <img src="assets/images/lake-logo.png" alt="name logo" />
+            </span>
+            <span class="user-name">Mohammed Ali</span>
+          </a>
+        </div>
+
+        <a class="user-badge d-none d-xxl-flex text-decoration-none" href="profile.html" aria-label="Open profile">
+          <span class="user-initial">
+            <img src="assets/images/lake-logo.png" alt="name logo" />
+          </span>
+          <span class="user-name">Mohammed Ali</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="explore-content">
+    <div class="explore-shell">
+      <section class="explore-filters">
+        <div class="filters-left">
+          <span class="filters-label">Price Range</span>
+          <div class="price-range">
+            <input class="price-input" type="text" value="75 000" aria-label="Minimum price" />
+            <span class="price-separator">-</span>
+            <input class="price-input" type="text" value="1,975 000" aria-label="Maximum price" />
+          </div>
+        </div>
+        <div class="filters-right">
+          <div class="select-wrap">
+            <select class="filter-select" id="projectFilter" aria-label="Project">
+              <option selected disabled>Project</option>
+            </select>
+            <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+          </div>
+          <div class="select-wrap">
+            <select class="filter-select" aria-label="Unit type">
+              <option selected disabled>Unit Type</option>
+              <option>Studio</option>
+              <option>One Bedroom</option>
+              <option>Two Bedrooms</option>
+            </select>
+            <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+          </div>
+          <div class="select-wrap">
+            <select class="filter-select" aria-label="Location">
+              <option selected disabled>Location</option>
+              <option>Dubai Marina</option>
+              <option>Business Bay</option>
+              <option>Downtown</option>
+            </select>
+            <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore-results">
+        <div class="property-scroll">
+          <div class="property-grid" id="propertyGrid"></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="offer-section is-hidden">
+      <div class="offer-shell">
+        <div class="offer-panel">
+          <form class="offer-form" novalidate>
+            <div class="offer-grid">
+              <div class="offer-field">
+                <label class="offer-label" for="offerProject">Project*</label>
+                <input class="offer-control" id="offerProject" type="text" placeholder="Project" readonly />
+              </div>
+              <div class="offer-field">
+                <label class="offer-label" for="offerUnit">Unit*</label>
+                <div class="select-wrap">
+                  <select class="offer-control offer-select" id="offerUnit" required>
+                    <option selected disabled>Select</option>
+                    <option>Studio</option>
+                    <option>One Bedroom</option>
+                    <option>Two Bedrooms</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="offer-field">
+                <label class="offer-label" for="offerPlanType">Payment Plan Type*</label>
+                <div class="select-wrap">
+                  <select class="offer-control offer-select" id="offerPlanType" required>
+                    <option selected disabled>Select</option>
+                    <option>Standard</option>
+                    <option>Post Handover</option>
+                    <option>Investor</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="offer-field">
+                <label class="offer-label" for="offerPlanTemplate">Payment Plan Template*</label>
+                <div class="select-wrap">
+                  <select class="offer-control offer-select" id="offerPlanTemplate" required>
+                    <option selected disabled>Select</option>
+                    <option>Template A</option>
+                    <option>Template B</option>
+                    <option>Template C</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="offer-actions">
+              <button class="offer-back" type="button" data-offer-action="back">Back</button>
+              <button class="offer-submit" type="submit">Generate Offer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="register-section is-hidden">
+      <div class="register-shell">
+        <div class="register-panel">
+          <form class="register-form" novalidate>
+            <div class="register-grid">
+              <div class="register-field">
+                <label class="register-label" for="registerFirstName">First Name*</label>
+                <input class="register-control" id="registerFirstName" type="text" placeholder="Put the first name"
+                  required />
+                <div class="register-feedback">Please enter the first name.</div>
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerMiddleName">Middle Name</label>
+                <input class="register-control" id="registerMiddleName" type="text" placeholder="Put the middle name" />
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerLastName">Last Name*</label>
+                <input class="register-control" id="registerLastName" type="text" placeholder="Put the last name"
+                  required />
+                <div class="register-feedback">Please enter the last name.</div>
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerResidence">Country of Residence*</label>
+                <div class="select-wrap">
+                  <select class="register-control register-select" id="registerResidence" required>
+                    <option value="" selected disabled>Select</option>
+                    <option>United Arab Emirates</option>
+                    <option>Saudi Arabia</option>
+                    <option>United Kingdom</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+                <div class="register-feedback">Please select a country of residence.</div>
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerPrimaryPhone">Primary Phone Number*</label>
+                <div class="phone-field">
+                  <div class="select-wrap">
+                    <select class="register-control register-select phone-code" id="registerPrimaryCode" required>
+                      <option selected disabled></option>
+                      <option>+971</option>
+                      <option>+91</option>
+                      <option>+44</option>
+                    </select>
+                    <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                  </div>
+                  <input class="register-control phone-input" id="registerPrimaryPhone" type="tel"
+                    placeholder="000 00 00" required />
+                </div>
+                <div class="register-feedback">Please enter the primary phone number.</div>
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerSecondaryPhone">Secondary Phone Number</label>
+                <div class="phone-field">
+                  <div class="select-wrap">
+                    <select class="register-control register-select phone-code" id="registerSecondaryCode">
+                      <option selected disabled></option>
+                      <option>+971</option>
+                      <option>+91</option>
+                      <option>+44</option>
+                    </select>
+                    <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                  </div>
+                  <input class="register-control phone-input" id="registerSecondaryPhone" type="tel"
+                    placeholder="000 00 00" />
+                </div>
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerNationality">Nationality*</label>
+                <div class="select-wrap">
+                  <select class="register-control register-select" id="registerNationality" required>
+                    <option value="" selected disabled>Select</option>
+                    <option>Emirati</option>
+                    <option>Indian</option>
+                    <option>British</option>
+                  </select>
+                  <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
+                </div>
+                <div class="register-feedback">Please select a nationality.</div>
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerEmail">Email*</label>
+                <input class="register-control" id="registerEmail" type="email" placeholder="Put the email" required />
+                <div class="register-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="register-field">
+                <label class="register-label" for="registerManagerEmail">Relationship Manager (Email)</label>
+                <input class="register-control" id="registerManagerEmail" type="email" placeholder="Put the email id" />
+              </div>
+            </div>
+            <div class="register-actions">
+              <button class="register-back" type="button" data-register-action="back">Back</button>
+              <button class="register-submit" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (async () => {
+      const grid = document.querySelector("#propertyGrid");
+      const projectFilter = document.querySelector("#projectFilter");
+      const exploreShell = document.querySelector(".explore-shell");
+      const offerSection = document.querySelector(".offer-section");
+      const offerProjectInput = document.querySelector("#offerProject");
+      const offerBackButton = document.querySelector("[data-offer-action='back']");
+      const offerForm = document.querySelector(".offer-form");
+      const registerSection = document.querySelector(".register-section");
+      const registerBackButton = document.querySelector("[data-register-action='back']");
+      const registerForm = document.querySelector(".register-form");
+      const registerControls = registerForm
+        ? Array.from(registerForm.querySelectorAll(".register-control"))
+        : [];
+      if (!grid) {
+        return;
+      }
+
+      const numberFormatter = new Intl.NumberFormat("en-US", {
+        maximumFractionDigits: 0,
+      });
+
+      const toNumber = (value) => {
+        const numeric = Number(value);
+        return Number.isFinite(numeric) ? numeric : null;
+      };
+
+      const formatPrice = (value) => {
+        const numeric = toNumber(value);
+        if (numeric === null) {
+          return "";
+        }
+        return `Starting AED ${numberFormatter.format(numeric)}`;
+      };
+
+      const formatArea = (value) => {
+        const numeric = toNumber(value);
+        if (numeric === null) {
+          return "";
+        }
+        return `Starting ${Math.round(numeric)} SQ FT*`;
+      };
+
+      const formatUnits = (value) => {
+        const numeric = toNumber(value);
+        if (numeric === null) {
+          return "";
+        }
+        return `${numeric} Units`;
+      };
+
+      const slugify = (value) => {
+        return String(value || "")
+          .toLowerCase()
+          .replace(/&/g, "and")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "");
+      };
+
+      const buildUnitSlug = (unitTypeName, bedrooms) => {
+        const normalized = String(unitTypeName || "").toLowerCase();
+        if (normalized.includes("studio")) {
+          return "studio";
+        }
+        if (normalized.includes("penthouse")) {
+          return "penthouse";
+        }
+        if (normalized.includes("office")) {
+          return "office";
+        }
+        const numericBedrooms = toNumber(bedrooms);
+        if (numericBedrooms !== null && numericBedrooms > 0) {
+          return `${Math.round(numericBedrooms)}-bedroom`;
+        }
+        const unitSlug = slugify(unitTypeName);
+        return unitSlug || "unit";
+      };
+
+      const buildDetailSlug = (projectName, unitTypeName, bedrooms) => {
+        const projectSlug = slugify(projectName);
+        const unitSlug = buildUnitSlug(unitTypeName, bedrooms);
+        return projectSlug ? `${unitSlug}-${projectSlug}` : unitSlug;
+      };
+
+      const getProjectImage = (project) => {
+        const fallbackImage = "assets/images/footer-cover.png";
+        if (!project) {
+          return fallbackImage;
+        }
+        const slides = Array.isArray(project.GallerySlides)
+          ? project.GallerySlides
+          : [];
+        const firstSlide = slides.find((slide) => slide && slide.image);
+        return firstSlide && firstSlide.image ? firstSlide.image : fallbackImage;
+      };
+
+      const mapProjectsToProperties = (projects) => {
+        const results = [];
+        (projects || []).forEach((project) => {
+          if (!project || !project.ProjectID) {
+            return;
+          }
+          const projectName = project.ProjectName || "";
+          const projectId = project.ProjectID;
+          const projectImage = getProjectImage(project);
+          const units = Array.isArray(project.Units) ? project.Units : [];
+          units.forEach((unit) => {
+            if (!unit) {
+              return;
+            }
+            const unitTypeName = unit.UnitTypeName || "";
+            const unitTypeId = Number(unit.UnitTypeID);
+            const bedrooms = unit.NumberOfBedrooms;
+            const detailSlug = buildDetailSlug(
+              projectName,
+              unitTypeName,
+              bedrooms
+            );
+            const unitTypeQuery = Number.isFinite(unitTypeId) ? unitTypeId : "";
+            results.push({
+              project: projectName,
+              projectId,
+              unitTypeId,
+              type: unitTypeName,
+              price: formatPrice(unit.StartingPrice),
+              size: formatArea(unit.StartingArea),
+              units: formatUnits(unit.UnitCount),
+              image: projectImage,
+              objectPosition: "center",
+              detailUrl: `project-details.html?projectId=${projectId}&unitTypeId=${unitTypeQuery}&slug=${detailSlug}`,
+            });
+          });
+        });
+        return results;
+      };
+
+      const loadProjectData = async () => {
+        const sources = [
+          "project-detail-data.json",
+          "files/project-detail-data.json",
+        ];
+        for (const source of sources) {
+          try {
+            const response = await fetch(source, { cache: "no-store" });
+            if (!response.ok) {
+              continue;
+            }
+            const payload = await response.json();
+            if (payload && Array.isArray(payload.data)) {
+              return payload.data;
+            }
+          } catch (error) {
+            continue;
+          }
+        }
+        return [];
+      };
+
+      const projectData = await loadProjectData();
+      const properties = mapProjectsToProperties(projectData);
+      if (!properties.length) {
+        grid.innerHTML = "<p>No properties available.</p>";
+        return;
+      }
+
+      const buildProjectTitle = (project) => {
+        const normalized = project ? project.trim() : "";
+        if (!normalized) {
+          return "";
+        }
+        const parts = normalized.split(/\s+/);
+        const brand = parts.shift() || "";
+        const highlight = parts.join(" ");
+        if (!highlight) {
+          return brand.toUpperCase();
+        }
+        return `${brand.toUpperCase()} <span>${highlight.toUpperCase()}</span>`;
+      };
+
+      if (projectFilter) {
+        const uniqueProjects = Array.from(
+          new Set(properties.map((item) => item.project))
+        );
+        uniqueProjects.forEach((project) => {
+          const option = document.createElement("option");
+          option.textContent = project;
+          projectFilter.appendChild(option);
+        });
+      }
+
+      const setView = (view) => {
+        const showExplore = view === "explore";
+        const showOffer = view === "offer";
+        const showRegister = view === "register";
+        if (exploreShell) {
+          exploreShell.classList.toggle("is-hidden", !showExplore);
+        }
+        if (offerSection) {
+          offerSection.classList.toggle("is-hidden", !showOffer);
+        }
+        if (registerSection) {
+          registerSection.classList.toggle("is-hidden", !showRegister);
+        }
+      };
+
+      grid.innerHTML = properties
+        .map((item) => {
+          return `
+            <article class="property-card">
+              <div class="property-media">
+                <img src="${item.image}" alt="${item.project}"
+                  style="object-position: ${item.objectPosition};" />
+              </div>
+              <div class="property-body">
+                <h3 class="property-title">${buildProjectTitle(item.project)}</h3>
+                <div class="property-details">
+                  <div class="property-features">
+                    <div class="property-feature">
+                      <div>
+                        <img src="assets/images/home-icon.png" alt="Property Type Icon" class="icon-img" />
+                      </div>
+                      <span>${item.type}</span>
+                    </div>
+                    <div class="property-feature">
+                      <div>
+                        <img src="assets/images/starting-price-icon.png" alt="Price Icon" class="icon-img" />
+                      </div>
+                      <span>${item.price}</span>
+                    </div>
+                    <div class="property-feature">
+                      <div>
+                        <img src="assets/images/square-feet-icon.png" alt="square feet Icon" class="icon-img" />
+                      </div>
+                      <span>${item.size}</span>
+                    </div>
+                  </div>
+                  <div class="property-availability">
+                    <span class="availability-label">Units Available</span>
+                    <span class="availability-value">${item.units}</span>
+                  </div>
+                </div>
+                <div class="property-actions">
+                  <button class="action-pill" type="button" data-action="view-property"
+                    data-href="${item.detailUrl}">View Property</button>
+                  <button class="action-pill" type="button" data-action="generate-offer"
+                    data-project="${item.project}">Generate Offer</button>
+                  <button class="action-pill" type="button" data-action="register">Register</button>
+                </div>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+
+      grid.addEventListener("click", (event) => {
+        const viewTrigger = event.target.closest("[data-action='view-property']");
+        const trigger = event.target.closest("[data-action='generate-offer']");
+        const registerTrigger = event.target.closest("[data-action='register']");
+        if (viewTrigger) {
+          const detailUrl = viewTrigger.getAttribute("data-href");
+          if (detailUrl) {
+            window.location.assign(detailUrl);
+          }
+          return;
+        }
+        if (trigger) {
+          const projectName = trigger.getAttribute("data-project") || "";
+          if (offerProjectInput) {
+            offerProjectInput.value = projectName;
+          }
+          setView("offer");
+          return;
+        }
+        if (registerTrigger) {
+          setView("register");
+        }
+      });
+
+      if (offerBackButton) {
+        offerBackButton.addEventListener("click", () => {
+          setView("explore");
+        });
+      }
+
+      if (offerForm) {
+        offerForm.addEventListener("submit", (event) => {
+          event.preventDefault();
+        });
+      }
+
+      const showRegisterFieldState = (field) => {
+        const fieldGroup = field.closest(".register-field");
+        if (!fieldGroup) {
+          return;
+        }
+        const requiredControls = Array.from(
+          fieldGroup.querySelectorAll(".register-control[required]")
+        );
+        const hasInvalid = requiredControls.some(
+          (control) => !control.checkValidity()
+        );
+        requiredControls.forEach((control) => {
+          const invalid = !control.checkValidity();
+          control.classList.toggle("is-invalid", invalid);
+          control.setAttribute("aria-invalid", invalid ? "true" : "false");
+        });
+        const feedback = fieldGroup.querySelector(".register-feedback");
+        if (feedback) {
+          feedback.classList.toggle("is-visible", hasInvalid);
+        }
+        const phoneField = fieldGroup.querySelector(".phone-field");
+        if (phoneField) {
+          phoneField.classList.toggle("is-invalid", hasInvalid);
+        }
+      };
+
+      const clearRegisterValidation = () => {
+        if (!registerForm) {
+          return;
+        }
+        registerForm.classList.remove("was-validated");
+        registerControls.forEach((field) => {
+          field.classList.remove("is-invalid");
+          field.removeAttribute("aria-invalid");
+        });
+        registerForm.querySelectorAll(".phone-field").forEach((field) => {
+          field.classList.remove("is-invalid");
+        });
+        registerForm.querySelectorAll(".register-feedback").forEach((field) => {
+          field.classList.remove("is-visible");
+        });
+      };
+
+      const handleRegisterValidation = (event) => {
+        if (!registerForm || !registerForm.classList.contains("was-validated")) {
+          return;
+        }
+        const field = event.target.closest(".register-control");
+        if (field) {
+          showRegisterFieldState(field);
+        }
+      };
+
+      if (registerBackButton) {
+        registerBackButton.addEventListener("click", () => {
+          setView("explore");
+          clearRegisterValidation();
+        });
+      }
+
+      if (registerForm) {
+        registerForm.addEventListener("submit", (event) => {
+          const isValid = registerForm.checkValidity();
+          if (!isValid) {
+            event.preventDefault();
+            event.stopPropagation();
+          } else {
+            event.preventDefault();
+          }
+          registerForm.classList.add("was-validated");
+          registerControls.forEach((field) => {
+            if (field.required) {
+              showRegisterFieldState(field);
+            }
+          });
+        });
+        registerForm.addEventListener("input", handleRegisterValidation);
+        registerForm.addEventListener("change", handleRegisterValidation);
+      }
+    })();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
